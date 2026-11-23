@@ -4,6 +4,8 @@
 
 Treat AI like a fast junior assistant who has read widely, never met your customers and sometimes invents answers confidently. Excellent briefing helps. Checking is still your job.
 
+> 🔑 **In short:** AI tools help marketers draft, sort, adapt and explain, but they don't replace customer evidence, fact checking or judgement. Give them approved facts, keep private data out, and require a person to approve claims, money and messages.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -380,6 +382,20 @@ Write 12 cases for an AI assistant answering your customers, including missing f
 Tests contain expected facts, privacy limits, handoff, "I don't know", prompt injection, language and policy changes. A human reviews actual failures.
 
 </details>
+
+## ❓ Common Questions
+
+### Which AI tools are useful for digital marketing?
+
+Language models help with drafts and themes, design tools with images, editors with captions, and spreadsheet assistants with formulas. Choose by task, data controls, cost and tested quality rather than by popularity.
+
+### Will AI replace digital marketers?
+
+AI can replace some drafting and production tasks. Understanding customers, choosing trade-offs, checking truth and being accountable still need people. Marketers who can test and correct AI output are more useful than those who only generate it.
+
+### Is AI-generated content bad for SEO?
+
+Not by itself. Google's concern is unhelpful content made at scale to manipulate rankings. Use AI with original evidence, expert review and accurate facts, and don't publish many thin pages aimed at every query variation.
 
 ## ✅ Quick Quiz
 

@@ -4,6 +4,8 @@
 
 Imagine a shop where the door is stuck, prices are hidden and the cashier asks for your life story before accepting money. Sending more people there would not help. A weak page is that shop.
 
+> 🔑 **In short:** A high-converting landing page continues the promise of the ad or search, states what is offered and for whom, shows specific proof, answers worries, and asks for one clear action. Test it by watching five people use it.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -292,6 +294,20 @@ Do the five-person test on your own page. Submit the table and three fixes.
 You used one realistic task, didn't help, recorded behaviour as well as opinions, and fixed causes shared by at least two people.
 
 </details>
+
+## ❓ Common Questions
+
+### What is the difference between a website and a landing page?
+
+A website supports many journeys. A landing page serves one audience, one promise and one main action. An ad for a couples' pottery class should lead to that class, not to the home page.
+
+### What should a landing page include?
+
+Include a clear promise, a matching image, one main action, proof, details, how it works, price, answers to objections and a final action. Remove sections that answer no visitor question.
+
+### How can I test a landing page with little traffic?
+
+Give five relevant people a realistic task, stay silent and note where they hesitate. If several miss the same thing, such as a delivery date, fix it. You don't need an A/B test for a clear problem.
 
 ## ✅ Quick Quiz
 

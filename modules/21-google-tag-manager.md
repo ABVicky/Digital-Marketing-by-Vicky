@@ -6,6 +6,8 @@ Every time Mitti wanted to measure a button, Meera messaged the developer and wa
 
 Tag Manager removes a bottleneck. It also removes a guard. This module teaches both the speed and the discipline.
 
+> 🔑 **In short:** Google Tag Manager is a switchboard that decides when to send website events to tools such as GA4 and Google Ads. Use a clean data layer, trigger on confirmed outcomes, test consent and failures, and publish with versions.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -286,6 +288,20 @@ Check whether enhanced measurement already records file downloads. If a separate
 
 ### Exercise 21.3: Build
 Install GTM on your practice site, create one data-layer event, record ten test cases, publish, then roll back once for practice.
+
+## ❓ Common Questions
+
+### What is the difference between GTM and GA4?
+
+GTM decides when and what to send. GA4 stores and reports analytics data. You can use GA4 without GTM, but GTM makes it easier to manage several tags if access and testing are controlled.
+
+### Why is GA4 counting purchases twice?
+
+Exactly double often means GA4 is installed both in the theme and in GTM, or two tags fire on one event. Compare transaction IDs, check GTM Preview and network requests, and test a page refresh.
+
+### Is the thank-you page a good conversion trigger?
+
+It works if the page can't be reached any other way, but refreshes can repeat it. A data-layer event from confirmed server success, with a unique ID, is stronger.
 
 ## 🔑 Key Takeaways
 

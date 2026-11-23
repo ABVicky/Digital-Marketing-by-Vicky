@@ -6,6 +6,8 @@ If a shopkeeper followed you home, guessed your worries and wrote them on your d
 
 > ⚠️ This module is education, not legal advice. Laws depend on place, industry and facts. Review official sources and use a qualified adviser.
 
+> 🔑 **In short:** Ethical digital marketing collects only needed data, asks for specific permission, tells the truth, makes leaving easy and prepares for mistakes. In India, check DPDP phases, consumer-protection and ASCI rules, and get legal advice for real decisions.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -313,6 +315,20 @@ Write a one-page incident contact and first-hour checklist for your business, us
 Names role-based contacts, containment, evidence, legal review, affected-data assessment, communication owner and later process repair. It doesn't assume one notification rule for every place.
 
 </details>
+
+## ❓ Common Questions
+
+### What is DPDP and how does it affect marketing?
+
+DPDP is India's personal-data protection law. The 2025 rules apply in phases, with most core duties scheduled for May 2027. Marketers should prepare clear notices, specific consent, easy withdrawal, retention limits and vendor controls.
+
+### What are dark patterns in marketing?
+
+They are designs that trick or pressure people, such as fake scarcity, hidden fees, pre-ticked consent, shaming choices and difficult cancellation. Show true stock and full cost, and make "no" as easy as "yes".
+
+### Do influencers have to disclose paid promotions?
+
+They should clearly disclose material connections such as payment, gifted products or family and work links. Follow current ASCI and consumer-law guidance in India, or local rules where the audience lives.
 
 ## ✅ Quick Quiz
 

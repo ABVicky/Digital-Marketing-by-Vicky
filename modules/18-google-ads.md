@@ -4,6 +4,8 @@
 
 Search ads are like standing beside a door where people announce what they need. You still must choose the right door, understand what they said and have something useful inside.
 
+> 🔑 **In short:** To start Google Ads, choose one profitable service, one matching page, a small group of close keywords, sensible negatives, one verified conversion and a loss limit. Judge it by cost per profitable customer, not cheap clicks or leads.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -63,14 +65,14 @@ Split campaigns when budget, location, goal or strategy must differ. Too many sm
 
 Exact doesn't mean only those exact letters. Start narrow if measurement is new. Consider broad when conversion signals and search-term review are strong.
 
-Negatives block unwanted searches: `free`, `job`, `clay supplier`, if irrelevant. Review before blocking; "free cancellation class" is valuable. Negative matching doesn't cover every close variant the way ordinary matching may.
+Negatives block unwanted searches: `wheel price`, `job`, `clay supplier`, if irrelevant. Review before blocking; "wheel throwing class" is valuable. Negative matching doesn't cover every close variant the way ordinary matching may.
 
 ### Read a search-term report
 
 | Search term | Cost | Bookings | Decision |
 |---|---|---|---|
 | pottery class salt lake | ₹1,200 | 4 | keep, perhaps exact |
-| pottery class free | ₹900 | 0 | negative if truly irrelevant |
+| pottery teacher jobs | ₹900 | 0 | negative if truly irrelevant |
 | pottery wheel price | ₹700 | 0 | negative unless sold |
 | date ideas kolkata | ₹1,100 | 2 | separate couples ad and page |
 | pottery course certificate | ₹400 | 0 | clarify whether offered |
@@ -80,7 +82,7 @@ Don't judge one term by one click. Combine themes and consider likely intent. Re
 
 ### Negative keyword care
 
-`free` as a broad negative might block "free cancellation". `course` might block valuable customers if you sell courses. Keep a reason beside every negative and review monthly.
+`wheel` as a broad negative might block "wheel throwing class". `course` might block valuable customers if you sell courses. Keep a reason beside every negative and review monthly.
 
 ## 5. Write Responsive Search Ads
 
@@ -114,7 +116,7 @@ Add truthful sitelinks, images, location and call assets. Pin only when needed, 
 | Audience | Couples & Friends Welcome |
 | Place | Near {{real_landmark}} |
 | Action | Choose Your Seat |
-| Policy | Free Date Change to 48 Hrs |
+| Policy | Change Dates Up to 48 Hrs |
 | Host | Taught by Studio Maker |
 
 Every claim must be true on the page. A responsive ad combines headlines, so check that random pairs make sense.
@@ -343,6 +345,20 @@ Write a first search campaign for your business: settings, keywords, negatives, 
 One service and location, intent groups match pages, negatives have reasons, claims are verified, and conversion reflects a useful business outcome.
 
 </details>
+
+## ❓ Common Questions
+
+### How much does Google Ads cost?
+
+Cost depends on the auction, intent and competition. Estimate expected CPA by dividing CPC by conversion rate: ₹18 ÷ 4% is ₹450. Compare it with your contribution and set a total loss limit before launch.
+
+### What are negative keywords?
+
+They block searches you don't want. A pottery class might block "teacher jobs" or "wheel price" if irrelevant. Keep a reason for each, because broad negatives can also block valuable searches.
+
+### What is the difference between Performance Max and AI Max?
+
+Performance Max is a goal-based campaign across Google's channels. AI Max is a set of features inside Search campaigns that broadens matching and adapts assets. Both need reliable conversions, controls and a comparison with your baseline.
 
 ## ✅ Quick Quiz
 

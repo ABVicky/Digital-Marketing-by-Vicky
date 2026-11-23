@@ -4,6 +4,8 @@
 
 Mitti's most-liked post is a cat sleeping in a bowl. It reached 90,000 people and sold nothing. Its best-*selling* post reached 2,100: a plain carousel called "Which mug size fits your coffee?" Reach and usefulness are different jobs. A healthy account has both and knows which is which.
 
+> 🔑 **In short:** Instagram marketing works when the profile explains who you help, Reels reach new people, carousels teach, Stories build trust, and messages help someone decide. Compare posts by job, using saves, shares, profile visits and sales.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -242,6 +244,20 @@ The first did a reach job with little relevance. The second has a 9% save rate a
 ### Exercise 12.3: Four-week plan
 Write 12 posts using the matrix, each with job, opening, proof and measure.
 
+## ❓ Common Questions
+
+### How many hashtags should I use on Instagram?
+
+Instagram reportedly limited posts and Reels to five hashtags in December 2025. Use a few specific ones, and put important words in the caption, speech and on-screen text. Check the current limit in the app.
+
+### How do I grow on Instagram organically?
+
+Choose a clear promise, answer customer questions in Reels and carousels, test openings, collaborate with accounts whose audience matches and reply well. Run four-week tests and repeat what earns saves, shares and profile visits.
+
+### Should I write "DM for price"?
+
+Usually no. It adds work for buyers and fills your inbox with answerable questions. Show a price or an honest range, then use messages to help people choose.
+
 ## 🔑 Key Takeaways
 
 - The profile is a landing page.
@@ -254,7 +270,7 @@ Write 12 posts using the matrix, each with job, opening, proof and measure.
 1. A carousel's main advantage is:
    - A) Teaching and comparing step by step
    - B) Guaranteed reach
-   - C) Free ads
+   - C) Cheaper ads
 2. How should two posts be compared?
    - A) By likes always
    - B) Against others with the same job

@@ -24,7 +24,7 @@ window.PE_MAP = {
       id: "s1", label: "Stage 1", name: "Foundations",
       d: "Customers, numbers and a website that works.",
       items: [
-        { p: "modules/00-welcome.md", n: "00", t: "Welcome & How to Use This Guide", i: "🚀", time: "45 min", d: "Roadmap, practice client, free lab and learning routes." },
+        { p: "modules/00-welcome.md", n: "00", t: "Welcome & How to Use This Guide", i: "🚀", time: "45 min", d: "Roadmap, practice client, practice lab and learning routes." },
         { p: "modules/01-how-digital-marketing-works.md", n: "01", t: "How Digital Marketing Works", i: "🧭", time: "2.5 h", d: "Overview: channels, journey, roles, metrics and funnel maths." },
         { p: "modules/02-customer-research-and-positioning.md", n: "02", t: "Customer Research & Positioning", i: "🔎", time: "3 h", d: "Interviews, themes, segments, jobs and positioning." },
         { p: "modules/03-strategy-and-unit-economics.md", n: "03", t: "Strategy & Unit Economics", i: "📐", time: "3 h", d: "Goals, offers, break-even CPA, scenarios and budgets." },

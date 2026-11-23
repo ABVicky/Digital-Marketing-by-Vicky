@@ -2,7 +2,9 @@
 
 > 🟢 Stage 1 · Foundations · ⏱️ ~3 hours
 
-Meera describes her mugs as "lead-free, wheel-thrown stoneware". A customer tells a friend, *"My mother never buys anything nice for herself, so I got her one."* Meera talks about clay. Her customer talks about love and guilt. The best copy was already spoken; someone had to listen.
+Meera describes her mugs as "food-safe, wheel-thrown stoneware". A customer tells a friend, *"My mother never buys anything nice for herself, so I got her one."* Meera talks about clay. Her customer talks about love and guilt. The best copy was already spoken; someone had to listen.
+
+> 🔑 **In short:** Customer research means learning what real buyers did, worried about and chose instead, using interviews, reviews, search data and support logs. Positioning then states who you serve, in what situation, why you differ and what proves it.
 
 ---
 
@@ -291,6 +293,20 @@ You need 30 sales a month from a segment with about 900 reachable people. What s
 30 ÷ 900 = 3.3% each month. That may be ambitious. Check repeat purchases, additional channels, adjacent situations and whether 900 refreshes monthly.
 
 </details>
+
+## ❓ Common Questions
+
+### How many customer interviews do I need?
+
+Five to eight per segment usually reveal repeated triggers, worries and language. They can't tell you what percentage of a market feels that way. Use a survey or behavioural data when you need to estimate size.
+
+### What questions should I ask in a customer interview?
+
+Ask about the last real purchase: what started the search, what else they considered, what nearly stopped them, what convinced them and how they'd describe it to a friend. Avoid "Would you buy this?" because people predict themselves poorly.
+
+### What is a positioning statement?
+
+It is a short internal statement of customer, situation, category, main value, real alternative, difference and proof. If a competitor's name fits into it just as well, it isn't specific enough yet.
 
 ## ✅ Quick Quiz
 

@@ -4,6 +4,8 @@
 
 A friend says, "I sold ₹1 lakh through ads!" You ask what was spent: ₹40,000. The product cost ₹55,000 and delivery ₹12,000. Your friend paid ₹7,000 for the privilege of being busy. Strategy starts with choices; unit economics tells you whether those choices can pay.
 
+> 🔑 **In short:** Break-even CPA equals the contribution you earn per order: net price minus variable costs. Break-even ROAS is net price divided by contribution. Set a target CPA below break-even so that something is left for fixed costs and profit.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -306,6 +308,20 @@ Inputs have sources, contribution includes returns, and the low case is believab
 
 </details>
 
+## ❓ Common Questions
+
+### How do I calculate break-even CPA?
+
+Subtract product, packing, shipping, payment fees and expected returns from the net price. A ₹1,800 order with ₹990 variable costs leaves ₹810, so break-even CPA is ₹810. To keep ₹250 per order, target a CPA of ₹560.
+
+### How much should a small business spend on digital marketing?
+
+There is no universal percentage. Work out contribution per sale, choose one channel, estimate low, base and high results, then set a loss limit you can afford. Fix the page and response process first if they're the bottleneck.
+
+### How much does a 20% discount cost?
+
+More than it looks. If a ₹1,800 order has ₹990 variable costs, a 20% discount cuts contribution from ₹810 to ₹450. You need 80% more orders to earn the same total contribution.
+
 ## ✅ Quick Quiz
 
 1. If AOV is ₹1,000 and contribution is ₹250, break-even ROAS is:
@@ -323,7 +339,7 @@ Inputs have sources, contribution includes returns, and the low case is believab
 4. Why can a simple payback calculation be too optimistic?
    - A) Customers may leave
    - B) Tax is zero
-   - C) Ads are free
+   - C) Ads cost nothing
 
 <details>
 <summary>View Answers</summary>

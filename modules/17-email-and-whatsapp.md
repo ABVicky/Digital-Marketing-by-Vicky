@@ -4,6 +4,8 @@
 
 An inbox is closer to someone's home than a billboard. People let you in for a reason. Keep the promise and they may stay for years; abuse it and one button removes you.
 
+> 🔑 **In short:** Email and WhatsApp marketing work when people clearly agreed to hear from you and each message helps at the right moment. Start with welcome, post-purchase and careful reminder flows, and stop messages as soon as someone buys or opts out.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -404,6 +406,20 @@ Write three complete messages for your welcome flow and the exact exit condition
 Expectation matches signup; each has one job; purchase, opt-out and preference change stop or alter messages; sender is identifiable.
 
 </details>
+
+## ❓ Common Questions
+
+### What emails should a small business automate first?
+
+Start with a welcome series, order and care messages, a helpful cart reminder, and a preference check for inactive people. Every flow needs exit rules so that buyers and opted-out people stop receiving it.
+
+### Why do my emails go to spam?
+
+Frequent causes are missing SPF, DKIM or DMARC, old or bought lists, complaints and sudden volume. Pause promotions, fix authentication, send to recent consenting people and increase slowly.
+
+### Is WhatsApp marketing allowed in India?
+
+It can be, with appropriate permission, WhatsApp policy compliance and applicable data and telecom rules. A number given for delivery isn't automatic permission for offers. Get current legal advice for your case.
 
 ## ✅ Quick Quiz
 

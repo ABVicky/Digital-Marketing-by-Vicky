@@ -6,6 +6,8 @@ A courier strike begins on a Tuesday morning. Customers are already posting "Whe
 
 X and Threads are conversation networks. For many businesses they're **listening and response** tools first. This module is short on purpose: learn enough to decide well.
 
+> 🔑 **In short:** X and Threads are conversation networks. For many businesses the best use is listening, fast factual updates and customer help rather than daily promotion. Be active only if your buyers, press or community really talk there.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -211,6 +213,20 @@ Payments fail for 40 minutes. Write the first post.
 
 ### Exercise 16.3: Listen
 Run five saved searches for a week. Bring back three customer phrases and one content idea.
+
+## ❓ Common Questions
+
+### Does my business need to be on X (Twitter)?
+
+Not necessarily. Be active if customers, developers, journalists or fans talk there daily. Otherwise reserve the name, pin support details and check saved searches. Write down the reason and review it later.
+
+### What should a business post during a crisis?
+
+Pause scheduled posts, verify facts, then state what is affected, who it affects, what to do now and when the next update will come. Keep private details out of public replies.
+
+### Do links reduce reach on X?
+
+Public claims conflict, so test it. Compare similar posts with and without links in your own account and judge useful visits and conversations as well as impressions.
 
 ## 🔑 Key Takeaways
 

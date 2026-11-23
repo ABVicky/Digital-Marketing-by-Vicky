@@ -181,7 +181,8 @@
   }
 
   /* ---------- Shared fragments ---------- */
-  const footerHTML = () => `<footer class="site-footer"><span>Digital Marketing by Vicky: Zero to Pro · Author: <a href="${MAP.authorSite || 'https://abvicky.in'}" target="_blank" rel="noopener"><strong>${esc(MAP.author)}</strong></a></span><span>Platform built by <a href="${MAP.platformSite || 'https://www.manikarnikatechnologies.in/'}" target="_blank" rel="noopener"><strong>${esc(MAP.platformBuilder || "Manikarnika Technologies")}</strong></a> · © 2026 All rights reserved.</span></footer>`;
+  const pageUrl = (p) => "learn/" + (p === "README.md" ? "about" : p.replace(/^modules\//, "").replace(/^appendix\/(.*)$/, (m, x) => "appendix-" + x.toLowerCase()).replace(/\.md$/, "")) + ".html";
+  const footerHTML = () => `<footer class="site-footer"><span><a href="learn/">All chapters</a> · <a href="learn/appendix-c-glossary.html">Glossary</a></span><span>Digital Marketing by Vicky: Zero to Pro · Author: <a href="${MAP.authorSite || 'https://abvicky.in'}" target="_blank" rel="noopener"><strong>${esc(MAP.author)}</strong></a></span><span>Platform built by <a href="${MAP.platformSite || 'https://www.manikarnikatechnologies.in/'}" target="_blank" rel="noopener"><strong>${esc(MAP.platformBuilder || "Manikarnika Technologies")}</strong></a> · © 2026 All rights reserved.</span></footer>`;
   const card = (i) => `<a class="mod-card${done.has(i.p) ? " done" : ""}" href="#/${i.p}">` +
     `<div class="mod-top"><span class="mod-icon">${i.i}</span><span class="mod-num">${esc(i.n)}</span></div>` +
     `<h3>${esc(i.t)}</h3><p>${esc(i.d)}</p>` +
@@ -246,6 +247,7 @@
         `<div class="card-grid">${s.items.map((i) => card(Object.assign({ stage: s }, i))).join("")}</div></section>`).join("") +
       `<section class="home-section"><h2 class="sec-title">What's inside every module</h2><p class="sec-sub">Everything you need in one place, so you never have to look elsewhere.</p>` +
       `<div class="feature-grid">${features.map(([i, b, s]) => `<div class="feature"><span class="f-ico">${i}</span><b>${b}</b><span>${s}</span></div>`).join("")}</div></section>` +
+      `<section class="home-section"><h2 class="sec-title">Every chapter as a page</h2><p class="sec-sub">Direct links you can bookmark, share or read without the app.</p><ul class="page-links">${ORDER.filter((i) => i.stage).map((i) => `<li><a href="${pageUrl(i.p)}">${esc(i.t)}</a></li>`).join("")}</ul></section>` +
       `<section class="author-card">${avatar()}<div><h3>${esc(MAP.authorFullName || MAP.author)}</h3>` +
       `<p>Author: <strong>${esc(MAP.authorFullName || MAP.author)}</strong> · System Architect (<a href="${MAP.authorSite || 'https://abvicky.in'}" target="_blank" rel="noopener">${esc((MAP.authorSite || 'https://abvicky.in').replace('https://',''))}</a> · <a href="${MAP.authorLinkedIn || 'https://www.linkedin.com/in/abvicky/'}" target="_blank" rel="noopener">LinkedIn</a> · <a href="${MAP.authorGitHub || 'https://github.com/ABVicky'}" target="_blank" rel="noopener">GitHub</a>)</p>` +
       `<p>Platform built by <a href="${MAP.platformSite || 'https://www.manikarnikatechnologies.in/'}" target="_blank" rel="noopener"><strong>${esc(MAP.platformBuilder || "Manikarnika Technologies")}</strong></a> (<a href="${MAP.platformSite || 'https://www.manikarnikatechnologies.in/'}" target="_blank" rel="noopener">${esc(MAP.platformSiteLabel || 'manikarnikatechnologies.in')}</a>)</p>` +
@@ -295,6 +297,7 @@
       `<header class="doc-hero"><div class="doc-hero-top"><a class="stage-pill" href="#/" ${s ? `data-scroll-home="stage-${s.id}"` : ""}>${s ? `${esc(s.label)} · ${esc(s.name)}` : "Overview"}</a><span class="pos">${pos}</span></div>` +
       `<div class="doc-hero-main"><div class="doc-icon">${item.i}${item.n !== "i" ? `<span>${esc(item.n)}</span>` : ""}</div><div><h1>${esc(item.t)}</h1><p>${esc(item.d)}</p></div></div>` +
       `<div class="doc-hero-chips"><span class="chip">${PE.icon("clock")}${esc(study)}</span><span class="chip">${PE.icon("book")}${mins} min read</span>` +
+      `<a class="chip" href="${pageUrl(item.p)}">🔗 Shareable page</a>` +
       `<span class="chip ok" id="done-chip"${isDone ? "" : " hidden"}>${PE.icon("check")}Completed</span></div></header>` +
       `<div class="md" id="md">${body}</div>` +
       (s ? `<section class="complete-card${isDone ? " done" : ""}" id="complete-card"><span class="cc-emoji">${isDone ? "🎉" : "🏁"}</span>` +

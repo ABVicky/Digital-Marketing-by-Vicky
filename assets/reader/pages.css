@@ -1239,3 +1239,8 @@
     break-inside: avoid;
   }
 }
+/* Crawlable chapter links and pre-rendered home text */
+.page-links { columns: 3 220px; padding-left: 18px; margin: 0; }
+.page-links li { margin: 4px 0; break-inside: avoid; }
+.seo-home { max-width: 760px; margin: 0 auto; padding: 24px 16px; }
+a.chip { text-decoration: none; }

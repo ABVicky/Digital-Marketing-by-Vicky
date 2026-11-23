@@ -4,6 +4,8 @@
 
 SEO is like running a well-organized library. The librarian must find the book, understand it, trust it and believe it answers this reader's question. Repeating the title 40 times on the cover helps nobody.
 
+> 🔑 **In short:** SEO for beginners means finding what people search for, understanding the intent, giving each intent one genuinely useful page, and linking pages clearly. Titles, headings and keywords help search engines understand pages that already deserve to be found.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -321,6 +323,20 @@ Three posts target "clean stoneware", "remove stains from stoneware" and "stonew
 Check queries and results for each. If intent is the same, merge the best information into one strong page and redirect the others. Keep separate only if each serves a truly different need, such as metal marks versus tea stains.
 
 </details>
+
+## ❓ Common Questions
+
+### How do I do keyword research?
+
+Begin with customer phrases, add autocomplete, Search Console and tool ideas, group queries that deserve the same answer, then rank by relevance, business value and the original evidence you can offer. Assign one main page per group.
+
+### How long does SEO take to work?
+
+Often several months, and it may not work for every query. Time depends on competition, site quality, demand and how useful the page is. Track qualified impressions first, then clicks and enquiries. Nobody can guarantee a position.
+
+### What is search intent?
+
+Search intent is what the person wants: to learn, compare, buy, find somewhere nearby or reach a known site. Check the results page: mostly product grids suggests buying, while guides suggest learning.
 
 ## ✅ Quick Quiz
 

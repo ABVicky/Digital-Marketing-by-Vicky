@@ -4,6 +4,8 @@
 
 An HR manager asks for 200 gift sets on Friday. Mitti replies on Wednesday. Another supplier replied in an hour. The problem wasn't lead generation; it was dropping the lead.
 
+> 🔑 **In short:** A CRM keeps each enquiry's owner, stage and next step visible; automation handles repeatable actions. Map and fix the manual process first, then automate with permission checks, exit rules, duplicate protection and error alerts.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -337,6 +339,20 @@ Write the waitlist runbook, including one payment-success message that arrives l
 The late success is reconciled with seat and payment status, never creates two seats, has an owner, and has a manual path for refunds or alternatives.
 
 </details>
+
+## ❓ Common Questions
+
+### What should a small business track in a CRM?
+
+Track source, need, stage, owner, next action date, consent and the won value or lost reason. Add a field only if someone will use it. Every qualified lead needs an owner and a next date.
+
+### What is lead scoring?
+
+It ranks leads using signals linked with real wins, such as quantity and deadline. Check scores against past outcomes, avoid sensitive or unfair traits and let people override them with a reason.
+
+### Which marketing automation should I build first?
+
+Choose a repeated, reversible step with a clear trigger, such as confirming an enquiry and assigning an owner. Test duplicates, opt-outs and failures before adding promotional messages.
 
 ## ✅ Quick Quiz
 

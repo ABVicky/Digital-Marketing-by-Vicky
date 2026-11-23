@@ -4,6 +4,8 @@
 
 The same medicine doesn't suit every patient. These playbooks are starting diagnoses. Replace their assumptions with your own evidence.
 
+> 🔑 **In short:** A useful marketing plan starts from the business's real constraint, such as seats, stock, margin or reply time. Pick one customer situation, one main channel, a measurable outcome and a limit, then learn, fix, test and decide over 90 days.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -105,7 +107,7 @@ Use clear teacher credentials, curriculum, fees, support, refund policy and typi
 | Days | Work |
 |---|---|
 | 1–20 | interview learners, inspect promises, proof and capacity |
-| 21–45 | one diagnostic lead page and a free useful resource |
+| 21–45 | one diagnostic lead page and a useful resource |
 | 46–65 | consented follow-up, two creative angles |
 | 66–80 | trial experience and show-up fix |
 | 81–90 | enrolment quality, completion, refund and next decision |
@@ -342,6 +344,20 @@ An online course has 2,000 views, 300 clicks, 40 trials, 8 enrolments and 3 comp
 There are several losses: views-to-click 15%, click-to-trial 13.3%, trial-to-enrol 20%, enrol-to-complete 37.5%. Completion may represent a promise/fulfilment problem and should be investigated before buying more enrolments; also check the quality and size of the sample. "Lowest percentage" alone isn't the decision.
 
 </details>
+
+## ❓ Common Questions
+
+### What should a 90-day digital marketing plan include?
+
+Days 1–15 learn, 16–30 fix, 31–60 test, 61–75 improve and 76–90 decide. Include goal, customer, capacity, budget limit, measures, owners and what you will not do.
+
+### What is the best digital marketing for a local business?
+
+Usually an accurate Business Profile, useful service pages, honest reviews, quick answers and local search, followed by a small ad test. If calls are being missed, fix that before buying more.
+
+### How should a coaching institute market itself?
+
+Show the syllabus, teachers, fees, schedule and outcomes with context, offer a useful trial and follow up with answers. Track attendance, enrolment and completion, and never promise guaranteed jobs or marks without lawful proof.
 
 ## ✅ Quick Quiz
 

@@ -4,6 +4,8 @@
 
 A video called "How to centre clay when your hands shake" has 4,300 views after two years. That sounds small. But 40 people booked after watching it, and it still brings two bookings a month without another rupee. Most social posts are fireworks. A good YouTube video is a lamp.
 
+> 🔑 **In short:** YouTube marketing means making videos that answer questions people search for, with an honest title and thumbnail, a quick start and one relevant next step. Good topics keep bringing viewers and customers long after publishing.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -221,6 +223,20 @@ A delivers but the promise isn't attracting clicks: test title/thumbnail. B attr
 
 ### Exercise 14.3: Make one
 Publish a three-to-five-minute demonstration with chapters and corrected captions.
+
+## ❓ Common Questions
+
+### How do I get more views on YouTube?
+
+Choose topics with real demand, write the title and thumbnail before filming, show the problem or result at once and keep the promise. Low clicks point to the promise; early drops point to the opening.
+
+### Do YouTube tags matter?
+
+Only a little. The topic, title, thumbnail, viewer satisfaction and a clear description matter far more. Use tags for common misspellings if useful and don't spend long on them.
+
+### Should a business make Shorts or long videos?
+
+Use Shorts for discovery and one strong moment. Use longer videos for depth, trust and search. Check whether Shorts viewers go on to watch, visit or enquire before making them the main effort.
 
 ## 🔑 Key Takeaways
 

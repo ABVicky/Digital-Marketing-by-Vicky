@@ -4,6 +4,8 @@
 
 Meera nearly deleted the Facebook Page. "It's only relatives there." Then someone in a neighbourhood group asked, *"Where can I book a birthday activity for twelve children?"* Three members tagged Mitti, and the party booking covered a month's studio rent. Facebook's value was never in the Page posts. It was in the group.
 
+> 🔑 **In short:** Organic Facebook marketing works best through useful answers in local and interest groups, well-run events, quick replies and original content. A Page mainly gives people facts and reassurance, because most followers won't see any single post.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -23,7 +25,7 @@ By the end of this module, you will be able to:
 | local service or venue | audience says they rarely use it |
 | parents, hobby groups, community events | product needs fast trend culture |
 | customers ask in groups | no one to answer messages |
-| you run Meta ads and need a credible Page | you want guaranteed free reach |
+| you run Meta ads and need a credible Page | you want guaranteed unpaid reach |
 
 Ask ten customers, "Where did you last ask for a recommendation?" Their answer beats any national statistic.
 
@@ -70,7 +72,7 @@ reply 10 AM to 6 PM, Tuesday to Sunday.
 | Useful locally | monsoon-safe weekend plans nearby |
 | Proof | children's party photos with guardian permission |
 | Conversation | "What did your grandmother use for pickles?" |
-| Event | free clay demo, Saturday |
+| Event | open clay demo, Saturday |
 | Answer | price, parking, age, timing |
 | Video | making, testing, teaching |
 
@@ -209,6 +211,20 @@ Cover needs (course software, weight, battery), a sensible specification range, 
 
 ### Exercise 13.3: Decide
 Write a half-page recommendation on whether your business should use Facebook organically, with customer evidence.
+
+## ❓ Common Questions
+
+### Is Facebook still useful for business?
+
+Yes, if your customers ask for recommendations in groups, attend events or message businesses there. It suits many local services, parents and hobby communities. Ask customers where they last sought a recommendation before investing time.
+
+### Should I make a Facebook Page or a Group?
+
+Use a Page to represent the business. Start a Group only when members benefit from talking to each other. If you only plan to post offers, email will probably work better.
+
+### How do I promote a business in Facebook groups without spamming?
+
+Read the rules, give complete answers for a couple of weeks, disclose your connection whenever you mention your business and post offers only where allowed. Never paste the same advert into many groups.
 
 ## 🔑 Key Takeaways
 

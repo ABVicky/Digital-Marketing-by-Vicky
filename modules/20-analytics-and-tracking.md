@@ -4,6 +4,8 @@
 
 Google Ads claims 80 orders. Meta claims 70. Email claims 40. The shop has 144. Nobody necessarily lied: each tool counted journeys using its own rules. Analytics is the skill of asking what a number can and cannot prove.
 
+> 🔑 **In short:** Marketing analytics should answer business questions: define the metric, record one clean event per action, label campaigns consistently, compare with real orders, and separate attribution (who gets credit) from incrementality (what the marketing added).
+
 ---
 
 ## 🎯 Learning Objectives
@@ -417,6 +419,20 @@ Write definitions for lead, qualified lead, booking, attendance and repeat custo
 Every definition has an event, time window, owner, inclusion/exclusion and source. "Interested" is defined or not used.
 
 </details>
+
+## ❓ Common Questions
+
+### What is GA4 used for?
+
+GA4 records events from a website or app and helps you study acquisition, behaviour and key events such as purchases. It isn't an accounting system, so compare its purchases with your shop or payment records.
+
+### Why don't Google Ads, Meta and GA4 numbers match?
+
+They use different windows, dates, identity, consent and credit rules, and can claim the same order. Don't add them together. Use the shop for actual orders and tests for added effect.
+
+### What is incrementality in marketing?
+
+It is the outcome that wouldn't have happened without the activity. If a random exposed group buys at 3% and the holdout at 2%, the added effect is one percentage point, with some uncertainty.
 
 ## ✅ Quick Quiz
 

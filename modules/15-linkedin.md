@@ -6,6 +6,8 @@ Mitti's corporate gifting posts said, "Elevate your corporate gifting experience
 
 Professionals respond to specific experience. They scroll past slogans.
 
+> 🔑 **In short:** LinkedIn marketing works through specific lessons from real work, thoughtful comments, a short list of relevant companies and respectful outreach. Judge it by qualified conversations and won customers, not impressions.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -144,7 +146,7 @@ Use information lawfully and within platform rules. Automated scraping and mass-
 
 ❌ **Weak**
 ```text
-Hi, I want to connect and explore synergies. Are you free for a call?
+Hi, I want to connect and explore synergies. Can we get on a call?
 ```
 
 ✅ **Strong**
@@ -263,6 +265,20 @@ Cost per lead ₹1,800, 30% qualified, 20% of qualified won, contribution ₹35,
 
 ### Exercise 15.3: Work log
 Keep five days of notes and publish the two most useful.
+
+## ❓ Common Questions
+
+### Is it better to post from a LinkedIn profile or a company page?
+
+Use a person's profile for conversation and trust, and a company page for credibility, hiring and ads. Small businesses usually get more from a founder or expert posting real experience.
+
+### What should I post on LinkedIn?
+
+Keep a work log of mistakes, questions, choices and results, then post one specific lesson with its limits. Checklists and process breakdowns also work well because colleagues save and share them.
+
+### When are LinkedIn Ads worth it?
+
+When one customer is valuable enough to cover expensive leads. At ₹2,500 per lead, 40% qualified and 15% of those won, each customer costs about ₹41,667. Compare that with contribution before starting.
 
 ## 🔑 Key Takeaways
 

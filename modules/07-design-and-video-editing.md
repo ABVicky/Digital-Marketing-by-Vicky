@@ -4,6 +4,8 @@
 
 Two people film the same mug falling onto a table. One video starts with a logo animation, a greeting and six seconds of walking. The other starts with the mug already in the air. Same phone, same mug, same studio. Editing is mostly deciding what people *don't* have to sit through.
 
+> 🔑 **In short:** You can make good marketing visuals with one design tool such as Canva and one video editor such as VN. Use one message per design, good light and sound, the best moment first, accurate captions and cleared rights.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -71,7 +73,7 @@ Small logo in one corner.
 | Voice | warm, plain, specific |
 | Never | fake steam, stock families, countdown stickers |
 
-Store exact colour codes and font names. Canva's plans differ in how many brand kits and resizing features they include, so check the [pricing page](https://www.canva.com/pricing/). On a free plan you can still save a template with your colours and make each size manually.
+Store exact colour codes and font names. Canva's plans differ in how many brand kits and resizing features they include, so check the [pricing page](https://www.canva.com/pricing/). On the basic plan you can still save a template with your colours and make each size manually.
 
 ## 4. Canva: A Repeatable Workflow
 
@@ -146,7 +148,7 @@ People forgive a plain picture sooner than bad sound.
 9. **Sound check** on phone speaker and earphones.
 10. **Export** at the source resolution, usually 1080p is enough.
 
-VN's app-store listing describes free, watermark-free export up to 4K and 60 fps, with optional paid upgrades. Check your own store listing, because regions and plans vary.
+VN's app-store listing describes export without a watermark or charge at up to 4K and 60 fps, with optional paid upgrades. Check your own store listing, because regions and plans vary.
 
 ### Five edits that solve most problems
 
@@ -252,6 +254,20 @@ Each asset is understandable alone, uses the same proof, has the right ratio, an
 
 ### Exercise 7.3: Squint test
 Show three thumbnails to five people for one second each. Record what they think the video is about.
+
+## ❓ Common Questions
+
+### Is Canva enough for digital marketing?
+
+Canva is enough for most social posts, carousels, simple ads and presentations. Detailed illustration, advanced photo work and complex brand systems may need other tools. A clear message and good photo matter more than the software.
+
+### How do I edit a short video in VN?
+
+Set a 9:16 canvas, arrange clips, cut everything that adds nothing, move the best moment to the start, level the voice, correct captions, add one line of text per step, check it on a phone speaker and export.
+
+### Can a business use trending songs in videos?
+
+Not always. A song available in an app may be licensed only for personal use. Check business rights on that platform, or use a licensed library or original sound, and keep the licence record.
 
 ## 🔑 Key Takeaways
 

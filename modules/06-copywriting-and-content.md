@@ -4,6 +4,8 @@
 
 A good shop assistant notices what you need, explains the difference between two options and tells you honestly when the cheaper one is enough. Good copy does the same in writing.
 
+> 🔑 **In short:** Good copywriting turns features into believable benefits using customers' own words, backs them with proof and makes the next step obvious. Good content answers real customer questions and has a distribution plan before it is written.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -305,6 +307,20 @@ Take a 200-word page from any business. Rewrite in 100 without losing a fact cus
 Adjectives became facts, repeated points disappeared, and the action and limits remain. Ask a stranger which version is easier to act on.
 
 </details>
+
+## ❓ Common Questions
+
+### What is the difference between copywriting and content writing?
+
+Copywriting asks for a next step, such as buying or booking. Content writing helps, teaches or entertains to build trust. Many pieces do both, but each should have one main job.
+
+### How do I write a good headline?
+
+Start from something a customer actually said, then shorten it. "Will it reach by Sunday?" becomes "See the delivery date before you pay". Check that it is specific, relevant, believable and clear.
+
+### What is the PAS formula in copywriting?
+
+PAS means problem, agitate, solve. Name a real problem, show its true consequence and offer a solution with proof. It should clarify the situation, never frighten or shame people.
 
 ## ✅ Quick Quiz
 

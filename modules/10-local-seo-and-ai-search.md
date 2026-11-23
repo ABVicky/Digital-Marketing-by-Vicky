@@ -4,6 +4,8 @@
 
 Someone stands outside a metro station and searches "pottery class open today". They need distance, timing and confidence. A 3,000-word essay won't help. A correct profile might.
 
+> 🔑 **In short:** SEO helps pages rank in search, AEO helps content answer a question directly, and GEO helps it be used and cited in AI-generated answers. They share one foundation: accessible pages, clear answers, original evidence and a trustworthy source.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -54,7 +56,7 @@ Best pottery class Kolkata cheap pottery class near me best pottery.
 ```text
 Small pottery classes for beginners, couples and children in Kolkata.
 Wheel and hand-building sessions include clay and firing. Booking ahead
-is recommended. Step-free entrance; parking on the next lane.
+is recommended. No steps at the entrance; parking on the next lane.
 ```
 
 Choose only true details. Accessibility information helps people decide whether they can come.
@@ -130,6 +132,30 @@ Google says appearing as a supporting link in its AI features needs no special t
 | Comparisons and limitations | promises of guaranteed citations |
 
 "AEO" and "GEO" are names for optimizing for answers and generative engines. Treat confident formulas with caution. Systems and results change by user, time and query.
+
+### SEO, AEO and GEO compared
+
+| | SEO | AEO | GEO |
+|---|---|---|---|
+| Full name | search engine optimization | answer engine optimization | generative engine optimization |
+| Aims to be | found in results | the direct answer | used or cited in an AI answer |
+| Main work | intent, pages, links, crawling | short accurate answers, clear headings | original evidence, consistent facts, independent mentions |
+| Useful signs | impressions, clicks, enquiries | answer features, calls, saved time | correct mentions, cited pages, referrals |
+| Can it be guaranteed? | no | no | no |
+
+Google's [AI optimization guide](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) treats AEO and GEO as part of SEO. It says Google Search doesn't need `llms.txt`, special AI schema or content cut into small pieces, and it warns against mass pages made for every query variation. Its documentation also lists FAQ rich results as **ended on 7 May 2026**.
+
+Other assistants work differently. A [Vercel and MERJ analysis](https://vercel.com/blog/the-rise-of-the-ai-crawler) found that major AI crawlers it studied didn't run JavaScript, so put important text in the HTML itself.
+
+### A page that serves all three
+
+1. Ask one real question in the heading.
+2. Answer it accurately in two or three sentences.
+3. Add evidence only you have: a test, photo, number or case.
+4. State limits and the date you checked.
+5. Name a responsible author.
+6. Link to related decisions.
+7. Keep it crawlable without scripts.
 
 ## 5. Make an Answer Useful
 
@@ -283,6 +309,20 @@ Check your business facts in five places. Record and correct differences.
 Includes name, phone, address, hours, price and policies; evidence is dated; someone owns the next review.
 
 </details>
+
+## ❓ Common Questions
+
+### What is the difference between SEO, AEO and GEO?
+
+SEO (search engine optimization) aims for visibility in search results. AEO (answer engine optimization) aims to be the direct answer. GEO (generative engine optimization) aims to be used or cited in AI answers. Google treats the last two as part of SEO.
+
+### Does llms.txt help with AI search?
+
+Google says its Search AI features don't use it. A 2026 Ahrefs study reported that 97% of llms.txt files it examined received no traffic in May 2026. It is harmless, but clear crawlable pages and original evidence deserve the effort.
+
+### How do I rank in Google Maps?
+
+Google describes local results using relevance, distance and prominence. Keep a verified profile accurate, choose the right category, earn honest reviews and publish useful local pages. You can't control a searcher's distance.
 
 ## ✅ Quick Quiz
 

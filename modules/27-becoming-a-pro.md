@@ -4,6 +4,8 @@
 
 A beginner says, "I can run ads." A professional asks what business decision the ads should support, what could go wrong and how everyone will know whether they worked.
 
+> 🔑 **In short:** To become a digital marketer, learn the whole funnel, go deep in one specialty, and build two or three honest case studies that show evidence, decisions, results and limits. Clear thinking and reliable work matter more than certificates.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -400,6 +402,20 @@ Explain in 90 seconds why you would stop a campaign with high likes but negative
 Goal and actual contribution → evidence of reach without profitable action → alternative explanations checked → stop or bounded next test → learning kept. Avoid blaming creative without the numbers.
 
 </details>
+
+## ❓ Common Questions
+
+### How do I build a digital marketing portfolio with no clients?
+
+Use your own project, permitted volunteer work or a clearly labelled fictional brand. Show the problem, evidence, what you made, the result and what you can't claim. Never present invented results as real.
+
+### Which digital marketing skill should I learn first?
+
+Customer research, copy and unit economics help in every role. Then try a week each of SEO, paid ads, content, lifecycle, analytics and conversion work, and choose the one that holds your attention.
+
+### Who should own a client's ad accounts?
+
+The client should normally own ad accounts, data and domains, and give the agency or freelancer limited access. Avoid shared passwords and remove access when the work ends.
 
 ## ✅ Quick Quiz
 

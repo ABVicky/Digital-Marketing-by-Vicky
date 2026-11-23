@@ -6,13 +6,15 @@ Two bakeries open on the same street. One posts every day, boosts every post and
 
 The second bakery does less marketing and gets more from it. **Digital Marketing by Vicky** teaches you to work like the second bakery.
 
+> 🔑 **In short:** To learn digital marketing from zero, start with customers and numbers, build one landing page, then learn one channel deeply while measuring real results. Reading alone isn't enough: every module here ends with work you apply to a practice business.
+
 ---
 
 ## 🎯 Learning Objectives
 
 By the end of this module, you will be able to:
 - Explain what this guide covers and choose a track.
-- Set up a free practice lab.
+- Set up a practice lab.
 - Describe the practice client you will work on throughout.
 - Follow a study plan that fits your week.
 
@@ -59,16 +61,16 @@ Notice what the table already hints at: there is an unused email list, and slow 
 
 ---
 
-## 3. Build Your Free Practice Lab
+## 3. Build Your Practice Lab
 
-| Need | Free way to start |
+| Need | Simple way to start |
 |---|---|
-| Website | A simple site on WordPress, a website builder's free plan, or GitHub Pages |
+| Website | A simple site on WordPress, a website builder's starter plan, or GitHub Pages |
 | Analytics | Google Analytics 4 and Google Tag Manager on that site |
 | Search data | Google Search Console |
 | Keyword ideas | Google autocomplete, Trends and Keyword Planner |
-| Design | Canva or Figma free plan |
-| Email | Any email platform with a free tier |
+| Design | Canva or Figma starter plan |
+| Email | Any email platform with a no-cost starter tier |
 | Ad research | Meta Ad Library and Google Ads Transparency Center |
 | Planning | Google Sheets |
 
@@ -162,7 +164,7 @@ My ads are not working. Please help.
 ✅ **Strong question**
 ```text
 Search campaign, 5 days, ₹4,200 spent, 260 clicks, 0 bookings. The form
-works when I test it. 60% of search terms mention "free". Should I fix
+works when I test it. 60% of search terms mention "jobs". Should I fix
 terms before changing the page?
 ```
 
@@ -199,6 +201,20 @@ Pick one route from the table. Write why, how many hours you have each week, and
 A good answer names a specific outcome ("a tested landing page and an honest case study"), a realistic weekly time, and a date. "Learn everything" is not a path.
 
 </details>
+
+## ❓ Common Questions
+
+### How do I start learning digital marketing with no experience?
+
+Interview a few customers, learn the basic numbers (conversion rate, CPA, contribution), make one landing page, then practise one channel for several weeks. Module order 01, 02, 03 and 05 gives you that base before you spend anything on ads.
+
+### How long does it take to learn digital marketing?
+
+This guide is roughly 115 hours of reading and practice: about 14 weeks at 8 hours a week. Basics take a few weeks. Job-level skill usually needs months of real projects, because feedback from real customers can't be rushed.
+
+### Do I need coding to learn digital marketing?
+
+No. Strategy, copy, social media, email and ads can be learned without code. Basic HTML and an understanding of tracking help you work with developers, and the Tech notes cover SQL, data layers and automation for those who want them.
 
 ## ✅ Quick Quiz
 

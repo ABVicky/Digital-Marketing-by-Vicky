@@ -6,6 +6,8 @@ A new website launches. It's beautiful, fast and completely invisible in search.
 
 Module 08 covered *what* to publish. This one makes sure it can be found, understood and trusted.
 
+> 🔑 **In short:** Technical SEO makes sure pages can be found, crawled, rendered and indexed. Check those four gates in order before rewriting content, then fix redirects, duplicates, speed and structured data, and earn links with things worth referencing.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -204,7 +206,7 @@ A link is a small public recommendation. A relevant recommendation from a truste
 |---|---|
 | Original evidence | test 12 mugs through 100 dishwasher cycles and publish the method |
 | Useful tool | glaze-colour visualizer or gift-set planner |
-| Local news | free class for a neighbourhood school |
+| Local news | community class for a neighbourhood school |
 | Partner pages | cafes using Mitti cups |
 | Expert comment | answer a journalist's question on craft materials |
 | Link recovery | fix broken links to old pages; ask about unlinked mentions |
@@ -216,7 +218,7 @@ Subject: Broken stoneware-care link on your kitchen guide
 
 Hi {{name}}, your guide to kitchen gifts links to a care page that now
 returns an error ({{url}}). We published a tested replacement with
-photos here: {{our_url}}. If it helps your readers, please feel free to
+photos here: {{our_url}}. If it helps your readers, you're welcome to
 use it. Either way, thanks for the guide.
 ```
 
@@ -295,6 +297,20 @@ Old site: `/about-us.html`, `/cheap-mugs`, `/blog/2019-office-party`, `/contact.
 
 ### Exercise 9.3: Audit
 Audit one site you own or have permission to test. Produce no more than ten ranked fixes.
+
+## ❓ Common Questions
+
+### What is the difference between robots.txt and noindex?
+
+robots.txt asks crawlers not to fetch a path. noindex asks search engines not to show a page. If robots.txt blocks the page, a crawler may never see its noindex. Neither protects private information.
+
+### Why is my page not indexed on Google?
+
+Common reasons are noindex, a robots block, a canonical pointing elsewhere, duplicate or thin content, server errors or no internal links. Use URL inspection in Search Console and check in that order.
+
+### How do I get backlinks safely?
+
+Publish original tests, data or tools, work with real partners, answer journalists, and fix broken links. Avoid buying ranking links, automated comments and link networks. Mark paid links as sponsored.
 
 ## 🔑 Key Takeaways
 

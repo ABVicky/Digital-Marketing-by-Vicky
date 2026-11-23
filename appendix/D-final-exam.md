@@ -127,7 +127,7 @@ Fifty questions in 75 minutes, plus five practical tasks. Passing score: 40/50. 
 - C) Employees only
 - D) Hidden
 
-**17.** A creator's free product is?
+**17.** A product gifted to a creator is?
 
 - A) Never relevant
 - B) A tax only

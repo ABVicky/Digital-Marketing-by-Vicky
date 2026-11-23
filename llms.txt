@@ -1,0 +1,58 @@
+# Digital Marketing by Vicky: Zero to Pro
+
+> Digital marketing is the work of helping the right people discover, trust, buy and keep using something through websites, search, social networks, messaging and apps. Good results come from matching the message to the customer's stage and judging profit, not likes.
+
+Author: Vicky Prasad Mahato (https://abvicky.in). Numbers for the practice client, Mitti Studio, are fictional. Time-sensitive notes were reviewed in November 2026.
+
+## Stage 1: Foundations
+
+- [Welcome & How to Use This Guide](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/00-welcome.html): Learn digital marketing with no experience: choose a route, set up a practice lab, meet the practice client and plan your weeks.
+- [How Digital Marketing Works](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/01-how-digital-marketing-works.html): What digital marketing is, its main channels, the customer journey, paid/owned/earned media, and CTR, CPA and ROAS with worked numbers.
+- [Customer Research & Positioning](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/02-customer-research-and-positioning.html): How to interview customers, find themes, choose segments and write a positioning statement, with scripts and examples.
+- [Strategy & Unit Economics](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/03-strategy-and-unit-economics.html): Calculate break-even CPA and ROAS, see what discounts really cost, set a loss limit and write a one-page marketing strategy.
+- [Website Making Essentials](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/04-website-making-essentials.html): Domain, hosting, WordPress or Shopify, page planning, security, backups and a launch checklist, explained for beginners.
+- [Landing Pages That Convert](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/05-landing-pages.html): Write a landing page that matches the click: section-by-section example, proof, forms, checkout and a five-person usability test.
+
+## Stage 2: Content & Search
+
+- [Copywriting & Content](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/06-copywriting-and-content.html): Copywriting formulas, headlines from customer words, microcopy, storytelling, editing and a content calendar, with before/after examples.
+- [Design & Video Editing](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/07-design-and-video-editing.html): Design posts in Canva, shoot and edit vertical videos in VN, make thumbnails and check music, font and image rights.
+- [SEO: Keywords & On-Page](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/08-seo-keywords-and-on-page.html): Understand search intent, build a keyword plan, improve titles and pages, link topics and report SEO honestly.
+- [Technical SEO & Link Building](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/09-technical-seo-and-links.html): Fix crawling, noindex, canonicals, redirects, speed and structured data, plan a migration and earn links safely.
+- [Local SEO & AI Search](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/10-local-seo-and-ai-search.html): The difference between SEO, AEO and GEO, what Google says about AI search, plus Business Profile, reviews and local SEO steps.
+
+## Stage 3: Social, Email & Ads
+
+- [Social Media Strategy & Influencers](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/11-social-media-strategy.html): Choose a platform, balance content jobs, run a community, brief creators and calculate influencer break-even.
+- [Instagram Marketing](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/12-instagram.html): Set up a profile that converts, plan Reels, carousels and Stories, handle DMs and run a four-week Instagram test.
+- [Facebook (Organic)](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/13-facebook-organic.html): Use Facebook Pages, groups, events, Messenger and reviews for organic reach without spamming.
+- [YouTube Marketing](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/14-youtube.html): Find YouTube topics, write titles and thumbnails, script for retention, use Shorts and connect videos to sales.
+- [LinkedIn Marketing](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/15-linkedin.html): LinkedIn profiles, work-log posts, respectful outreach, B2B lead maths and when LinkedIn Ads make sense.
+- [X (Twitter) & Threads](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/16-x-and-threads.html): Decide whether X and Threads are worth it, write short posts, listen to customers and respond to a crisis.
+- [Email & WhatsApp Marketing](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/17-email-and-whatsapp.html): Build a permission-based list, write welcome and cart flows, fix deliverability and use WhatsApp responsibly.
+- [Google Ads](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/18-google-ads.html): Set up Google Search ads: keywords, negatives, headlines, bidding, budget maths, Shopping, Performance Max and AI Max.
+- [Meta Ads (Facebook & Instagram)](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/19-meta-ads.html): Build Meta ads step by step: objectives, 15 creative concepts, testing, lead quality, retargeting and marginal CPA.
+
+## Stage 4: Measure & Scale
+
+- [Analytics & Tracking](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/20-analytics-and-tracking.html): Write a measurement plan, set up GA4 and UTMs, reconcile reports and understand attribution and incrementality.
+- [Google Tag Manager](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/21-google-tag-manager.html): Learn GTM: tags, triggers, variables, data layer, purchase tracking, consent, testing and fixing double counting.
+- [Conversion Optimization](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/22-conversion-optimization.html): Find funnel leaks, write hypotheses, run usability and A/B tests, calculate sample size and work with low traffic.
+- [Automation & CRM](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/23-automation-and-crm.html): Build a CRM pipeline, score leads fairly, write follow-ups and automate with duplicate and opt-out protection.
+- [AI Tools for Marketers](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/24-ai-tools-for-marketers.html): Use AI for research, copy, design and analysis with seven prompt recipes, human checks and a marketing-assistant test set.
+- [Privacy, Law & Ethics](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/25-privacy-law-and-ethics.html): Consent, India's DPDP timeline, influencer disclosure, AI ads, dark patterns and an incident plan for marketers.
+
+## Stage 5: Pro
+
+- [Industry Playbooks](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/26-industry-playbooks.html): Marketing playbooks for e-commerce, local services, coaching, B2B, SaaS and more, with four cases and a 90-day plan.
+- [Becoming a Pro](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/27-becoming-a-pro.html): Build an honest portfolio, choose a specialty, write proposals and reports, and prepare for marketing interviews.
+
+## Reference: Appendices
+
+- [Cheat Sheet](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/appendix-a-cheat-sheet.html): Marketing formulas, a channel picker, page and campaign checklists and red flags on one page.
+- [Template Library](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/appendix-b-template-library.html): Copy-ready templates for research, strategy, copy, SEO, social, email, ads, analytics, websites and client work.
+- [Glossary](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/appendix-c-glossary.html): Digital marketing terms from A/B test to zero-party data, defined in plain English and linked to lessons.
+- [Final Exam](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/appendix-d-final-exam.html): Test your digital marketing knowledge with 50 multiple-choice questions, answers and five practical tasks.
+- [Capstone Projects](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/appendix-e-capstone-projects.html): Six digital marketing portfolio projects with deliverables, levels, success criteria and a scoring rubric.
+- [Troubleshooting](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/appendix-f-troubleshooting.html): Why traffic, ads, email, tracking or sales go wrong: 20 symptoms, likely causes and the first fix to try.
+- [Resources & 30-Day Plan](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/appendix-g-resources.html): A day-by-day digital marketing practice plan with official documentation and a learning log.

@@ -6,6 +6,8 @@ Meera's cousin built the first Mitti Studio website as a favour. Two years later
 
 A website is a small piece of property. Before you decorate it, make sure your name is on the papers.
 
+> 🔑 **In short:** To make a business website, register a domain in the business's name, choose a platform that suits whoever will maintain it, plan pages around customer questions, build for phones first, then test, secure, back up and launch.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -278,6 +280,20 @@ Domain expiry first, then DNS records and recent changes, then whether the certi
 
 ### Exercise 4.3: Build it
 Publish a three-page site for your practice business. Ask two people to find the price and contact you without help.
+
+## ❓ Common Questions
+
+### What do I need to make a website?
+
+You need a domain, hosting or a hosted builder, HTTPS, page content, and a way to take enquiries or payments. You also need named owners, strong logins, backups and someone responsible for updates.
+
+### Should I use WordPress or Shopify?
+
+WordPress suits content-heavy sites and people willing to handle updates. Shopify suits stores that want less maintenance and accept subscription and app costs. Compare three-year cost, who edits it, needed integrations and whether you can export your data.
+
+### Who should own a website's domain?
+
+The business should own it, with the recovery email, billing and renewal under its control. Give developers and agencies limited access instead of letting them register the domain in their own name.
 
 ## 🔑 Key Takeaways
 

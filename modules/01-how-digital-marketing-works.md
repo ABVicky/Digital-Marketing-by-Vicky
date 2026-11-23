@@ -4,6 +4,8 @@
 
 Think of the last thing you bought online. You probably saw it somewhere, forgot it, searched, read reviews, asked a friend, left it in a cart, and returned when a message reminded you. Which step "caused" the sale? That question is why digital marketing is interesting, and why simple dashboards can mislead.
 
+> 🔑 **In short:** Digital marketing is the work of helping the right people discover, trust, buy and keep using something through websites, search, social networks, messaging and apps. Good results come from matching the message to the customer's stage and judging profit, not likes.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -191,7 +193,7 @@ In a small business one person does six of these jobs. Do fewer channels, not po
 | "It must go viral" | reach without fit rarely pays |
 | "More traffic solves sales" | fix the leak first |
 | "Our product is for everyone" | start with one clear situation |
-| "SEO is free" | it costs time and expertise |
+| "SEO costs nothing" | it costs time and expertise |
 | "Good ROAS means profit" | margin decides |
 | "AI will do it" | AI drafts; you need customers and judgement |
 
@@ -251,6 +253,20 @@ Write every touch in your last meaningful online purchase. Mark which ones a sel
 Friends' advice, private messages, another device, a shop visit and memory usually go unseen. That's why dashboards should be read together with interviews and surveys.
 
 </details>
+
+## ❓ Common Questions
+
+### What are the main types of digital marketing?
+
+The main types are SEO, search ads, social media, paid social ads, content, email and WhatsApp, creator partnerships, and analytics with conversion work. They divide into paid, owned and earned media, and they usually work together rather than alone.
+
+### What is the difference between paid, owned and earned media?
+
+Paid media is reach you buy, such as ads. Owned media is what you control more directly, such as your website and email list. Earned media is what others say, such as reviews and press. Paid is quick, owned lasts, earned is trusted.
+
+### Is a high ROAS always good?
+
+No. ROAS compares revenue with ad spend and ignores product, shipping and return costs. ₹36,000 revenue from ₹10,000 ads is 3.6 ROAS, yet it loses ₹4,000 if the goods and delivery cost ₹30,000. Compare ROAS with your break-even figure.
 
 ## 🔑 Key Takeaways
 

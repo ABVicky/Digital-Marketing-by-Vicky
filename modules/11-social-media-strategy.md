@@ -4,6 +4,8 @@
 
 A social feed is a crowded festival. Walking in and shouting your price rarely works. Demonstrating something interesting, helping people nearby and remembering their names often does.
 
+> 🔑 **In short:** A social media strategy chooses one main platform where your customers already spend time, a few repeatable content jobs (reach, teach, trust, community, convert), a realistic routine, and a path from attention to enquiries or sales.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -171,7 +173,7 @@ Objective and customer:
 One true message:
 Claims allowed / prohibited:
 Mandatory demo:
-Creative freedom:
+Creative control:
 Deliverables and dates:
 Fee, usage rights and exclusivity:
 Disclosure wording and placement:
@@ -179,7 +181,7 @@ Tracking link/code:
 Approval and revision limit:
 ```
 
-> ⚠️ Payment, free products, discounts, employment and family links can be material connections. Disclosures must be clear and hard to miss. Check current ASCI guidance and consumer-protection rules in India, or the law where the audience lives.
+> ⚠️ Payment, gifted products, discounts, employment and family links can be material connections. Disclosures must be clear and hard to miss. Check current ASCI guidance and consumer-protection rules in India, or the law where the audience lives.
 
 ### Influencer economics before outreach
 
@@ -196,7 +198,7 @@ At ₹810 contribution, break-even is 14,800 ÷ 810 = 18.3, so **19 added orders
 
 ❌ **Weak offer**
 ```text
-We'll give exposure and a free mug. Please make 3 Reels.
+We'll give exposure and a mug. Please make 3 Reels.
 ```
 
 ✅ **Strong offer**
@@ -363,9 +365,23 @@ Platform choice is supported by customer evidence; formats are sustainable; ther
 
 </details>
 
+## ❓ Common Questions
+
+### Which social media platform is best for business?
+
+The best one is where your buyers discover, ask or decide. Visual products often suit Instagram, how-to topics suit YouTube, B2B suits LinkedIn and local services benefit from Facebook groups. Ask ten customers before choosing.
+
+### How do I choose an influencer?
+
+Check audience fit, comment quality, past relevant work and values. Calculate break-even first: a ₹14,800 total cost at ₹810 contribution needs 19 added orders. Agree on rights, disclosure and claims in writing.
+
+### How many times a week should I post?
+
+Post as often as you can stay useful. Two strong pieces a week for six months beat daily posts that stop in three weeks. Compare posts with the same job to decide whether to do more.
+
 ## ✅ Quick Quiz
 
-1. A creator received a free set. Disclosure?
+1. A creator received a gifted set. Disclosure?
    - A) Likely needed
    - B) Only if paid cash
 2. Which matters most?

@@ -4,6 +4,8 @@
 
 When a shopper leaves at the till, changing the till from blue to green is a guess. Asking why they left is research.
 
+> 🔑 **In short:** Conversion rate optimization finds where and why people stop, then improves the cause. Fix obvious problems directly, use usability tests when traffic is low, and run A/B tests only with a planned sample and guardrails.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -325,6 +327,20 @@ Control 100 of 10,000; variant 112 of 10,000. State what you can and can't concl
 Observed rate rose from 1.00% to 1.12%. The random variation may be large relative to 0.12 points. Calculate an interval, check design and guardrails, and probably call it inconclusive until evidence supports a decision.
 
 </details>
+
+## ❓ Common Questions
+
+### What is a good conversion rate?
+
+There's no universal figure: it varies by product, price, traffic source and definition. Compare your own segments over time and work out which rate your margin and traffic cost require.
+
+### How many visitors do I need for an A/B test?
+
+It depends on baseline and effect. Detecting a 20% relative lift from 1.2% needs about 35,456 visitors per version with common settings. With less traffic, test larger changes or use qualitative methods.
+
+### What should I fix first on a website that isn't selling?
+
+Check tracking, payment errors and mobile checkout, then see whether the page matches its traffic and shows price, delivery and proof. Watch five people try to buy and fix what stops more than one.
 
 ## ✅ Quick Quiz
 

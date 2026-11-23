@@ -4,6 +4,8 @@
 
 Nobody opens Instagram to see your catalogue. You are interrupting a friend's photo. A good paid-social ad earns that interruption by showing a problem, a result or a story worth noticing.
 
+> 🔑 **In short:** Meta Ads show Facebook and Instagram users an offer they weren't searching for, so creative does much of the work. Test different customer problems and proof, optimize for a real outcome, and scale only while the extra orders stay profitable.
+
 ---
 
 ## 🎯 Learning Objectives
@@ -371,6 +373,20 @@ Make a 5 × 3 matrix for your business, then choose three concepts to test.
 Barriers come from research, formats change the story, proof is real, and each has a matching page plus a learning question.
 
 </details>
+
+## ❓ Common Questions
+
+### How do I start Facebook and Instagram ads?
+
+Verify account ownership, test tracking, choose one real outcome, use a broad but serviceable audience, make three to five distinct ads, set a loss limit and review against a rule written before launch.
+
+### Why are my Meta ads getting clicks but no sales?
+
+Check whether clicks become page views, whether the page matches the ad, price and delivery clarity, checkout errors and lead or order tracking. Cheap clicks may also come from a creative that attracts the wrong people.
+
+### What is marginal CPA?
+
+It is the cost of the extra orders from extra spend. If spend rises ₹5,000 and orders rise by five, marginal CPA is ₹1,000, even if the average still looks acceptable.
 
 ## ✅ Quick Quiz
 
