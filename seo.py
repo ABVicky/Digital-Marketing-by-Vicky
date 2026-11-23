@@ -70,6 +70,8 @@ def inline(text: str, links: dict) -> str:
 
 def fix_url(url: str, links: dict) -> str:
     url = html.unescape(url)
+    if url.startswith("#-"):  # GitHub keeps a leading dash where an emoji was
+        return "#" + heading_id(url[1:]).strip("-")
     if re.match(r"^(https?:|mailto:|#)", url):
         return html.escape(url)
     target, _, anchor = url.partition("#")
@@ -85,7 +87,7 @@ def fix_url(url: str, links: dict) -> str:
 
 
 def heading_id(text: str) -> str:
-    t = re.sub(r"<[^>]+>", "", text).lower()
+    t = html.unescape(re.sub(r"<[^>]+>", "", text)).lower()
     t = re.sub(r"[^\w\s-]", "", t).strip()
     return re.sub(r"\s", "-", t)
 
@@ -368,7 +370,7 @@ def build():
     by_n = {it["n"]: it for it in items}
     for k, it in enumerate(items):
         raw = (ROOT / it["p"]).read_text(encoding="utf-8")
-        md = re.sub(r"^# .*\n", "", raw, count=1)
+        md = re.sub(r"(?m)^# .*\n", "", raw, count=1)
         reader = "../index.html#/" + it["p"]
         body, toc = md_to_html(md, links)
         body = body.replace('loading="lazy"', 'fetchpriority="high"', 1)
