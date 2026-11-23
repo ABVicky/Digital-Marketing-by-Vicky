@@ -378,6 +378,94 @@ WHERE o.status = 'paid'
 
 Adjust time zone and valid statuses to your data. Equality checks for decimal values may need rounding or integer paise.
 
+## 🛠️ Practical Lab: Set Up GA4 and Build a Decision Report
+
+**You will finish with:** a GA4 property, a UTM sheet, a reconciliation and a one-page report. Time: 5 hours.
+
+### Tools and where to register
+
+| Job | Tool | Open | Cost to begin |
+|---|---|---|---|
+| Website analytics | Google Analytics 4 | [analytics.google.com](https://analytics.google.com/) | none for standard |
+| Practice with real data | Google's GA4 demo account | [demo account help](https://support.google.com/analytics/answer/6367342) | none |
+| Reports | Looker Studio | [lookerstudio.google.com](https://lookerstudio.google.com/) | standard version |
+| Behaviour | Microsoft Clarity | [clarity.microsoft.com](https://clarity.microsoft.com/) | none |
+| Links | Campaign URL Builder | [ga-dev-tools.google](https://ga-dev-tools.google/campaign-url-builder/) | none |
+| Raw data practice | BigQuery sandbox | [cloud.google.com/bigquery](https://cloud.google.com/bigquery) | limits apply |
+
+No website yet? Use the demo account for the report tasks.
+
+### Create GA4, step by step
+
+1. Sign in with the business account → **Admin → Create → Property**.
+2. Set name, reporting time zone and currency. For India: Asia/Kolkata time and INR.
+3. Choose industry/objectives; these mostly change default reports.
+4. **Data streams → Web** → enter site URL and stream name.
+5. Review **Enhanced measurement**. Keep the events you understand.
+6. Copy the Measurement ID (`G-...`). Install **once**: through GTM (Module 21) or your platform's official integration.
+7. Open **Reports → Realtime**, then visit your site with the consent state you want to test.
+8. **Admin → Data collection and modification → Data retention:** review the setting.
+9. **Admin → Data streams → Configure tag settings → Define internal traffic**, then test the filter before making it active.
+10. **Admin → Product links:** link Search Console and Google Ads only if needed.
+11. **Admin → Access management:** add a second owner-level person.
+12. **Admin → Events / Key events:** mark only confirmed business outcomes.
+
+### Build a UTM sheet
+
+1. Columns: `URL, source, medium, campaign, content, final link, owner, tested`.
+2. Add dropdowns for source and medium (**Data → Data validation**).
+3. Build the link in row 2:
+
+```text
+=A2&"?utm_source="&B2&"&utm_medium="&C2&"&utm_campaign="&D2&"&utm_content="&E2
+```
+
+Use `&` instead of `?` if the URL already has parameters.
+
+4. Click each link in a private window; check **Realtime** for source/medium.
+
+### Four reports to make in GA4
+
+| Question | Where | Settings |
+|---|---|---|
+| Where do visits come from? | Reports → Acquisition → Traffic acquisition | session source/medium |
+| Which pages start visits? | Reports → Engagement → Landing page | add key events |
+| Where do buyers stop? | Explore → Funnel exploration | product → cart → checkout → purchase |
+| What do buyers do first? | Explore → Path exploration | start at session start |
+
+### Reconcile ten orders
+
+1. Export ten real orders from the shop.
+2. In GA4 Explore, add `Transaction ID` and `Purchase revenue`.
+3. Match each ID. Mark missing, duplicate and wrong value.
+4. Give one likely cause for each and check it.
+
+### One-page Looker Studio report
+
+1. Create → Report → add GA4 (or Sheets) as data.
+2. Row 1: orders, revenue, contribution from your sheet.
+3. Row 2: traffic by channel and conversion.
+4. Row 3: one table of tests and decisions from Sheets.
+5. Add a text box: *what changed, likely reason, limit, next decision*.
+6. Share with **view** access to named people.
+
+### If it goes wrong
+
+| Symptom | Check |
+|---|---|
+| No realtime data | tag ID, consent, ad blocker, right property |
+| Everything twice | tag in theme **and** GTM |
+| Traffic says "Unassigned" | unusual medium names, missing parameters |
+| `(not set)` | missing value or processing; check definition |
+| Reports differ from shop | dates, time zone, tax, refunds, consent |
+
+### Proof to save
+
+- [ ] Property settings, IDs hidden if private
+- [ ] Ten tested UTM links
+- [ ] Ten-order reconciliation
+- [ ] One-page report with a decision and a limit
+
 ## 🏋️ Exercises
 
 ### Exercise 20.1

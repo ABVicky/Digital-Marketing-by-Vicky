@@ -273,6 +273,76 @@ A care guide may produce fewer sales but reduce support questions. Count the job
 
 > 💻 **Content as data:** keep facts such as price, seats and dates in one source and reference them, so one change doesn't require editing 30 pages.
 
+## 🛠️ Practical Lab: Research, Write and Publish One Complete Asset
+
+**You will finish with:** one published article or page, four adaptations and a distribution log. Time: 6 hours.
+
+### Tools
+
+| Job | Tool | Open |
+|---|---|---|
+| Customer words | your interviews, reviews, support log | lab sheet |
+| Questions | Google autocomplete, AnswerThePublic | [answerthepublic.com](https://answerthepublic.com/) |
+| Interest | Google Trends | [trends.google.com](https://trends.google.com/) |
+| Draft | Google Docs | [docs.google.com](https://docs.google.com/) |
+| Clarity check | Hemingway Editor, read aloud | [hemingwayapp.com](https://hemingwayapp.com/) |
+| Images | own photos, Canva | [canva.com](https://www.canva.com/) |
+| Schedule | Buffer, Meta Business Suite or calendar | [buffer.com](https://buffer.com/) |
+
+### Where to publish
+
+| Place | Good for | Set up |
+|---|---|---|
+| Your blog | owned search asset | WordPress **Posts → Add New** |
+| LinkedIn article/newsletter | professional depth | from a profile or Page with access |
+| Medium or Substack | reach or email audience | create profile; keep the full original on your site |
+| YouTube | demonstration | Module 14 |
+| Partner's site | borrowed audience | agreed topic, honest author line |
+
+### Step by step
+
+1. Pick one question three customers asked.
+2. Search it. Write what the first five pages answer and what they don't show.
+3. Create evidence: test, photo, price comparison, checklist or interview.
+4. Fill the brief: reader, answer, evidence, action, distribution, reviewer.
+5. Write the answer in 40–60 words.
+6. Draft headings as questions; add evidence, limits and next step.
+7. Write 20 headlines. Ask five people what each promises. Choose the most accurately understood.
+8. Edit in four passes: structure, clarity, proof, polish.
+9. In WordPress: add title, short URL, category, descriptive image names, alt text, internal links, author and preview. Publish.
+10. Ask Search Console to inspect it (Module 08).
+11. Adapt it to: email, carousel, 30-second script and a useful answer in a permitted community.
+12. Record where you shared it and what happened after 7 and 30 days.
+
+### Practice task
+
+Create *"What size mug should I buy?"* for Mitti. Measure four real cups with water, photograph each in the same hand, publish a table and make a seven-slide carousel.
+
+### Distribution checklist
+
+- [ ] Two existing pages link to it
+- [ ] Two customers or experts were asked for correction, not praise
+- [ ] One partner sees a reason to share it
+- [ ] One community answer is complete without a click
+- [ ] One email to permitted subscribers
+- [ ] UTMs used only on external campaign links
+
+### If it goes wrong
+
+| Problem | Fix |
+|---|---|
+| It sounds like everyone else | add a test, number, mistake or photo |
+| Nobody reads | distribute to ten named places before making another |
+| Readers don't act | check next-step relevance |
+| Too long to finish | publish a narrower answer |
+
+### Proof to save
+
+- [ ] Evidence file and brief
+- [ ] 20 headlines with test notes
+- [ ] Published URL and four adaptations
+- [ ] 7-day and 30-day result rows
+
 ## 🏋️ Exercises
 
 ### Exercise 6.1

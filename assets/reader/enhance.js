@@ -91,7 +91,7 @@
   ];
   const SECTIONS = [
     [/learning objectives/i, "objectives", "target"], [/key takeaways/i, "takeaways", "star"],
-    [/exercise/i, "exercises", "pencil"], [/quick quiz/i, "quiz", "help"]
+    [/practical lab/i, "lab", "flask"], [/exercise/i, "exercises", "pencil"], [/quick quiz/i, "quiz", "help"]
   ];
   const LANGS = { python: "Python", py: "Python", bash: "Terminal", sh: "Terminal", json: "JSON", xml: "Prompt · XML", yaml: "YAML", yml: "YAML",
     jinja: "Jinja template", markdown: "Markdown", md: "Markdown", js: "JavaScript", javascript: "JavaScript", ts: "TypeScript", html: "HTML", css: "CSS", sql: "SQL" };

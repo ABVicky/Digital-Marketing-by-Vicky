@@ -21,7 +21,7 @@
   const io = "IntersectionObserver" in window && !reduce
     ? new IntersectionObserver((entries) => {
         entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("is-in"); io.unobserve(e.target); } });
-      }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 })
+      }, { rootMargin: "0px 0px -8% 0px", threshold: 0 })
     : null;
 
   function reveal(els, stagger) {

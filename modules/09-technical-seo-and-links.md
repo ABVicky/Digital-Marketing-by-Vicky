@@ -273,6 +273,134 @@ for line in sys.stdin:
 
 Use it on your own site, at a gentle pace.
 
+## 🛠️ Practical Lab: Fix a Crawl Problem and Earn Your First Links
+
+**You will finish with:** a ranked technical fix list, ten link prospects and five personal pitches. Time: 10 hours.
+
+### Tools
+
+| Job | Tool | Open |
+|---|---|---|
+| Crawl | Screaming Frog | [screamingfrog.co.uk](https://www.screamingfrog.co.uk/seo-spider/) |
+| Index/canonical | Search Console | [search.google.com/search-console](https://search.google.com/search-console/) |
+| Structured data | Rich Results Test, Schema Validator | [search.google.com/test/rich-results](https://search.google.com/test/rich-results), [validator.schema.org](https://validator.schema.org/) |
+| Speed | PageSpeed Insights | [pagespeed.web.dev](https://pagespeed.web.dev/) |
+| Own links | Search Console, Bing Webmaster Tools, Ahrefs Webmaster Tools | Module 08 |
+| Fast URL notice | IndexNow | [indexnow.org](https://www.indexnow.org/) |
+
+### Technical lab, step by step
+
+1. Crawl a site you own. Start gently and respect server limits.
+2. Export status, title, canonical, robots, depth and inlinks.
+3. Filter 404s with internal links. Fix the linking page.
+4. Filter 3xx internal links. Point them to the final URL.
+5. Compare sitemap URLs with the crawl. Find orphans, redirects and `noindex` pages.
+6. Test five templates in URL Inspection: home, service, product, article and contact.
+7. Validate structured data and compare it with visible text.
+8. Fix one template, recrawl and save the difference.
+
+### Where backlinks really come from
+
+| Method | Where to look | What to offer | Difficulty | Main risk |
+|---|---|---|---|---|
+| Suppliers and partners | stockists, associations, venues | accurate partner page or photo | low | asking without a reason |
+| Local organizations | schools, events, chambers, community calendars | useful event or resource | low | sponsorship disguised as editorial |
+| Business listings | directories customers use | correct facts | low | hundreds of junk listings |
+| Unlinked mentions | search your brand and founder | polite correction | low | demanding a link |
+| Broken links | old resources in your topic | matching replacement | medium | weak replacement |
+| Resource pages | colleges, hobby groups, guides | tested checklist or tool | medium | mass email |
+| Original data | your test, survey, price study | method and results | medium | poor method |
+| Journalist requests | request platforms | expert, specific answer | medium | pretending expertise |
+| Podcasts/webinars | shows your buyers hear | story and useful takeaway | medium | irrelevant audience |
+| Guest article | relevant publisher | unique practical experience | medium | scaled keyword-anchor posts |
+| Useful tool | calculator, template, dataset | solves a repeated task | high | building before demand |
+| PR campaign | local or trade media | timely evidence | high | manufactured story |
+
+### Where to register or begin
+
+| Type | Places to consider | Notes |
+|---|---|---|
+| Journalist requests | [Qwoted](https://www.qwoted.com/), [Featured](https://featured.com/), [Source of Sources](https://sourceofsources.com/), [HARO](https://www.helpareporter.com/) | programs and prices change; answer only real expertise |
+| Agency/service profiles | [Clutch](https://clutch.co/), [GoodFirms](https://www.goodfirms.co/) | verification and real client reviews |
+| Software profiles | [G2](https://www.g2.com/), [Capterra](https://www.capterra.com/) | only for real software |
+| Company facts | [Crunchbase](https://www.crunchbase.com/), LinkedIn Page | check eligibility and accuracy |
+| New products | [Product Hunt](https://www.producthunt.com/) | genuine launch, not a link drop |
+| Code/data | [GitHub](https://github.com/), [Kaggle](https://www.kaggle.com/) | useful repository or licensed dataset |
+| Local | Module 10 directory list | customers must use them |
+| Communities | Reddit, Quora, specialist forums | many links are nofollow/ugc; value is the answer |
+
+> ⚠️ Google treats buying or selling ranking links, excessive exchanges and giving a product in return for a linked article as link spam. Qualify paid or sponsored links. See the [spam policies](https://developers.google.com/search/docs/essentials/spam-policies).
+
+### Find ten prospects
+
+Use searches such as:
+
+```text
+"pottery" "resources" Kolkata
+"gift guide" ceramics India
+intitle:"partners" pottery school
+"your brand name" -site:yourdomain.example
+"your founder name" -site:yourdomain.example
+site:.ac.in ceramics resources
+```
+
+1. Search your brand and competitors.
+2. In Bing Webmaster Tools, check Backlinks and compare similar sites where offered.
+3. Open every page. Is it current, relevant, used by people and edited by someone?
+4. Score audience, relevance, editorial quality, useful offer and contact path from 0–2.
+5. Keep scores of 7 or more.
+
+### Pitch and follow up
+
+1. Find the right editor or owner on their public site.
+2. Read the page and name the exact problem or section.
+3. Offer one relevant asset in under 120 words.
+4. Don't request specific anchor text.
+5. Follow up once after about a week. Then stop.
+
+```text
+Subject: Data for your fragile-gift packing guide
+
+Hi {{name}}, your guide explains packing, but doesn't compare methods.
+We tested four across 40 drops and published the raw table, limits and
+photos: {{url}}. You're welcome to use the result with credit if it helps.
+If not, no reply is needed. {{real_name}}, {{role}}
+```
+
+### Link tracker
+
+```text
+Prospect | URL | method | relevance | useful offer | contact source | sent | reply | link URL | rel type | referral visits | notes
+```
+
+### Practice week
+
+| Day | Do |
+|---|---|
+| 1 | five mention/partner prospects |
+| 2 | make one original checklist or test |
+| 3 | five resource/broken-link prospects |
+| 4 | send two personal pitches |
+| 5 | answer one relevant expert request |
+| 6 | send three pitches |
+| 7 | review replies and improve the asset |
+
+### If it goes wrong
+
+| Problem | Fix |
+|---|---|
+| No replies | better asset and smaller relevant list |
+| Asked to pay for a ranking link | decline or treat as a labelled advertisement |
+| Link is nofollow | judge referral and trust; don't argue |
+| Irrelevant spam links appear | usually monitor; seek expert help before disavowing |
+
+### Proof to save
+
+- [ ] Before/after crawl
+- [ ] Ten scored prospects, five sent pitches
+- [ ] Any earned link with visible URL; zero is an honest result
+- [ ] Learning: which offer produced useful replies
+
 ## 🏋️ Exercises
 
 ### Exercise 9.1: Which gate?

@@ -305,6 +305,100 @@ def handle_event(event, processed_ids, send_message):
 
 This demonstrates the idea. Two servers could still race, and a crash after sending but before recording could duplicate a message. Production systems need a durable unique constraint, transactional outbox or provider idempotency, plus careful retry handling.
 
+## 🛠️ Practical Lab: Build a Lead Pipeline That Never Forgets
+
+**You will finish with:** a working CRM, form connection, follow-up tasks and a failure test. Time: 6 hours.
+
+### Choose tools
+
+| Job | Options | Open |
+|---|---|---|
+| CRM | HubSpot CRM, Zoho CRM, or a sheet for tiny volume | [hubspot.com](https://www.hubspot.com/products/crm), [zoho.com/crm](https://www.zoho.com/crm/) |
+| Connect apps | Zapier, Make, n8n | [zapier.com](https://zapier.com/), [make.com](https://www.make.com/), [n8n.io](https://n8n.io/) |
+| Form | website form, Tally | [tally.so](https://tally.so/) |
+| Notify | email, Slack, WhatsApp with permission | – |
+| No-cost script | Google Apps Script | [script.google.com](https://script.google.com/) |
+
+Check user limits, automation limits, export and data terms before choosing.
+
+### HubSpot or Zoho, step by step
+
+1. Create an account with the business email; add two owners and two-step login.
+2. Settings → Pipelines → rename stages: `New, Contacted, Qualified, Quoted, Won, Lost`.
+3. Create properties: `Need, Quantity band, Decision date, Source detail, Consent status, Lost reason`.
+4. Make `Lost reason` a dropdown: price, timing, not a fit, no reply, competitor, other.
+5. Create a view: *My open deals with no next activity*.
+6. Import five **fake** contacts from CSV. Check mapping, duplicates and time zone.
+7. Connect the form (native integration first). Submit a test and confirm one contact and one deal.
+8. Create a task rule: new deal → assign owner → task due in working hours.
+9. Create three reply templates with personal fields.
+
+### Zapier or Make, step by step
+
+1. Trigger: *New form submission*.
+2. Action: *Find or create contact* by email (this reduces duplicates).
+3. Filter: continue only if required fields exist and consent rules allow the next step.
+4. Action: *Create deal*. Put the submission ID in a field.
+5. Action: *Create task / notify owner*.
+6. Error path: send yourself the failed submission ID, not private details.
+7. Test: valid, missing email, duplicate, opted out.
+8. Turn on and watch the history for a week.
+
+### No-cost version: Google Forms + Apps Script
+
+1. Create a Form linked to a Sheet. Add columns `Owner, Stage, Next date, Notified`.
+2. In the Sheet: **Extensions → Apps Script**, then paste:
+
+```js
+function onFormSubmit(e) {
+  var sheet = e.range.getSheet();
+  var row = e.range.getRow();
+  var lock = LockService.getScriptLock();
+  lock.waitLock(10000);
+  try {
+    var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
+    var col = function (name) { return headers.indexOf(name) + 1; };
+    if (sheet.getRange(row, col("Notified")).getValue()) return;
+    sheet.getRange(row, col("Stage")).setValue("New");
+    MailApp.sendEmail("owner@example.com", "New enquiry", "Open row " + row + " in the enquiry sheet.");
+    sheet.getRange(row, col("Notified")).setValue(new Date());
+  } finally {
+    lock.releaseLock();
+  }
+}
+```
+
+3. Change the email address. **Triggers → Add trigger →** `onFormSubmit`, *From spreadsheet*, *On form submit*.
+4. Submit a test; approve only the permissions you understand.
+
+The email deliberately contains no customer details.
+
+### Follow-up board
+
+| Morning check | Do |
+|---|---|
+| New, no owner | assign now |
+| Task overdue | act or reschedule with reason |
+| Quoted, no next date | add one |
+| Lost, no reason | record |
+| Complaint open | stop promotions to this person |
+
+### If it goes wrong
+
+| Symptom | Check |
+|---|---|
+| Duplicate deals | "find or create", submission ID |
+| Nothing arrives | trigger off, expired login, task limit |
+| Wrong field | mapping and field type |
+| Two messages | two tools own the same step |
+
+### Proof to save
+
+- [ ] Pipeline with stage rules
+- [ ] Five test leads: valid, invalid, duplicate, opt-out, failure
+- [ ] Response-time log for ten enquiries, real or simulated
+- [ ] One-page runbook and data export test
+
 ## 🏋️ Exercises
 
 ### Exercise 23.1

@@ -304,6 +304,98 @@ print(pacing(30000, 17000, date(2026, 11, 15)))
 
 Expected spend by 15 November is ₹15,000, so the account is ₹2,000 ahead. That's a prompt to check, not an automatic error: demand may be uneven.
 
+## 🛠️ Practical Lab: Set Up Google Ads Without Accidental Spending
+
+**You will finish with:** a safe account, a paused/draft Search campaign and a tested conversion. Time: 5 hours. **No ad spend is required.**
+
+### Tools
+
+| Job | Tool | Open |
+|---|---|---|
+| Ads | Google Ads | [ads.google.com](https://ads.google.com/) |
+| Keywords | Keyword Planner | Google Ads tools |
+| Search competitor ads | Google Ads Transparency Center | [adstransparency.google.com](https://adstransparency.google.com/) |
+| Product catalogue | Merchant Center | [merchants.google.com](https://merchants.google.com/) |
+| Offline draft | Google Ads Editor | [Google Ads Editor](https://ads.google.com/home/tools/ads-editor/) |
+| Training | Skillshop | [skillshop.withgoogle.com](https://skillshop.withgoogle.com/) |
+
+### Create the account carefully
+
+1. Use the business's Google account. Don't use an agency's login.
+2. Start at Google Ads. New users may be pushed into a guided campaign; **stop before entering payment or publishing if you're only learning**.
+3. If account-only setup/Expert Mode is offered, choose it. It may not be offered to every new account. Otherwise draft the campaign in a document, Editor or spreadsheet.
+4. Before saving, choose billing country, time zone and currency carefully; they may be hard to change.
+5. Complete advertiser identity verification only through the authentic Google Ads interface and with business authority.
+6. Add two business owners, then agency/staff with least access.
+7. Set payment authority, internal monthly cap and alert owner **before** enabling a campaign. A daily average budget isn't a guaranteed hard cap.
+
+### Plan keywords
+
+1. Keyword Planner → Discover new keywords, if available.
+2. Enter Mitti's service and page, location and language.
+3. Keep only terms for a person who could book/buy. Record estimated ranges, CPC range and date.
+4. Group `beginner`, `couples`, `gift`. Put irrelevant `job`, `wheel price`, etc. in a reviewed negative list.
+5. Search manually in a private window and record ad/page patterns.
+
+### Build a paused Search campaign
+
+1. **Campaigns → + → New campaign** or Editor equivalent.
+2. Goal/type: the objective that fits; Search. Select a single verified conversion.
+3. Name `2026-12_search_beginner_kolkata`.
+4. Target only locations you can serve; inspect advanced location setting. Set language.
+5. Review network/automation options and turn off ones outside the test where possible.
+6. Budget low enough for your cap; start/end date.
+7. Ad group `beginner-class`; add tight phrase/exact themes. Avoid adding the same meaning to three groups.
+8. Write responsive search headlines/descriptions, real final URL and useful assets.
+9. Add location/call assets only if staff can answer.
+10. Set tracking template/UTM according to policy and Module 20.
+11. Check every policy, page and phone preview.
+12. Save as draft or **Paused**. Don't click Publish for the learning version.
+
+### Set up and test conversion
+
+1. Google Ads → Goals → Conversions → Create, or import an approved GA4 key event.
+2. Name `booking_confirmed`, choose value and count rule.
+3. Use GTM/server confirmation, not a button click.
+4. Run a test booking, refresh the page, and test rejection.
+5. Compare transaction ID with GTM Preview and booking record. Confirm it fires once.
+6. Set it as Primary only when the data is trustworthy; keep micro-actions secondary.
+
+### Merchant Center (online stores)
+
+1. Create/sign in at [merchants.google.com](https://merchants.google.com/); add business and verify/claim website.
+2. Connect a supported store or add products: title, accurate price/availability, image, shipping, return policy and identifiers.
+3. Fix Needs attention messages.
+4. Check whether organic product listings are active and available in your country. Product ads need a Google Ads connection and budget.
+
+### Launch only after approval
+
+| Gate | Evidence |
+|---|---|
+| Economics | Target CPA and loss cap signed |
+| Page | 5-person test and working phone |
+| Tracking | one confirmed test = one event |
+| Policy | claims/location/billing verified |
+| Capacity | staff answer enquiries |
+| Stop rule | written date, spend and error conditions |
+
+### If it goes wrong
+
+| Symptom | Do |
+|---|---|
+| Account forces campaign | don't publish; leave billing and use offline draft |
+| Conversion inactive | test tag, page and consent; allow reporting time |
+| Ad disapproved | read exact policy, fix page/claim, request review |
+| Unexpected spend | pause affected campaign, document, contact official support |
+
+### Proof to save
+
+- [ ] Account ownership and safety checklist
+- [ ] Paused/draft campaign screenshot showing no active spend
+- [ ] 10–15 keywords, reasons and negatives
+- [ ] Conversion test sheet
+- [ ] Signed launch/no-launch decision
+
 ## 🏋️ Exercises
 
 ### Exercise 18.1

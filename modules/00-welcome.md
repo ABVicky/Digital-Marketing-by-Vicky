@@ -89,7 +89,7 @@ Add a Git repository for your site, use browser developer tools, and install Pyt
 
 ```mermaid
 flowchart LR
-  A["Read"] --> B["See a makeover"] --> C["Do the exercise"] --> D["Take the quiz"] --> E["Apply to your business"]
+  A["Read"] --> B["See a makeover"] --> L["Do the practical lab"] --> C["Do the exercise"] --> D["Take the quiz"] --> E["Apply to your business"]
 ```
 
 The last step matters most. Reading about ads doesn't make you a marketer, just as reading recipes doesn't make you a cook.
@@ -101,6 +101,10 @@ The last step matters most. Reading about ads doesn't make you a marketer, just 
 | Relaxed | 5 h a week | about 23 weeks |
 | Steady | 8 h a week | about 14 weeks |
 | Intensive | 20 h a week | about 6 weeks |
+
+These times cover study. The practical labs add hands-on time, shown at the top of each lab.
+
+Every **Practical Lab** tells you where to register, what to click, what to build and what proof to keep. Screens change, so if a label has moved, search the platform's help for its name. All platforms are listed in the [Tool Directory](../appendix/H-tool-directory.md).
 
 If you own a business and need results first: read 02, 03, 05 and 17, then the one channel that fits your customers.
 
@@ -177,6 +181,60 @@ The strong question nearly answers itself. That happens often.
 - I won't spend more than I've decided to lose while learning.
 
 Write them in your lab sheet. They'll feel obvious today and inconvenient on a difficult day, which is when you need them.
+
+## 🛠️ Practical Lab: Set Up Your Marketing Workspace
+
+**You will finish with:** one secure account set, a lab sheet and a practice website address. Time: 90 minutes.
+
+### Tools and where to register
+
+| Tool | Use | Open | Cost to begin |
+|---|---|---|---|
+| Google Account | Search Console, GA4, GTM, Sheets | [accounts.google.com](https://accounts.google.com/) | none |
+| Password manager | unique passwords and recovery codes | [bitwarden.com](https://bitwarden.com/) or your own choice | basic plan available |
+| Google Sheets | lab log and calculations | [sheets.google.com](https://sheets.google.com/) | none |
+| Canva | designs | [canva.com](https://www.canva.com/) | basic plan available |
+| GitHub | a practice site and version history | [github.com](https://github.com/) | basic plan available |
+
+### Step by step
+
+1. Create a **business-only Google account**. Don't use a friend's or agency's account.
+2. Turn on two-step verification and store the backup codes in your password manager.
+3. Create a sheet named `Marketing lab` with these tabs: `Accounts`, `Interviews`, `Numbers`, `Keywords`, `Content`, `Links`, `Ads`, `Tests`, `Evidence`.
+4. In `Accounts`, add columns: platform, URL, owner email, backup owner, role, renewal date, recovery checked. **Never put passwords here.**
+5. Choose your practice business. Use your own, one you have written permission to help, or Mitti Studio.
+6. Create a one-page site:
+   - Beginner route: a website builder's starter site.
+   - Technical route: a GitHub repository with `index.html`, then **Settings → Pages → Deploy from a branch**.
+7. Open the public address on your phone and save a screenshot.
+
+### Register in this order
+
+| Week | Set up | Module |
+|---|---|---|
+| 1 | Google account, domain or practice address, website | 00, 04 |
+| 2 | Search Console, GA4, GTM | 08, 20, 21 |
+| 3 | Business Profile and other local listings, if eligible | 10 |
+| 4 | One main social platform | 11 |
+| 5 | Email platform with sender authentication | 17 |
+| Later | Google Ads and Meta Ads, after your numbers are ready | 18, 19 |
+
+Don't register everywhere on day one. Empty profiles are a maintenance job.
+
+### If it goes wrong
+
+| Problem | Do this |
+|---|---|
+| Can't create more accounts with one phone | use an existing account you own and add a separate business role |
+| GitHub page shows 404 | wait a few minutes, check the Pages branch and that the file is named `index.html` |
+| Old employee owns the account | recover ownership now, before building on it |
+
+### Proof to save
+
+- [ ] Screenshot of two-step verification being on, with codes hidden
+- [ ] Lab sheet with nine tabs
+- [ ] Public practice URL
+- [ ] One sentence: what I will be able to show in 90 days
 
 ## 🏋️ Exercises
 

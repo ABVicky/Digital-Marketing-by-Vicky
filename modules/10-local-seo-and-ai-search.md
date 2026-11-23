@@ -275,6 +275,144 @@ for source, values in facts.items():
 
 Maintain a small approved fact sheet: name, address, hours, price, policies and last review. The phone number above is a placeholder.
 
+## 🛠️ Practical Lab: Register and Optimize a Local Business Everywhere That Matters
+
+**You will finish with:** a verified or ready-to-verify listing, consistent facts and an AI-answer baseline. Time: 8 hours plus verification waiting.
+
+### First: are you eligible?
+
+| Business | Google Business Profile? | Better route |
+|---|---|---|
+| Shop, studio, clinic or restaurant meeting customers | usually yes | storefront/hybrid profile |
+| Plumber or tutor visiting customers | usually yes | service-area profile |
+| Online-only shop | **no** | website, Search Console, Merchant Center, social, ChatGPT if eligible |
+| Virtual office with no staff | generally no | don't create a fake location |
+
+Google requires in-person customer contact during stated hours. Read [eligibility](https://support.google.com/business/answer/13763036?hl=en).
+
+### Make one fact sheet
+
+```text
+Real-world name | phone | address/service area | website | category | hours
+holiday hours | short description | services | price range | photos | policies
+owner email | backup owner | booking link | last checked
+```
+
+Use the same facts everywhere. Small format differences such as "Rd" and "Road" matter less than a wrong phone or old address.
+
+### Where to register
+
+| Priority | Platform | Register | Use when | Verification/cost notes |
+|---|---|---|---|---|
+| 1 | Google Business Profile | [business.google.com](https://business.google.com/) | eligible local business | Google chooses method; no charge for profile |
+| 2 | Bing Places | [bing.com/forbusiness](https://www.bing.com/forbusiness) | local business | import from Google available; no charge described by Bing |
+| 3 | Apple Business | [business.apple.com](https://business.apple.com/) | Maps presence | Apple Business Connect became Apple Business; check current regional flow |
+| 4 | Businesses in ChatGPT | [chatgpt.com/business-hub](https://chatgpt.com/business-hub) | eligible business | beta since 10 Nov 2026; eligibility varies |
+| 5 | Facebook Page | [facebook.com/pages/create](https://www.facebook.com/pages/create) | audience uses Facebook/Meta ads | account security and policy apply |
+| 6 | Yelp | [biz.yelp.com](https://biz.yelp.com/) | strong in your country/category | data is also supplied to some services; regional value differs |
+| 7 | Tripadvisor | [tripadvisor.com/Owners](https://www.tripadvisor.com/Owners) | travel, food, attractions | category eligibility |
+| 8 | Justdial | [justdial.com](https://www.justdial.com/) | Indian local service searches | compare organic listing with paid offer |
+| 9 | IndiaMART | [seller.indiamart.com](https://seller.indiamart.com/) | Indian B2B suppliers | verify lead quality before paying |
+| 10 | Sulekha | [sulekha.com](https://www.sulekha.com/) | supported Indian services | check category and lead terms |
+
+Only register where customers look or data is genuinely useful. Ten accurate profiles beat 200 copied listings.
+
+### Google Business Profile, step by step
+
+1. Search your business on Google Maps. **Claim** it if it exists; don't create a duplicate.
+2. Otherwise open [business.google.com](https://business.google.com/) with the business account and choose **Add your business**.
+3. Enter the real-world name, exact primary category, location or service area, phone and website.
+4. Choose whether customers visit. Hide a home address for a service-area business if customers don't visit it.
+5. Choose **Get verified**. You can't force a particular method.
+6. Complete hours, services/products, booking, attributes, description and photos.
+7. Copy the review link/QR from the profile and test it on another phone.
+8. Add holiday hours, then check calls, directions and website.
+
+### Film a verification video
+
+If Google offers **Business video**, record through a phone in one continuous, unedited take of at least 30 seconds.
+
+| Storefront/hybrid | Service area |
+|---|---|
+| street, nearby businesses and number | street sign or recognizable work area |
+| permanent sign matching profile name | branded equipment/tools |
+| proof you manage: till, staff-only room, stock | performing service or opening business equipment |
+| interior customers can visit | matching permit/invoice only if needed |
+
+Don't show faces, bank, tax or identity numbers. Upload through the profile. Review can take up to five business days. If unsuccessful, read **Review issues** and record a better, truthful video. [Official video guide](https://support.google.com/business/answer/14271705?hl=en).
+
+### Bing Places, step by step
+
+1. Open [bing.com/forbusiness](https://www.bing.com/forbusiness) and sign in.
+2. Choose Google import if your verified Google listing is accurate, or add manually.
+3. Grant only necessary access, select the correct location and review imported fields.
+4. Check category, pin, hours and duplicate warning.
+5. Publish/verify as requested. Return later and confirm a sync didn't import an old fact.
+
+### Apple Business, step by step
+
+1. Open [business.apple.com](https://business.apple.com/) and create/sign in with a business account.
+2. Add the brand/location. Search Maps first; request management if someone else controls it.
+3. Place the pin at the customer entrance, add facts and submit requested verification.
+4. After approval, add photos/actions available in your region.
+
+Menus and Indian availability can change. Use the current [Apple Business guide](https://support.apple.com/guide/business/).
+
+### Businesses in ChatGPT, step by step
+
+OpenAI announced **Businesses in ChatGPT** on 10 November 2026. Its page says eligible businesses in places where ChatGPT is available can claim through Business Hub. It doesn't list India or define every eligible type. Third-party guides report tighter beta rules for local stores, including claiming existing US listings, so **don't assume an Indian shop is eligible**.
+
+1. Open [Business Hub](https://chatgpt.com/business-hub) and sign in with a business-controlled account.
+2. Search/claim only your real business or connect a supported store.
+3. Follow the verification option shown. Guides mention domain, business email, phone or Shopify.
+4. Compare name, website, category, hours and policies with your fact sheet.
+5. Save the status. If unavailable, record the date and check the [official announcement](https://openai.com/index/introducing-businesses-chatgpt/) again later.
+6. Don't pay a third party promising guaranteed inclusion or ranking.
+
+### Other AI answers: what can you do?
+
+| Experience | Practical route | What you can't guarantee |
+|---|---|---|
+| Google AI features | indexed useful pages, Business Profile, Merchant Center if selling | inclusion |
+| Gemini | accurate Google data and helpful public pages; Merchant listings where supported | local ranking |
+| Microsoft Copilot | Bing Webmaster Tools, Bing Places, crawlable pages, AI Performance | chosen citation |
+| ChatGPT | eligible Business Hub, crawlable accurate pages, independent mentions | claim approval or recommendation |
+| Perplexity | crawlable pages and credible mentions; Merchant Program only if current eligibility fits (reports require US sales/shipping) | listing or citation |
+| Claude and others | accurate crawlable pages and trusted sources | no universal registration route |
+
+### Fifteen-minute weekly routine
+
+- [ ] Check unexpected edits and holiday hours
+- [ ] Add one real photo
+- [ ] Reply to every review in your own words
+- [ ] Answer one repeated question on the website
+- [ ] Test one call and directions
+- [ ] Log one complaint pattern
+
+### AI-answer baseline
+
+Ask five fixed questions, three runs each, in current tools you use. Log `date, tool, country, question, mentioned?, facts correct?, sources`. Fix wrong public facts first. A small sample isn't a ranking.
+
+### If it goes wrong
+
+| Problem | Do |
+|---|---|
+| Profile owned by another person | request access through the platform; don't duplicate |
+| Duplicate | claim/verify ownership, then report or merge officially |
+| Suspended | read exact policy, correct it, appeal with evidence |
+| Video rejected | show missing location/existence/management proof |
+| Bing imports wrong details | fix source, resync, inspect again |
+| AI gives wrong phone | correct your site/listings, then the cited source |
+
+### Proof to save
+
+- [ ] Eligibility decision
+- [ ] Fact sheet and listing tracker
+- [ ] Google and Bing status, private data hidden
+- [ ] ChatGPT: approved, pending, unavailable or not eligible, with date
+- [ ] Three honest review requests sent only to real customers
+- [ ] 15-row AI baseline and one corrected fact
+
 ## 🏋️ Exercises
 
 ### Exercise 10.1

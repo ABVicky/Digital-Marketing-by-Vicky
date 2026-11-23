@@ -260,6 +260,69 @@ Four of five didn't see the date in time. No A/B test is needed to justify makin
 
 > 💡 Ask developers and designers to *watch* one session. Five minutes of a confused customer changes more minds than a long report.
 
+## 🛠️ Practical Lab: Build, Watch and Fix a Landing Page
+
+**You will finish with:** one live page, five observed tests and a second version. Time: 5 hours.
+
+### Tools
+
+| Job | Tool | Open |
+|---|---|---|
+| Build | WordPress editor, Shopify page, Carrd or HTML | your platform |
+| Wireframe | Figma or paper | [figma.com](https://www.figma.com/) |
+| Form | platform form, Tally or Google Forms | [tally.so](https://tally.so/) |
+| Watch behaviour | Microsoft Clarity | [clarity.microsoft.com](https://clarity.microsoft.com/) |
+| Speed | PageSpeed Insights | [pagespeed.web.dev](https://pagespeed.web.dev/) |
+| Contrast | WebAIM checker | [webaim.org](https://webaim.org/resources/contrastchecker/) |
+
+### Step by step
+
+1. Write the source sentence: *"They arrive after clicking ______."*
+2. On paper, draw nine boxes: promise, proof, what, for whom, how, price, worries, host, action.
+3. Write text first. Use the proof bank; leave `NEEDS PROOF` instead of inventing.
+4. Build mobile first. Make one main button, repeated after proof and at the end.
+5. Set the button to a booking page, checkout or form. Avoid `#` links.
+6. Create a thank-you page: confirmation, next step, response time and support.
+7. Add a WhatsApp button if people need help:
+
+```text
+https://wa.me/91XXXXXXXXXX?text=Hi%2C%20I%20have%20a%20question%20about%20the%20beginner%20class
+```
+
+Replace the X digits with your public business number. Use country code and digits only.
+
+8. Test the form with valid, invalid and repeated entries.
+9. Compress the main image, add width, height and alt text.
+10. Run PageSpeed on mobile. Fix the largest image and one unneeded script.
+
+### Set up Microsoft Clarity safely
+
+1. Create a project and add the site.
+2. Install through its supported integration or GTM, following consent rules.
+3. Set masking before collecting; never record payment or private fields.
+4. After 50 relevant sessions, filter **Rage clicks** and **Quick backs**. Watch ten with one question in mind.
+5. Write what happened, not what you imagine the person felt.
+
+### The five-person test
+
+Give one task, stay silent and time it. Record `found price, found date, completed, hesitation, quote`. Fix anything that stops two people. Test again with two new people.
+
+### If it goes wrong
+
+| Symptom | Likely cause | Try |
+|---|---|---|
+| Many visits, no scroll | mismatch or unclear first screen | change promise and image |
+| Scrolls, no action | doubt or hidden button | proof, price, repeated action |
+| Form starts, no submit | too many fields/errors | shorten, show errors clearly |
+| Desktop good, phone poor | layout, keyboard, speed | test on two real phones |
+
+### Proof to save
+
+- [ ] Wireframe and live URL
+- [ ] Form-test log
+- [ ] Five-person table
+- [ ] Before/after screenshots and the reason for each change
+
 ## 🏋️ Exercises
 
 ### Exercise 5.1: Write the corporate gifting first screen

@@ -289,6 +289,80 @@ print(query_type("is stoneware microwave safe"))
 
 Use it as a first sort, then check samples. Rules miss meaning.
 
+## 🛠️ Practical Lab: Register Search Tools and Improve One Page
+
+**You will finish with:** a verified site, a 30-query map and one improved page. Time: 6 hours.
+
+### Tools and where to register
+
+| Tool | Use | Open | Cost to begin |
+|---|---|---|---|
+| Google Search Console | Google queries, indexing, sitemaps | [search.google.com/search-console](https://search.google.com/search-console/) | none |
+| Bing Webmaster Tools | Bing data, keywords, AI Performance | [bing.com/webmasters](https://www.bing.com/webmasters/) | none |
+| Keyword Planner | ad keyword ideas and ranges | [Google Ads tools](https://ads.google.com/home/tools/keyword-planner/) | Google Ads account needed |
+| Google Trends | comparison and season | [trends.google.com](https://trends.google.com/) | none |
+| Ahrefs Webmaster Tools | own-site checks | [ahrefs.com/webmaster-tools](https://ahrefs.com/webmaster-tools) | limited access |
+| Screaming Frog | crawl your site | [screamingfrog.co.uk](https://www.screamingfrog.co.uk/seo-spider/) | limited version |
+
+### Verify Search Console
+
+1. Sign in and choose **Add property**.
+2. **Domain property** covers protocols and subdomains and needs a DNS record. **URL-prefix** covers one exact prefix and offers more methods.
+3. Domain: copy the TXT record → DNS host → add TXT → wait → **Verify**. Don't delete the record later.
+4. URL-prefix: use the HTML file, HTML tag, GA4 or GTM method shown.
+5. Open **Sitemaps**, enter `sitemap.xml` and submit.
+6. Open **URL inspection**, paste your page, read Google-selected canonical, then **Test live URL**.
+7. If it's genuinely ready, choose **Request indexing**. This is a request, not a guarantee.
+8. Add a second owner. Give agencies limited access.
+
+### Set up Bing Webmaster Tools
+
+1. Sign in, then import verified sites from Search Console or add manually.
+2. Check the sitemap.
+3. Open **Search Performance**, **Site Scan**, **Backlinks** and **Keyword Research**.
+4. If available, open **AI Performance**. It reports citations in supported Microsoft AI experiences, not all assistants and not clicks.
+
+### Build the keyword map
+
+1. Put 20 exact customer phrases in `Keywords`.
+2. Type each slowly in Google and record useful autocomplete ideas.
+3. Search Console: **Performance → Search results → Queries**, last three months. Add queries with impressions.
+4. Keyword Planner: **Discover new keywords**. Use ranges as direction, not exact truth.
+5. Search five groups and record result types.
+6. Fill: `Group, Example queries, Intent, Best page, Business value, Evidence we own, Priority`.
+7. Choose **one** page for each group.
+
+### Improve one page in 60 minutes
+
+| Minutes | Task |
+|---|---|
+| 10 | confirm intent and compare five results |
+| 10 | write the 40–60 word answer |
+| 10 | add original photo, number, table or example |
+| 10 | improve title, H1 and image alt text |
+| 10 | add two links in and two useful links out |
+| 10 | preview on phone, publish, inspect |
+
+### Find easy opportunities
+
+In Search Console, compare the last 28 days with the previous period. Filter **impressions high, position roughly 5–20**. Choose only queries relevant to your customer, then improve the answer and links. Position is an average, so check page and query together.
+
+### If it goes wrong
+
+| Symptom | Check |
+|---|---|
+| DNS won't verify | correct host/root, full TXT value, propagation |
+| Sitemap can't be fetched | exact URL, status 200, XML, robots |
+| Discovered, not indexed | links, uniqueness, value, server capacity |
+| Wrong page ranks | intent, canonical, internal links, overlapping content |
+
+### Proof to save
+
+- [ ] Verified property and submitted sitemap, private data hidden
+- [ ] 30-query map with one page per group
+- [ ] Before/after page with change date
+- [ ] Baseline clicks, impressions and queries, plus a 28-day follow-up date
+
 ## 🏋️ Exercises
 
 ### Exercise 8.1

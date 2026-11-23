@@ -187,6 +187,72 @@ Ask "How did you hear about us?" in the booking form. Group recommendations ofte
 
 A post that earns real questions is a candidate for an ad. Boosting is the quick version, while Ads Manager offers more control (Module 19). Never boost simply because a button offers it.
 
+## 🛠️ Practical Lab: Build a Facebook Page, Help in Groups and Run an Event
+
+**You will finish with:** a complete Page, ten useful contributions and one event. Time: 4 hours plus a week of participation.
+
+### Register
+
+| Asset | Open | You need |
+|---|---|---|
+| Page | [facebook.com/pages/create](https://www.facebook.com/pages/create) | personal profile and business facts |
+| Business portfolio | [business.facebook.com](https://business.facebook.com/) | secure business email |
+| Group | Facebook → Groups → Create | clear reason for members to talk |
+| Event | Page → Events → Create event | place/date/price/capacity |
+
+### Page, step by step
+
+1. Create Page with the real business name, precise category and short description.
+2. Add profile photo, cover, phone, website, location/hours or service area, WhatsApp if monitored, and action button.
+3. Choose **New Pages/Professional dashboard** tools available to you.
+4. Add two trusted people by role; don't share your profile password.
+5. In Business portfolio, add the Page through **Accounts → Pages** or current equivalent. Confirm ownership.
+6. Write a pinned post: who you help, how to buy/book, price range, proof and support hours.
+7. Configure inbox response, saved replies and a human handoff.
+8. View the Page in a private window and on mobile.
+
+### Find groups the right way
+
+1. Search `your city + parents`, `hobby + city`, `buy gifts`, or your profession.
+2. Read rules, recent posts, moderator activity and whether businesses may participate.
+3. Join three. Spend the first week helping, not posting.
+4. Keep a log: `question, full answer, connection disclosed, rule checked, result`.
+5. Link only when rules allow and the page genuinely adds detail.
+
+### Create your own group only if...
+
+You can name 30 people who would help **each other**. Use entry questions, a welcome post, rules, a weekly member prompt, moderation and a backup admin. If your plan is only announcements, use email instead.
+
+### Event, step by step
+
+1. Page → Events → Create. Select in-person or online.
+2. Add image, exact date/time zone, location/access, price, capacity, cancellation and booking link.
+3. Put one clear thing to bring and one question people ask.
+4. Publish; share to your own Page and partner places with permission.
+5. Reply to Interested people without treating interest as a booking.
+6. Use confirmed booking sheet, reminder and waitlist.
+7. After event: thank, ask for honest feedback, share only permitted photos, record show-up rate.
+
+### Practice task
+
+Find three genuine questions about beginner activities. Answer each so fully that the person could act without clicking. Disclose your connection if your work is mentioned.
+
+### If it goes wrong
+
+| Problem | Fix |
+|---|---|
+| Page name rejected | match real business, proof and policy |
+| Group removes post | read rule, apologize if needed; don't argue by reposting |
+| Event interest but no bookings | move action, price and date to first lines |
+| Fake support comments | hide/report, pin official contact |
+
+### Proof to save
+
+- [ ] Complete Page and secured roles
+- [ ] Ten group contributions with rules checked
+- [ ] Event page and attendance calculation
+- [ ] Three customer questions learned
+
 ## 🏋️ Exercises
 
 ### Exercise 13.1: Group answer

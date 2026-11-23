@@ -293,6 +293,88 @@ print([round(100 * x, 2) for x in difference_interval(60, 5000, 75, 5000)])
 
 Result: an estimated **+0.30 percentage points**, with an approximate interval from **−0.15 to +0.75**. The result includes both a possible harm and a useful gain. It's inconclusive, even though 75 is greater than 60. This normal approximation is for learning; use a suitable statistical method for real decisions.
 
+## 🛠️ Practical Lab: Find a Leak, Fix It and Plan a Test
+
+**You will finish with:** a funnel audit, one shipped fix and one honest test plan. Time: 6 hours.
+
+### Tools
+
+| Job | Tool | Open |
+|---|---|---|
+| Funnel | GA4 Explore | Module 20 |
+| Heatmaps/recordings | Microsoft Clarity | [clarity.microsoft.com](https://clarity.microsoft.com/) |
+| Alternative | Hotjar | [hotjar.com](https://www.hotjar.com/) |
+| A/B testing | VWO, or your platform's testing feature | [vwo.com](https://vwo.com/) |
+| Open-source option | GrowthBook | [growthbook.io](https://www.growthbook.io/) |
+| Sample size | Evan Miller calculator | [evanmiller.org](https://www.evanmiller.org/ab-testing/sample-size.html) |
+| Survey | Google Forms, Tally | [tally.so](https://tally.so/) |
+
+### Day 1: find the leak
+
+1. GA4 → Explore → **Funnel exploration**: landing → product → cart → checkout → purchase.
+2. Break down by device, then new/returning.
+3. Write the biggest drop *and* how many people it affects.
+4. No data? Use Mitti's numbers in this module.
+
+### Day 2: watch
+
+1. Clarity → Recordings → filter: mobile, checkout page, rage clicks or quick back.
+2. Watch ten. Note time, page, behaviour and possible cause.
+3. Open the heatmap for that page. Do people reach the button?
+4. Buy on two phones yourself: UPI success, UPI cancel, wrong PIN code, slow network.
+
+### Day 3: ask
+
+Add one question after purchase:
+
+```text
+What nearly stopped you from ordering today?
+```
+
+And one for visitors who don't act, shown gently and once:
+
+```text
+What information were you looking for?
+```
+
+### Day 4: fix
+
+Ship the obvious repair: broken payment retry, hidden date, unreadable error. Record date, screenshot, owner and rollback.
+
+### Day 5: plan a test
+
+1. Hypothesis with evidence.
+2. Open the sample-size calculator. Enter baseline 1.2% and a 20% **relative** effect. Compare with your monthly visitors.
+3. If it needs many months, choose a bigger change, a usability test or an earlier metric with care.
+4. If it's feasible: one change, 50/50 split, primary metric, guardrails and fixed end date.
+5. QA both versions on three devices before starting.
+6. Don't edit or stop early because of a chart, unless something is broken or harmful.
+
+### Run it in a tool
+
+1. Create an account in the testing tool and install its script once, respecting consent.
+2. Create test → enter URL → make variant B in the editor or code.
+3. Goal = confirmed purchase/booking event.
+4. Audience = the group in your hypothesis. Traffic 50/50.
+5. Preview both versions, check flicker and speed.
+6. Start; check only for errors until the planned end.
+
+### If it goes wrong
+
+| Problem | Meaning |
+|---|---|
+| 50/50 becomes 60/40 | sample-ratio problem; investigate before trusting |
+| Variant slow | script flicker; fix or stop |
+| Two tests on one page | they may interfere; run one |
+| No clear winner | report the interval and what you learned |
+
+### Proof to save
+
+- [ ] Funnel with counts
+- [ ] Ten recording notes with private data masked
+- [ ] Shipped fix with before/after
+- [ ] Test plan with sample calculation, even if you decide not to run it
+
 ## 🏋️ Exercises
 
 ### Exercise 22.1

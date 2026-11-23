@@ -252,6 +252,62 @@ If two of five misunderstand the category, don't buy traffic yet.
 
 > 💡 Put the best customer quotes where the team writes copy. A line heard on Monday can become a headline on Tuesday.
 
+## 🛠️ Practical Lab: Run Five Interviews and Mine 50 Reviews
+
+**You will finish with:** real quotes, three themes and a tested positioning line. Time: 6–8 hours over a week.
+
+### Tools
+
+| Job | Tool | Open |
+|---|---|---|
+| Invite | email, WhatsApp, a poster with permission | – |
+| Book | Google Calendar appointment page | [calendar.google.com](https://calendar.google.com/) |
+| Screener | Google Forms | [forms.google.com](https://forms.google.com/) |
+| Call | Google Meet, phone or in person | [meet.google.com](https://meet.google.com/) |
+| Notes | Google Sheets | [sheets.google.com](https://sheets.google.com/) |
+| Search language | Google autocomplete, AnswerThePublic | [answerthepublic.com](https://answerthepublic.com/) |
+| Conversations | relevant Reddit, Quora or Facebook groups | follow each community's rules |
+
+### Where to find people
+
+1. Recent customers from your own records, contacted with a proper basis.
+2. People in your building, class, office or hobby group.
+3. Customers at a partner shop, with the owner's permission.
+4. A community post that says clearly you want to learn, not sell.
+
+### Step by step
+
+1. Make a **three-question screener**: Did you buy or look for `{{category}}` in the last 90 days? What did you choose? Can we speak for 20 minutes?
+2. Choose two recent buyers, one who left, one who chose a rival and one who has never heard of you.
+3. Send the Appendix B interview invitation. Offer the same thank-you to everyone.
+4. Ask permission before recording. If they say no, take notes.
+5. Use the eight-question script. Speak less than a quarter of the time.
+6. Within an hour, add 5–10 exact quotes to the sheet: `Person ID, Quote, Type, Situation`. Use P1, P2, not names.
+7. **Mine 50 reviews:** read your own and competitors' reviews on pages you may access. Copy short anonymous phrases by hand into `Trigger, Worry, Praise, Complaint`. Don't scrape.
+8. Sort by theme. Count people, not repeated quotes.
+9. Write three positioning lines. Show them to five other people for five seconds each.
+
+### Practice task for Mitti
+
+Interview three people who bought a gift recently. Find their trigger, their rejected alternative and what nearly stopped them. Then rewrite Mitti's first headline using their words.
+
+### If it goes wrong
+
+| Problem | Try |
+|---|---|
+| Nobody replies | shorten the request, offer two exact times, ask through someone they trust |
+| Answers are vague | "What happened next?" or "Can you show me?" |
+| Everyone praises you | ask about the moment before they found you |
+| You have five different themes | narrow to one situation and interview three more |
+
+### Proof to save
+
+- [ ] Five anonymous interview rows and consent notes
+- [ ] 50 coded phrases
+- [ ] Theme table with people counted
+- [ ] Before/after positioning and what five strangers understood
+- [ ] Recordings deleted on the date you promised
+
 ## 🏋️ Exercises
 
 ### Exercise 2.1: Fix three questions

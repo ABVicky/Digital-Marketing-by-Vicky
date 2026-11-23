@@ -156,7 +156,7 @@ Make material connections obvious at the start or where people see the endorseme
 | bait and switch | advertise what is available |
 | disguised ad | clear label |
 
-India has specific consumer-protection guidance on dark patterns. Review the [Department of Consumer Affairs](https://consumeraffairs.nic.in/).
+India has specific consumer-protection guidance on dark patterns. Review the [Department of Consumer Affairs](https://consumeraffairs.gov.in/).
 
 ## 7. Responsible Targeting
 
@@ -280,6 +280,90 @@ Don't promise a universal notification time here: laws and facts differ. The les
 ## 15. Ethics Scorecard
 
 Score 0–2: truthful, necessary, expected, reversible, accessible, fair, secure, accountable. Anything scoring zero needs a named person, a fix and a review. A campaign with a high conversion rate doesn't average away a privacy failure.
+
+## 🛠️ Practical Lab: Make a Small Business Privacy- and Claim-Ready
+
+**You will finish with:** a data map, tested consent, a claims file and an incident card. Time: 4 hours. This is education, not legal advice.
+
+### Tools and official places
+
+| Job | Tool | Open |
+|---|---|---|
+| DPDP rules | official PDF | [PIB document](https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf) |
+| Advertising code | ASCI | [ascionline.in](https://www.ascionline.in/) |
+| Consumer guidance | Department of Consumer Affairs | [consumeraffairs.nic.in](https://consumeraffairs.gov.in/) |
+| Commercial SMS/calls (India) | TRAI | [trai.gov.in](https://www.trai.gov.in/) |
+| Trademark search (India) | IP India | [ipindia.gov.in](https://ipindia.gov.in/) |
+| Consent tool | a certified consent platform or your site platform's tool | compare first |
+| Check tags | browser Developer Tools, Tag Assistant | Module 21 |
+| Accessibility | WAVE | [wave.webaim.org](https://wave.webaim.org/) |
+
+### Step 1: data map (45 minutes)
+
+1. List every form, app, sheet and inbox holding personal data.
+2. Fill: `data, purpose, source, notice/consent, tool, who can see, keep until, how to delete`.
+3. Highlight anything with no purpose. Plan its removal.
+4. Export lists nobody needs? Delete safely after checking legal duties.
+
+### Step 2: fix one form (30 minutes)
+
+Remove one unnecessary field. Write purpose and frequency, separate optional consent (unticked) and link the notice. Submit as a tester, then withdraw.
+
+### Step 3: test your tags (45 minutes)
+
+1. Open a private window → Developer Tools → **Network** → filter `collect`, `facebook`, `clarity`.
+2. Load the page **before** choosing. Note what fires.
+3. Reject → reload → note. Accept → note. Change choice → note.
+4. Compare with what your notice says. Log defects for the developer.
+
+### Step 4: claims file (45 minutes)
+
+```text
+Claim ID | exact words | where used | evidence file/date | approved by | review date
+C01 | 0 of 10 boxes broke in our drop test | gift page | test_2026-10.xlsx | Meera | 2027-04
+```
+
+Check your last ten posts and ads. Remove or rewrite each claim without evidence.
+
+### Step 5: influencer and AI disclosure (20 minutes)
+
+1. List gifts, payments, employees and relatives who post.
+2. Agree on clear disclosure wording and placement.
+3. List AI-made images/voices/text used in ads; decide disclosure using current ASCI and platform rules.
+
+### Step 6: incident card (20 minutes)
+
+```text
+Stop: who can pause sends/tags/ads?
+Tell: privacy owner {{name/phone}} and backup
+Keep: screenshots, time, list of systems (no forwarding of personal data)
+Ask: who and what is affected?
+Advice: lawyer/adviser contact
+Notify: as law requires
+Repair and review date:
+```
+
+Run a 15-minute practice: *"An email showed 300 addresses."*
+
+### Commercial SMS in India
+
+Business SMS normally goes through telecom operators' **DLT** registration (entity, header, template and consent rules). Register through your operator or provider, use approved templates and check TRAI's current rules.
+
+### If it goes wrong
+
+| Problem | Do |
+|---|---|
+| Tags fire before choice | pause them, fix consent order, retest |
+| Can't find a person's data | improve map; search by system |
+| Vendor won't explain data use | don't send data |
+| Bought list found | stop using it, get advice, document |
+
+### Proof to save
+
+- [ ] Data map and one removed field
+- [ ] Four-state tag test
+- [ ] Ten claims checked
+- [ ] Incident card with practice date
 
 ## 🏋️ Exercises
 

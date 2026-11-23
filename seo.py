@@ -75,6 +75,8 @@ def fix_url(url: str, links: dict) -> str:
     if re.match(r"^(https?:|mailto:|#)", url):
         return html.escape(url)
     target, _, anchor = url.partition("#")
+    if target == "LICENSE":
+        return REPO + "/blob/main/LICENSE"
     name = target.split("/")[-1]
     if name.endswith(".md"):
         page = links.get(name)
@@ -451,7 +453,7 @@ def build():
                        for n, it in enumerate(items)]}}, PERSON, crumbs_ld(None, None))
     page = PAGE.format(
         title=f"All Chapters | {BRAND}",
-        desc="All 28 modules and 7 appendices of Digital Marketing by Vicky, from customer research and SEO to ads, analytics, AI and careers.",
+        desc="All 28 modules and 8 appendices of Digital Marketing by Vicky, from customer research and SEO to ads, analytics, AI and careers.",
         url=SITE + "learn/", site=SITE, course=COURSE, reader="../index.html", repo=REPO, label="All chapters",
         toc="", times="", body=f"<h1>Digital Marketing by Vicky: all chapters</h1><p>Start with Stage 1, or go straight to the topic you need.</p>{hub}",
         extra=f"<h2>Questions answered in this guide</h2><ul>{qhub}</ul>", prev="", next="", css=CSS, jsonld=idx_json)

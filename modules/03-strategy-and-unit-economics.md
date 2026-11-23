@@ -266,6 +266,75 @@ Review the "not now" list each quarter. Saying no isn't forgetting.
 
 > 🔑 A strategy that never changes isn't being tested. One that changes every week isn't being followed.
 
+## 🛠️ Practical Lab: Make a Real Profit Model and Plan
+
+**You will finish with:** an editable profit sheet, a loss limit and a one-page plan. Time: 3 hours.
+
+### Tools and where to get the numbers
+
+| Number | Find it in |
+|---|---|
+| Orders, price, discounts, refunds | shop admin or invoices |
+| Payment fees | gateway settlement report |
+| Shipping and returns | courier invoices |
+| Product cost | purchase bills, labour and waste log |
+| Ad spend | Google Ads, Meta Ads Manager |
+| Working sheet | [Google Sheets](https://sheets.google.com/) |
+| Plan | Google Docs, Notion or paper |
+
+### Step by step: the sheet
+
+1. Make three tabs: `Inputs`, `Model`, `Decision`.
+2. In `Inputs`, list `Net price, Product, Packing, Shipping, Payment fee, Expected return, Required profit`.
+3. In `Model` use:
+
+```text
+Contribution        = Net price - Product - Packing - Shipping - Payment fee - Expected return
+Break-even CPA      = Contribution
+Target CPA          = Contribution - Required profit
+Break-even ROAS     = Net price / Contribution
+Orders to repay test = Test spend / Contribution
+```
+
+4. Test it with Mitti: price 1800, product 810, all delivery and fees 180, required profit 250. Expect 810, 810, 560 and 2.22.
+5. Add low, base and high columns. Change CPC, page rate and return rate.
+6. Lock formulas (**Data → Protect sheets and ranges**) so a typo can't break them.
+7. In `Decision`, write the loss limit in rupees and the date you will stop or review.
+
+### Step by step: use real numbers
+
+1. Export the last 30 orders.
+2. Remove tests, cancelled orders and tax collected for the government.
+3. Calculate average contribution and also the worst 25%.
+4. Compare total ad spend with **all new customers**, not only platform-claimed ones.
+5. Mark any number that is a guess in yellow. Replace one guess each week.
+
+### Practice task
+
+A tutor sells a ₹6,000 course. Materials cost ₹400, teaching ₹2,800, payment ₹120 and expected refunds ₹180. Required profit is ₹1,000. Build the model.
+
+<details>
+<summary>View Answer</summary>
+
+Contribution ₹2,500; break-even CPA ₹2,500; target CPA ₹1,500; break-even ROAS 2.4.
+
+</details>
+
+### If it goes wrong
+
+| Problem | Meaning |
+|---|---|
+| Target CPA is negative | required profit is higher than contribution; fix price, cost or offer |
+| Model disagrees with bank | check refunds, settlement dates and tax |
+| Owner doesn't know costs | start with a range and weigh, time and record the next ten orders |
+
+### Proof to save
+
+- [ ] Model with inputs separated from formulas
+- [ ] 30-order check
+- [ ] One-page plan including "What we will NOT do"
+- [ ] Signed or written loss limit
+
 ## 🏋️ Exercises
 
 ### Exercise 3.1

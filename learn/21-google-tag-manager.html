@@ -62,7 +62,7 @@ details{border:1px solid var(--line);border-radius:10px;padding:8px 12px}
 <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">All chapters</a> › Google Tag Manager</nav>
 <article>
 <div class="cta"><span>📖 This is the text version. The <strong>interactive reader</strong> adds diagrams, search, progress tracking and Non-Tech / Tech tracks.</span><a class="btn" href="../index.html#/modules/21-google-tag-manager.md">Read interactively</a><a class="btn ghost" href="https://github.com/ABVicky/Digital-Marketing-by-Vicky">⭐ Star on GitHub</a></div>
-<details class="toc"><summary>On this page</summary><ul><li><a href="#learning-objectives">🎯 Learning Objectives</a></li><li><a href="#1-what-it-is">1. What It Is</a></li><li><a href="#2-before-you-install">2. Before You Install</a></li><li><a href="#3-install">3. Install</a></li><li><a href="#4-first-tag-ga4">4. First Tag: GA4</a></li><li><a href="#5-second-tag-a-click">5. Second Tag: A Click</a></li><li><a href="#6-third-tag-a-form">6. Third Tag: A Form</a></li><li><a href="#7-fourth-tag-a-purchase">7. Fourth Tag: A Purchase</a></li><li><a href="#8-variables-you-will-use">8. Variables You Will Use</a></li><li><a href="#9-test-like-you-mean-it">9. Test Like You Mean It</a></li><li><a href="#10-publish-with-versions">10. Publish With Versions</a></li><li><a href="#11-naming-and-governance">11. Naming and Governance</a></li><li><a href="#12-consent-mode-briefly">12. Consent Mode, Briefly</a></li><li><a href="#13-server-side-tagging">13. Server-Side Tagging</a></li><li><a href="#14-monthly-audit">14. Monthly Audit</a></li><li><a href="#exercises">🏋️ Exercises</a></li><li><a href="#common-questions">❓ Common Questions</a></li><li><a href="#key-takeaways">🔑 Key Takeaways</a></li><li><a href="#quick-quiz">✅ Quick Quiz</a></li></ul></details>
+<details class="toc"><summary>On this page</summary><ul><li><a href="#learning-objectives">🎯 Learning Objectives</a></li><li><a href="#1-what-it-is">1. What It Is</a></li><li><a href="#2-before-you-install">2. Before You Install</a></li><li><a href="#3-install">3. Install</a></li><li><a href="#4-first-tag-ga4">4. First Tag: GA4</a></li><li><a href="#5-second-tag-a-click">5. Second Tag: A Click</a></li><li><a href="#6-third-tag-a-form">6. Third Tag: A Form</a></li><li><a href="#7-fourth-tag-a-purchase">7. Fourth Tag: A Purchase</a></li><li><a href="#8-variables-you-will-use">8. Variables You Will Use</a></li><li><a href="#9-test-like-you-mean-it">9. Test Like You Mean It</a></li><li><a href="#10-publish-with-versions">10. Publish With Versions</a></li><li><a href="#11-naming-and-governance">11. Naming and Governance</a></li><li><a href="#12-consent-mode-briefly">12. Consent Mode, Briefly</a></li><li><a href="#13-server-side-tagging">13. Server-Side Tagging</a></li><li><a href="#14-monthly-audit">14. Monthly Audit</a></li><li><a href="#practical-lab-install-gtm-and-track-a-real-form">🛠️ Practical Lab: Install GTM and Track a Real Form</a></li><li><a href="#exercises">🏋️ Exercises</a></li><li><a href="#common-questions">❓ Common Questions</a></li><li><a href="#key-takeaways">🔑 Key Takeaways</a></li><li><a href="#quick-quiz">✅ Quick Quiz</a></li></ul></details>
 <h1>🏷️ Google Tag Manager</h1><p class="byline">Module 21 · By <a rel="author" href="https://abvicky.in">Vicky Prasad Mahato</a> · Updated <time datetime="2026-11-23">2026-11-23</time></p>
 <blockquote><p>🟣 Stage 4 · Measure &amp; Scale · ⏱️ ~5 hours</p></blockquote>
 <p>Every time Mitti wanted to measure a button, Meera messaged the developer and waited a week. Then they installed Tag Manager, and now four people can add tags. Six months later there are 31 tags, nobody knows what half of them do, and purchases are counted twice.</p>
@@ -165,6 +165,47 @@ gtag(&quot;consent&quot;, &quot;default&quot;, {
 <h2 id="14-monthly-audit">14. Monthly Audit</h2>
 <ul><li>[ ] Remove tags for ended campaigns</li><li>[ ] Check duplicates and firing counts</li><li>[ ] Compare purchases with shop orders</li><li>[ ] Review users and permissions</li><li>[ ] Test consent states</li><li>[ ] Check page speed effect</li><li>[ ] Export a container backup</li></ul>
 <blockquote><p>👔 <strong>Owner's three questions:</strong> Who can publish? What does each tag cost us in speed and privacy? When did someone last compare GA4 purchases with real orders?</p></blockquote>
+<h2 id="practical-lab-install-gtm-and-track-a-real-form">🛠️ Practical Lab: Install GTM and Track a Real Form</h2>
+<p><strong>You will finish with:</strong> a container with three tested tags, a version history and a rollback. Time: 5 hours.</p>
+<h3 id="tools">Tools</h3>
+<div class="table-wrap"><table><thead><tr><th>Job</th><th>Tool</th><th>Open</th></tr></thead><tbody><tr><td>Tag management</td><td>Google Tag Manager</td><td><a href="https://tagmanager.google.com/">tagmanager.google.com</a></td></tr><tr><td>Test</td><td>GTM Preview (Tag Assistant)</td><td><a href="https://tagassistant.google.com/">tagassistant.google.com</a></td></tr><tr><td>Confirm</td><td>GA4 DebugView</td><td>GA4 → Admin → DebugView</td></tr><tr><td>Inspect</td><td>Browser Developer Tools → Network</td><td>F12</td></tr><tr><td>WordPress install</td><td>official Google Site Kit, or a trusted GTM plugin</td><td><a href="https://sitekit.withgoogle.com/">sitekit.withgoogle.com</a></td></tr></tbody></table></div>
+<h3 id="create-and-install">Create and install</h3>
+<ol><li>Tag Manager → <strong>Create account</strong> → company, country → container name → <strong>Web</strong>.</li><li>Copy the two snippets.</li><li>Install in <strong>one</strong> way only:<br>• Static HTML: first snippet high in <code>&lt;head&gt;</code>, second just after <code>&lt;body&gt;</code>.<br>• WordPress: Site Kit or a trusted plugin; enter the container ID.<br>• Shopify: use the platform's supported customer-events or app route, because checkout has its own rules.</li><li><strong>Admin → Container settings → Enable consent overview.</strong></li><li><strong>Admin → User management:</strong> two owners; others Read/Edit/Approve/Publish as needed.</li><li>Click <strong>Preview</strong>, enter your URL, and confirm the container loads once.</li></ol>
+<h3 id="tag-1-google-tag-for-ga4">Tag 1: Google tag for GA4</h3>
+<ol><li><strong>Variables → New → Constant</strong> → name <code>CONST - GA4 ID</code> → value <code>G-...</code>.</li><li><strong>Tags → New → Google tag</strong> → Tag ID <code>{{CONST - GA4 ID}}</code>.</li><li>Trigger <strong>Initialization - All Pages</strong>. Check consent settings.</li><li>Save as <code>GA4 - Google tag - All pages</code>. Preview → confirm it fires once.</li></ol>
+<h3 id="tag-2-whatsapp-click">Tag 2: WhatsApp click</h3>
+<ol><li><strong>Variables → Configure</strong> → tick Click URL, Click Text.</li><li><strong>Triggers → New → Click - Just Links</strong> → Some Link Clicks → <code>Click URL starts with https://wa.me/</code>.</li><li><strong>Tags → New → GA4 Event</strong> → event name <code>whatsapp_click</code> → add parameter <code>page_section</code> if you have one.</li><li>Preview: click once, then a different link. Only the first should fire.</li></ol>
+<h3 id="tag-3-confirmed-form">Tag 3: confirmed form</h3>
+<p>Ask the developer, or add to your own success code:</p>
+<pre><code>&lt;script&gt;
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({ event: &quot;form_success&quot;, form_id: &quot;contact_main&quot; });
+&lt;/script&gt;</code></pre>
+<ol><li><strong>Variables → New → Data Layer Variable</strong> → name <code>form_id</code>.</li><li><strong>Triggers → New → Custom Event</strong> → event name <code>form_success</code>.</li><li><strong>Tags → GA4 Event</strong> → <code>generate_lead</code> (a GA4 recommended event) → parameter <code>form_id</code>.</li><li>Preview: invalid submit must <strong>not</strong> fire; valid submit fires once; refresh must not repeat.</li></ol>
+<h3 id="practice-page-you-can-copy">Practice page you can copy</h3>
+<p>Save as <code>test.html</code>, replace <code>GTM-XXXX</code>, and open it through a local server or GitHub Pages:</p>
+<pre><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;title&gt;GTM practice&lt;/title&gt;
+&lt;script&gt;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({&#x27;gtm.start&#x27;:new Date().getTime(),event:&#x27;gtm.js&#x27;});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src=&#x27;https://www.googletagmanager.com/gtm.js?id=&#x27;+i;f.parentNode.insertBefore(j,f);})(window,document,&#x27;script&#x27;,&#x27;dataLayer&#x27;,&#x27;GTM-XXXX&#x27;);&lt;/script&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;a href=&quot;https://wa.me/910000000000&quot;&gt;WhatsApp&lt;/a&gt;
+&lt;form id=&quot;f&quot;&gt;&lt;input name=&quot;email&quot; type=&quot;email&quot; required&gt;&lt;button&gt;Send&lt;/button&gt;&lt;/form&gt;
+&lt;p id=&quot;ok&quot; hidden&gt;Sent&lt;/p&gt;
+&lt;script&gt;
+document.getElementById(&#x27;f&#x27;).addEventListener(&#x27;submit&#x27;, function (e) {
+  e.preventDefault();
+  document.getElementById(&#x27;ok&#x27;).hidden = false;
+  window.dataLayer.push({ event: &#x27;form_success&#x27;, form_id: &#x27;practice&#x27; });
+});
+&lt;/script&gt;
+&lt;/body&gt;&lt;/html&gt;</code></pre>
+<p>This page doesn't send the email anywhere. Use the container's own current snippet if it differs, and configure consent before using GTM on a public site.</p>
+<h3 id="publish-and-roll-back">Publish and roll back</h3>
+<ol><li><strong>Submit</strong> → version name and description → Publish.</li><li>Check the live page in a private window and GA4 Realtime.</li><li><strong>Versions</strong> → open the earlier one → <strong>Publish</strong> to practise a rollback, then republish the good version.</li></ol>
+<h3 id="if-it-goes-wrong">If it goes wrong</h3>
+<div class="table-wrap"><table><thead><tr><th>Symptom</th><th>Check</th></tr></thead><tbody><tr><td>Preview won't connect</td><td>URL, ad blocker, container ID, security policy</td></tr><tr><td>Tag fired, GA4 empty</td><td>wrong ID, consent, filters, delay</td></tr><tr><td>Click trigger never fires</td><td>link opens by script; inspect Click URL</td></tr><tr><td>Form fires on error</td><td>trigger is the button, not success</td></tr><tr><td>Two page views</td><td>two installs</td></tr></tbody></table></div>
+<h3 id="proof-to-save">Proof to save</h3>
+<ul><li>[ ] Ten-row test sheet (valid, invalid, refresh, reject consent, mobile)</li><li>[ ] Exported container JSON (<strong>Admin → Export</strong>)</li><li>[ ] Two versions and one rollback screenshot</li><li>[ ] Naming and owner list</li></ul>
 <h2 id="exercises">🏋️ Exercises</h2>
 <h3 id="exercise-211-find-the-bug">Exercise 21.1: Find the bug</h3>
 <p>GA4 shows 288 purchases; the shop has 144. List likely causes in the order you would check.</p>

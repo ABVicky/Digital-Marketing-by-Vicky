@@ -219,6 +219,85 @@ Export insights weekly or use an approved API into a sheet with post ID, job, pi
 - Moderate with public rules.
 - Keep copies of your content and an email list outside the platform.
 
+## 🛠️ Practical Lab: Launch a Four-Week Instagram Sprint
+
+**You will finish with:** a professional profile, 12 posts and a decision. Time: 1 hour setup, then 5 hours a week.
+
+### Tools
+
+| Job | Tool |
+|---|---|
+| Profile, posting, insights | Instagram app, official store or [instagram.com](https://www.instagram.com/) |
+| Plan, inbox and assets | [Meta Business Suite](https://business.facebook.com/) |
+| Editing | VN, Edits, Canva |
+| Link | matching page with UTM; link-in-bio page only if needed |
+| Ads research | [Meta Ad Library](https://www.facebook.com/ads/library/) |
+
+### Create and connect
+
+1. Create the account with business email. Choose a readable name.
+2. Open **Settings → Account type and tools** or similar → **Switch to professional account**.
+3. Choose category and Business/Creator based on current features you need.
+4. Turn on two-factor authentication; save recovery codes.
+5. Edit name with a useful search phrase, add a specific bio, email, location if appropriate and matching link.
+6. In Account Center/Business Suite, connect the correct Facebook Page only if you need it.
+7. Add Highlights: Start here, Price, Proof, Classes/Delivery, Questions.
+8. Pin three posts: who/what, strongest proof, most common answer.
+
+### Publish a Reel
+
+1. Export a vertical video and tap **Create → Reel**.
+2. Add cover; check it in the profile grid.
+3. Write caption with the topic in the first line, useful detail and one action.
+4. Use a few specific hashtags within the current limit. Put real topic words in speech and on screen.
+5. Tag true location, collaborators and products only.
+6. Check audience, remix/comments and disclosure settings.
+7. Preview, publish, reply to useful questions and save the post URL.
+8. If **Trial Reel** appears, test a genuinely different opening with non-followers.
+
+### Publish a carousel
+
+1. Use 4:5 images in the correct order.
+2. Make slide 1 understandable alone.
+3. Add alt text: before posting, use advanced settings/accessibility; after posting, edit if available.
+4. Put one relevant link in bio or Story, not an unclickable long URL in the caption.
+
+### Stories and messages
+
+1. Post a question sticker from a real customer decision.
+2. Answer in Story, then save the best answers to a Highlight.
+3. Create saved replies for price, place, delivery and care.
+4. Set away message with honest hours.
+5. If using DM automation, trigger only on an expected keyword, offer a person and stop on request.
+
+### Twelve-post sprint
+
+| Week | Make | Change |
+|---|---|---|
+| 1 | 4 customer questions as Reels | baseline |
+| 2 | same 4 topics | new opening only |
+| 3 | best 2 as carousel + demo | format |
+| 4 | best topic + 2 proof posts | stronger next step |
+
+Use insights after the same age, such as seven days. Track `job, opening type, reach, non-follower reach, watch, saves, shares, profile visits, link visits, enquiries`.
+
+### If it goes wrong
+
+| Symptom | Check |
+|---|---|
+| Low reach | topic, opening, originality, account status |
+| Views, no follows | profile promise and consistency |
+| Saves, no visits | action and link |
+| Music unavailable | business rights, original audio |
+| Reused content warning | publish original work, read Account Status |
+
+### Proof to save
+
+- [ ] Before/after profile
+- [ ] 12 posts with job and opening
+- [ ] Insights sheet and business actions
+- [ ] Decision: repeat, improve and stop
+
 ## 🏋️ Exercises
 
 ### Exercise 12.1: Rebuild a bio

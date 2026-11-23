@@ -230,6 +230,77 @@ This fits the whole frame inside 1080 × 1920 and adds bars where needed. Keep t
 - [ ] Alternative text or captions added
 - [ ] File named and archived
 
+## 🛠️ Practical Lab: Make a Carousel, Thumbnail and Vertical Video
+
+**You will finish with:** three publishable assets and reusable templates. Time: 6 hours.
+
+### Tools and where to get them
+
+| Job | Tool | Official place |
+|---|---|---|
+| Design | Canva | [canva.com](https://www.canva.com/) |
+| Phone edit | VN | phone's official app store |
+| Meta-focused edit | Edits | phone's official app store, where available |
+| Computer edit | DaVinci Resolve | [blackmagicdesign.com](https://www.blackmagicdesign.com/products/davinciresolve) |
+| Record screen | OBS Studio | [obsproject.com](https://obsproject.com/) |
+| Audio | Audacity | [audacityteam.org](https://www.audacityteam.org/) |
+| Stock | Pexels, Pixabay | check each licence |
+| Music | YouTube Audio Library, Meta Sound Collection | check use limits |
+
+### Canva: carousel step by step
+
+1. **Create a design → Custom size → 1080 × 1350 px.**
+2. Add margins/guides. Choose two brand fonts and three colours.
+3. Make eight pages: promise, reason, four useful slides, summary, next step.
+4. Put one idea on each page. Use text large enough to read on your phone at arm's length.
+5. Replace stock with two real photos.
+6. Check a 200-pixel-wide preview. If you can't read it, cut words.
+7. **Share → Download → PNG** for crisp text or JPG for photos.
+8. Duplicate the design and rename it `TEMPLATE_tip_4x5`.
+
+### VN: video step by step
+
+1. Film wide, medium and close shots vertically; hold two seconds before and after.
+2. Open a new project and import in story order. Set **9:16**.
+3. Split and delete dead time.
+4. Move the best result to the first second.
+5. Select the voice track; raise it until clear without distortion. Put music well below it.
+6. Add captions, then correct every name, number and language switch by hand.
+7. Add one on-screen line per step, away from bottom and right interface areas.
+8. Adjust exposure and white balance gently.
+9. Preview without sound, then with a phone speaker.
+10. Export 1080p at the source frame rate. Watch the exported file once from start to finish.
+
+### YouTube thumbnail step by step
+
+1. Canva: 1280 × 720.
+2. Use one close subject and no more than five words.
+3. Make three honest variations: result, mistake, comparison.
+4. Place them beside competing thumbnails at small size.
+5. Ask five people what video they expect. Choose the one that matches the real video.
+
+### Practice task
+
+Use the same Mitti drop test to make: a 9:16 video, a seven-slide carousel and a product-page GIF or short clip. Change the wording for each place.
+
+### If it goes wrong
+
+| Problem | Fix |
+|---|---|
+| Blurry export | check source resolution and export settings |
+| Robotic pacing | leave natural pauses around meaning |
+| Muffled voice | closer microphone; don't hide it with music |
+| Text covered | move inside safe area and check in app preview |
+| Music removed/claimed | use rights-cleared sound and retain proof |
+
+### Proof to save
+
+- [ ] Editable template, raw clips and final files
+- [ ] Rights/consent record
+- [ ] Before/after hook
+- [ ] Results of the five-person thumbnail check
+- [ ] One thing you would reshoot
+
 ## 🏋️ Exercises
 
 ### Exercise 7.1: Fix the opening

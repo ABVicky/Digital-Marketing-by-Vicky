@@ -198,6 +198,8 @@
     const features = [
       ["🧠", "Concepts made simple", "Plain-language explanations with diagrams and real examples."],
       ["❌➡️✅", "Marketing makeovers", "Side-by-side weak and strong ads, emails and pages so you see what changed."],
+      ["🛠️", "28 practical labs", "Where to register, which buttons to use, what to build and what proof to keep."],
+      ["🧭", "Tool directory", "80+ platforms for listings, AI search, SEO, social, email, CRM and ads."],
       ["🏋️", "Exercises with solutions", "Practice after every module, with worked answers you can reveal."],
       ["✅", "Quizzes and a final exam", "Check yourself after each module and finish with a 50-question exam."],
       ["🧰", "50 templates", "Copy-ready briefs, ads, emails, calendars, reports and audits."],
@@ -213,7 +215,7 @@
       `<div class="hero-by">${avatar()}<span>Author: <a href="${MAP.authorSite || 'https://abvicky.in'}" target="_blank" rel="noopener"><strong>${esc(MAP.author)}</strong></a><br>Platform built by <a href="${MAP.platformSite || 'https://www.manikarnikatechnologies.in/'}" target="_blank" rel="noopener"><strong>${esc(MAP.platformBuilder || "Manikarnika Technologies")}</strong></a></span></div>` +
       `</div><div class="hero-art"><img src="assets/cover.svg" alt="" width="640" height="520"></div></section>` +
       `<section class="stats-row">` +
-      [["📚", "28", "modules in 5 stages"], ["🧰", "50", "templates"], ["🎓", "50", "exam questions + 5 tasks"], ["⏱️", "~115 h", "of guided learning"]]
+      [["📚", "28", "modules in 5 stages"], ["🛠️", "28", "practical labs"], ["🎓", "50", "exam questions + 5 tasks"], ["⏱️", "~115 h", "of study, plus labs"]]
         .map(([ico, b, s]) => `<div class="stat-card"><span class="ico">${ico}</span><b>${b}</b><span>${s}</span></div>`).join("") +
       `</section>` +
       `<section class="continue-card"><span class="cc-icon">${cont.i}</span><div class="cc-body">` +

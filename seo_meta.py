@@ -13,8 +13,8 @@ META = {
     "06": ("Copywriting and Content Marketing Guide", "Copywriting formulas, headlines from customer words, microcopy, storytelling, editing and a content calendar, with before/after examples."),
     "07": ("Canva and VN Video Editing for Marketing", "Design posts in Canva, shoot and edit vertical videos in VN, make thumbnails and check music, font and image rights."),
     "08": ("SEO for Beginners: Keywords and On-Page", "Understand search intent, build a keyword plan, improve titles and pages, link topics and report SEO honestly."),
-    "09": ("Technical SEO and Link Building Guide", "Fix crawling, noindex, canonicals, redirects, speed and structured data, plan a migration and earn links safely."),
-    "10": ("SEO vs AEO vs GEO, and Local SEO Guide", "The difference between SEO, AEO and GEO, what Google says about AI search, plus Business Profile, reviews and local SEO steps."),
+    "09": ("Technical SEO and Link Building Guide", "Fix crawling, canonicals, speed and schema, then earn backlinks: 12 methods, where to look, search operators, pitches and a tracker."),
+    "10": ("Local SEO, AEO and GEO: Step-by-Step", "Register on Google Business Profile, Bing Places, Apple Business and ChatGPT, film verification, and learn SEO vs AEO vs GEO."),
     "11": ("Social Media Strategy and Influencers", "Choose a platform, balance content jobs, run a community, brief creators and calculate influencer break-even."),
     "12": ("Instagram Marketing Guide", "Set up a profile that converts, plan Reels, carousels and Stories, handle DMs and run a four-week Instagram test."),
     "13": ("Facebook Organic Marketing Guide", "Use Facebook Pages, groups, events, Messenger and reviews for organic reach without spamming."),
@@ -38,6 +38,7 @@ META = {
     "D": ("Digital Marketing Test: 50 Questions", "Test your digital marketing knowledge with 50 multiple-choice questions, answers and five practical tasks."),
     "E": ("Digital Marketing Project Ideas", "Six digital marketing portfolio projects with deliverables, levels, success criteria and a scoring rubric."),
     "F": ("Digital Marketing Troubleshooting", "Why traffic, ads, email, tracking or sales go wrong: 20 symptoms, likely causes and the first fix to try."),
+    "H": ("Marketing Tools: Where to Register", "A directory of 80+ marketing platforms: where to register for local listings, AI search, SEO, social, email, CRM and ads, in order."),
     "G": ("30-Day Digital Marketing Practice Plan", "A day-by-day digital marketing practice plan with official documentation and a learning log."),
 }
 
@@ -50,5 +51,5 @@ RELATED = {
     "20": ["21", "22", "03"], "21": ["20", "25", "18"], "22": ["05", "20", "02"], "23": ["17", "15", "25"],
     "24": ["06", "10", "25"], "25": ["17", "21", "24"], "26": ["03", "11", "27"], "27": ["26", "02", "15"],
     "A": ["03", "20", "F"], "B": ["06", "18", "27"], "C": ["01", "A", "D"], "D": ["A", "C", "E"],
-    "E": ["26", "27", "B"], "F": ["22", "21", "20"], "G": ["00", "27", "E"], "i": ["00", "01", "26"],
+    "E": ["26", "27", "B"], "F": ["22", "21", "20"], "G": ["00", "27", "E"], "H": ["10", "09", "11"], "i": ["00", "01", "26"],
 }

@@ -264,6 +264,109 @@ A server container receives events first, then forwards them. It can give you co
 
 > 👔 **Owner's three questions:** Who can publish? What does each tag cost us in speed and privacy? When did someone last compare GA4 purchases with real orders?
 
+## 🛠️ Practical Lab: Install GTM and Track a Real Form
+
+**You will finish with:** a container with three tested tags, a version history and a rollback. Time: 5 hours.
+
+### Tools
+
+| Job | Tool | Open |
+|---|---|---|
+| Tag management | Google Tag Manager | [tagmanager.google.com](https://tagmanager.google.com/) |
+| Test | GTM Preview (Tag Assistant) | [tagassistant.google.com](https://tagassistant.google.com/) |
+| Confirm | GA4 DebugView | GA4 → Admin → DebugView |
+| Inspect | Browser Developer Tools → Network | F12 |
+| WordPress install | official Google Site Kit, or a trusted GTM plugin | [sitekit.withgoogle.com](https://sitekit.withgoogle.com/) |
+
+### Create and install
+
+1. Tag Manager → **Create account** → company, country → container name → **Web**.
+2. Copy the two snippets.
+3. Install in **one** way only:
+   - Static HTML: first snippet high in `<head>`, second just after `<body>`.
+   - WordPress: Site Kit or a trusted plugin; enter the container ID.
+   - Shopify: use the platform's supported customer-events or app route, because checkout has its own rules.
+4. **Admin → Container settings → Enable consent overview.**
+5. **Admin → User management:** two owners; others Read/Edit/Approve/Publish as needed.
+6. Click **Preview**, enter your URL, and confirm the container loads once.
+
+### Tag 1: Google tag for GA4
+
+1. **Variables → New → Constant** → name `CONST - GA4 ID` → value `G-...`.
+2. **Tags → New → Google tag** → Tag ID `{{CONST - GA4 ID}}`.
+3. Trigger **Initialization - All Pages**. Check consent settings.
+4. Save as `GA4 - Google tag - All pages`. Preview → confirm it fires once.
+
+### Tag 2: WhatsApp click
+
+1. **Variables → Configure** → tick Click URL, Click Text.
+2. **Triggers → New → Click - Just Links** → Some Link Clicks → `Click URL starts with https://wa.me/`.
+3. **Tags → New → GA4 Event** → event name `whatsapp_click` → add parameter `page_section` if you have one.
+4. Preview: click once, then a different link. Only the first should fire.
+
+### Tag 3: confirmed form
+
+Ask the developer, or add to your own success code:
+
+```html
+<script>
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({ event: "form_success", form_id: "contact_main" });
+</script>
+```
+
+1. **Variables → New → Data Layer Variable** → name `form_id`.
+2. **Triggers → New → Custom Event** → event name `form_success`.
+3. **Tags → GA4 Event** → `generate_lead` (a GA4 recommended event) → parameter `form_id`.
+4. Preview: invalid submit must **not** fire; valid submit fires once; refresh must not repeat.
+
+### Practice page you can copy
+
+Save as `test.html`, replace `GTM-XXXX`, and open it through a local server or GitHub Pages:
+
+```html
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>GTM practice</title>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-XXXX');</script>
+</head><body>
+<a href="https://wa.me/910000000000">WhatsApp</a>
+<form id="f"><input name="email" type="email" required><button>Send</button></form>
+<p id="ok" hidden>Sent</p>
+<script>
+document.getElementById('f').addEventListener('submit', function (e) {
+  e.preventDefault();
+  document.getElementById('ok').hidden = false;
+  window.dataLayer.push({ event: 'form_success', form_id: 'practice' });
+});
+</script>
+</body></html>
+```
+
+This page doesn't send the email anywhere. Use the container's own current snippet if it differs, and configure consent before using GTM on a public site.
+
+### Publish and roll back
+
+1. **Submit** → version name and description → Publish.
+2. Check the live page in a private window and GA4 Realtime.
+3. **Versions** → open the earlier one → **Publish** to practise a rollback, then republish the good version.
+
+### If it goes wrong
+
+| Symptom | Check |
+|---|---|
+| Preview won't connect | URL, ad blocker, container ID, security policy |
+| Tag fired, GA4 empty | wrong ID, consent, filters, delay |
+| Click trigger never fires | link opens by script; inspect Click URL |
+| Form fires on error | trigger is the button, not success |
+| Two page views | two installs |
+
+### Proof to save
+
+- [ ] Ten-row test sheet (valid, invalid, refresh, reject consent, mobile)
+- [ ] Exported container JSON (**Admin → Export**)
+- [ ] Two versions and one rollback screenshot
+- [ ] Naming and owner list
+
 ## 🏋️ Exercises
 
 ### Exercise 21.1: Find the bug

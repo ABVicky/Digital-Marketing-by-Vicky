@@ -189,6 +189,90 @@ API access and prices change. Before building a monitor, check current terms, li
 | 30 min | ten thoughtful replies |
 | 20 min | log themes and decide |
 
+## 🛠️ Practical Lab: Listen, Help and Publish on X or Threads
+
+**You will finish with:** an official profile, saved listening list, five posts and one incident template. Time: 3 hours.
+
+### Register
+
+| Platform | Open | Note |
+|---|---|---|
+| X | [x.com](https://x.com/) | check regional account requirements |
+| X Ads | [ads.x.com](https://ads.x.com/) | optional later |
+| Threads | [threads.com](https://www.threads.com/) | linked to an Instagram account |
+
+### Set up X
+
+1. Create with business-owned email, not an agency phone.
+2. Pick a clear handle; add name, bio, website, location, support hours and profile image.
+3. Turn on strong two-factor login and save recovery codes.
+4. Settings → Your account → switch to Professional if useful.
+5. Pin what you do, official support and next useful link.
+6. Set message and reply controls you can manage.
+
+### Set up Threads
+
+1. Open the official app/site and sign in with the correct Instagram account.
+2. Check privacy, bio, link and whether profile should be public.
+3. Follow customers, experts, local organizations and useful communities, not random mass accounts.
+4. Draft for conversation; don't paste Instagram captions unchanged.
+
+### Listening routine
+
+Search:
+
+```text
+"your brand"
+"your category" broken
+"your city" "your service"
+"need help choosing" category
+competitor "wish it"
+```
+
+Save links in a weekly sheet with `date, need, exact phrase, response needed, action, owner`. Protect personal details.
+
+### Publish five useful posts
+
+| Day | Post |
+|---|---|
+| 1 | observation from actual work |
+| 2 | one complete tip |
+| 3 | image/demo and limit |
+| 4 | question you truly want answered |
+| 5 | useful reply or thread summary |
+
+Reply to people before adding more posts. Compare conversations, qualified visits and lessons, not views alone.
+
+### Prepare a status update
+
+```text
+Issue, verified at {{time}}:
+Affected / unaffected:
+What customers should do:
+What we are doing:
+Official support:
+Next update at {{time}}:
+```
+
+Give two people publishing access. Rehearse with a fake payment outage, then delete the practice draft without posting.
+
+### If it goes wrong
+
+| Problem | Do |
+|---|---|
+| Account locked | official recovery, no repeated requests |
+| Impersonator | record URL, use official report, pin true contacts |
+| Pile-on | pause, verify, respond once, protect staff |
+| Link performs poorly | test useful post formats; don't trust one rumour |
+
+### Proof to save
+
+- [ ] Active/listen/skip decision with customer evidence
+- [ ] Secure profile if registered
+- [ ] Five searches and three customer lessons
+- [ ] Five posts or a written reason to skip
+- [ ] Tested status template
+
 ## 🏋️ Exercises
 
 ### Exercise 16.1: Choose

@@ -368,6 +368,93 @@ One thing I will not do:
 
 The best next job isn't "learn all tools". It's to finish one complete, honest cycle and improve from what it teaches you.
 
+## 🛠️ Practical Lab: Publish a Portfolio and Find Your First Work
+
+**You will finish with:** a live portfolio, two certificates if useful, ten applications or pitches and a proposal. Time: two weeks part-time.
+
+### Where to learn and certify
+
+| Skill | Place | Open |
+|---|---|---|
+| Google Ads, Analytics | Google Skillshop | [skillshop.withgoogle.com](https://skillshop.withgoogle.com/) |
+| Meta | Meta Blueprint | [facebook.com/business/learn](https://www.facebook.com/business/learn) |
+| Content, email, CRM | HubSpot Academy | [academy.hubspot.com](https://academy.hubspot.com/) |
+| SEO | Google Search Central docs | [developers.google.com/search](https://developers.google.com/search/docs) |
+| Microsoft ads | Microsoft Advertising learning | [about.ads.microsoft.com](https://about.ads.microsoft.com/) |
+| SEO tools | Semrush Academy, Ahrefs Academy | [semrush.com/academy](https://www.semrush.com/academy/), [ahrefs.com/academy](https://ahrefs.com/academy) |
+
+A certificate shows you studied. A case study shows you can think. Do both, in a 1:3 time ratio.
+
+### Build a portfolio, step by step
+
+1. Choose a place: GitHub Pages, WordPress, Notion public page or a builder.
+2. Pages: Home, three projects, About, Contact.
+3. Home line: *I help {{who}} {{do what}} using {{specialty}}.*
+4. Project 1: your Module 05 page test. Project 2: Module 20/21 tracking. Project 3: your specialty.
+5. For each: problem → evidence → decision → artifact → result → **limit**.
+6. Blur private data; label practice work; get written permission for real clients.
+7. Add the link to LinkedIn Featured, GitHub and resume.
+8. Ask three people: *What do I do? What is missing?* Fix it.
+
+### Where to find work
+
+| Route | Places | First step |
+|---|---|---|
+| Jobs/internships (India) | [LinkedIn Jobs](https://www.linkedin.com/jobs/), [Naukri](https://www.naukri.com/), [Internshala](https://internshala.com/), [Indeed](https://in.indeed.com/) | save ten descriptions, build a skills table |
+| Startups | [Wellfound](https://wellfound.com/) | short note with one observed improvement |
+| Freelance | [Upwork](https://www.upwork.com/), [Fiverr](https://www.fiverr.com/), [Contra](https://contra.com/) | one narrow service, three samples |
+| Local | shops, clinics, tutors you know | a one-page audit they asked for |
+| Network | teachers, ex-colleagues, community events | ask for feedback, then referrals |
+
+> ⚠️ Avoid "jobs" that ask for deposits, your bank login, fake reviews or bulk account creation.
+
+### Send ten good applications
+
+1. Build a table: `role, company, proof they want, my proof, gap, sent, reply, next`.
+2. Change the top three resume bullets for each.
+3. Send a 90-word note: what you noticed, your relevant proof, one question.
+4. Follow up once after a week.
+
+### Freelance starter offer
+
+```text
+Service: Landing-page clarity check
+You get: 5 user tests, 1-page findings, 3 ranked fixes, 20-min call
+Not included: design, ads, guaranteed sales
+Needs: page link, goal, permission to test
+Time: 5 working days   Fee: {{amount}}   50% to begin
+```
+
+Ask your accountant about invoices, GST and tax. Use a written agreement, take client access by **role**, not password, and remove it at the end.
+
+### Mock interview
+
+Record yourself answering, in two minutes each:
+
+1. Sales fell 30% this week. What do you check?
+2. ROAS is 4. Should we double spend?
+3. Show a project that failed.
+4. How would you spend ₹25,000 for a tutor?
+5. Why do GA4 and Meta disagree?
+
+Use Situation → Decision → Evidence → Result → Limit. Watch once, improve one thing, record again.
+
+### If it goes wrong
+
+| Problem | Do |
+|---|---|
+| No replies | stronger sample for that exact role |
+| No experience | volunteer with permission, or label practice work |
+| Client wants guarantees | offer a test with limits |
+| Scope keeps growing | written change before more work |
+
+### Proof to save
+
+- [ ] Live portfolio with three projects
+- [ ] Skills table from ten descriptions
+- [ ] Ten tailored applications or pitches
+- [ ] One proposal and one recorded interview
+
 ## 🏋️ Exercises
 
 ### Exercise 27.1

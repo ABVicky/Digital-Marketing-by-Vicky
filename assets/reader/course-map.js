@@ -88,7 +88,8 @@ window.PE_MAP = {
         { p: "appendix/D-final-exam.md", n: "D", t: "Final Exam", i: "🎓", time: "1.5 h", d: "50 questions and 5 practical tasks with answers." },
         { p: "appendix/E-capstone-projects.md", n: "E", t: "Capstone Projects", i: "🏆", time: "project", d: "Six portfolio projects with success criteria." },
         { p: "appendix/F-troubleshooting.md", n: "F", t: "Troubleshooting", i: "🩺", time: "ref", d: "Symptom, cause and fix for common marketing problems." },
-        { p: "appendix/G-resources.md", n: "G", t: "Resources & 30-Day Plan", i: "🔗", time: "ref", d: "Official documentation, tools and a practice plan." }
+        { p: "appendix/G-resources.md", n: "G", t: "Resources & 30-Day Plan", i: "🔗", time: "ref", d: "Official documentation, tools and a practice plan." },
+        { p: "appendix/H-tool-directory.md", n: "H", t: "Tool & Platform Directory", i: "🧭", time: "ref", d: "Where to register, in what order, for every channel." }
       ]
     }
   ]

@@ -323,6 +323,83 @@ These are example figures. Notice the limits: sources are self-reported and the 
 
 > 🔑 Social accounts are rented space. Invite interested people to email, a community you run, or a useful tool on your site.
 
+## 🛠️ Practical Lab: Set Up a Social System and Run One Creator Test
+
+**You will finish with:** one main account, a 16-post calendar, an inbox routine and a creator shortlist. Time: 6 hours.
+
+### Tools
+
+| Job | Tool | Open |
+|---|---|---|
+| Meta planning/inbox | Meta Business Suite | [business.facebook.com](https://business.facebook.com/) |
+| Multi-platform planning | Buffer, Metricool or a sheet | [buffer.com](https://buffer.com/), [metricool.com](https://metricool.com/) |
+| Find ads | Meta Ad Library | [facebook.com/ads/library](https://www.facebook.com/ads/library/) |
+| Meta creator search | Creator Marketplace, if your account/region has access | Meta Business Suite |
+| YouTube creator work | YouTube creator partnership tools, if available | Google Ads/YouTube |
+| Link tracking | UTM sheet | Module 20 |
+
+### Choose the platform with evidence
+
+1. Ask ten buyers: *Where did you last discover, compare or ask about something like this?*
+2. Give one point for audience, one for format you can make, one for conversion path and one for staff time.
+3. Choose the highest **evidence-backed** platform as main. Choose one support platform.
+4. Reserve consistent names elsewhere only if useful.
+
+### Account checklist
+
+- [ ] Business owns the email and phone
+- [ ] Two-step login and two trusted admins
+- [ ] Promise, location/service area, support hours and link
+- [ ] Three useful posts before inviting people
+- [ ] Moderation policy and escalation owner
+
+### Build a 16-post calendar
+
+1. Copy these columns: `Date, Job, Customer question, Opening, Proof, Format, CTA, Rights, Owner, Link, Result`.
+2. Add 5 reach, 4 teach, 3 trust, 2 community and 2 convert ideas.
+3. Produce one week. Don't schedule a month you haven't checked.
+4. In Meta Business Suite: select the correct Page/account → Planner/Content → Create → write platform-specific versions → preview → schedule.
+5. Open the scheduled item and check link, date, time zone, crop and caption.
+6. Reply for 20 minutes after it publishes.
+
+### Inbox routine
+
+| Label | First reply | Escalate |
+|---|---|---|
+| Question | useful answer | if information missing |
+| Order | support route | privacy or delay |
+| Complaint | acknowledge, next step | safety, payment, legal |
+| Spam/abuse | hide/report by rule | threats |
+| Creator | brief link | rights/payment |
+
+### Find and contact creators
+
+1. Search customer topics and places, not "influencer".
+2. List 20. Check recent relevant work, real comments, locations, frequency of promotions and safety.
+3. Ask the best five for audience location, recent ranges and usage price. Don't request passwords.
+4. Calculate break-even: `total cost ÷ contribution per added order`.
+5. Send the fair offer template. State payment, deliverables, rights, disclosure, revision and dates.
+6. Use a unique UTM and, if useful, code. Approve facts, not every natural word.
+7. Review direct orders, useful comments, content usability and compliance.
+
+> ⚠️ Gifted products are a material connection. Don't exchange products for hidden links or undisclosed reviews.
+
+### If it goes wrong
+
+| Problem | Fix |
+|---|---|
+| Calendar empty | go back to 50 customer questions |
+| Planned posts are late | reduce platforms, batch one filming day |
+| Creator misses claim | pause, correct, document |
+| Account hacked | secure email, platform recovery, revoke apps, warn customers elsewhere |
+
+### Proof to save
+
+- [ ] Platform scorecard from ten buyers
+- [ ] Secured profile, 16 ideas, four published posts
+- [ ] Inbox response log
+- [ ] Five creator checks and one break-even calculation
+
 ## 🏋️ Exercises
 
 ### Exercise 11.1

@@ -365,6 +365,83 @@ ORDER BY 1;
 
 The final filter excludes people who haven't had a full 90 days yet. The query uses PostgreSQL syntax.
 
+## 🛠️ Practical Lab: Launch a Welcome Email and WhatsApp Support Flow
+
+**You will finish with:** authenticated email, a three-message welcome and a tested opt-out. Time: 6 hours.
+
+### Choose tools
+
+| Job | Options | Open |
+|---|---|---|
+| Email marketing | Brevo, Mailchimp, MailerLite or store tool | [brevo.com](https://www.brevo.com/), [mailchimp.com](https://mailchimp.com/), [mailerlite.com](https://www.mailerlite.com/) |
+| Gmail sender data | Google Postmaster Tools | [postmaster.google.com](https://postmaster.google.com/) |
+| WhatsApp basic | WhatsApp Business app | official phone store |
+| WhatsApp API | Meta Cloud API | [business.whatsapp.com](https://business.whatsapp.com/) |
+| DNS | domain provider | your DNS account |
+| Form | website or Tally | [tally.so](https://tally.so/) |
+
+Compare sending limits, total cost, data location, export, automation and consent records before choosing.
+
+### Email setup
+
+1. Use `hello@yourdomain`, not a personal Gmail address for a marketing platform.
+2. Add the sender/domain in the email platform. Copy the exact SPF/DKIM records into DNS; **don't create two SPF TXT records** for one hostname. Ask your provider to combine authorized senders.
+3. Start DMARC monitoring with a record agreed with your domain administrator, such as:
+
+```text
+Name: _dmarc
+Type: TXT
+Value: v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.example
+```
+
+4. Wait for DNS and use the platform's authentication check.
+5. Add and verify your sending domain in Google Postmaster Tools. Small volumes may show no data.
+6. Create a list named `consented_newsletter`, plus suppression and test contacts you own.
+7. Form: email, unticked marketing checkbox, purpose, frequency, privacy link and thank-you page.
+8. Automation: trigger only confirmed consent → wait 1 minute → email 1 → wait 2 days → **check not unsubscribed/purchased as needed** → email 2 → wait 3 days → email 3 → end.
+9. Include real sender identity and working unsubscribe.
+10. Test Gmail, another mailbox, dark mode, phone and a blocked image. Test resubscribe and unsubscribe.
+11. Seed the form with one address. Wait, then compare delivered, opened, clicked, unsubscribed and site event.
+
+### WhatsApp Business app
+
+1. Install from the official store with a business-controlled number.
+2. Verify, set two-step PIN and business profile.
+3. Add hours, website, catalogue if relevant and honest greeting.
+4. Create saved replies: price, hours, location, order, human handoff.
+5. Create labels: New, Waiting customer, Waiting us, Complete.
+6. Export/backup responsibly; no passwords/OTPs/card data in chat.
+7. Put `https://wa.me/countrycodeandnumber` on the contact page and test.
+
+### WhatsApp Platform (only when needed)
+
+1. Create/confirm a business portfolio and WhatsApp Business account.
+2. Meta developer account → create app → add WhatsApp. Use Meta's test number for learning.
+3. Send only to your approved test recipient; configure webhook if required.
+4. Register a real number, verify, set two-step, permissions and billing.
+5. Create approved template with a truthful purpose; use opt-in and suppression.
+6. Follow [Meta's current Cloud API start guide](https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started). Never embed production tokens in GitHub.
+
+### Practice task
+
+Make the mug-size guide flow. Send it to three consenting testers. One should buy between messages; confirm the next promotional message doesn't send.
+
+### If it goes wrong
+
+| Symptom | Check |
+|---|---|
+| Domain unverified | exact DNS host/value, propagation, duplicate SPF |
+| Goes to spam | consent, domain alignment, recent list, complaint |
+| Double message | trigger/re-entry, duplicate contacts, exit condition |
+| No WhatsApp reply | hours, phone, notification, human owner |
+
+### Proof to save
+
+- [ ] Authentication status with records hidden
+- [ ] Consent wording and source/time
+- [ ] Three emails plus exit and unsubscribe test
+- [ ] WhatsApp saved replies and human-handoff test
+
 ## 🏋️ Exercises
 
 ### Exercise 17.1

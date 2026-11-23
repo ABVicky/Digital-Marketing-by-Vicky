@@ -241,6 +241,94 @@ Ask one qualifying question. Connect the form to the CRM (Module 23).
 - Weekly post: one lesson from practice work, labelled.
 - Outreach: ask for feedback on a specific work sample, not "a job please".
 
+## 🛠️ Practical Lab: Build a LinkedIn Pipeline Without Spam
+
+**You will finish with:** a clear profile, company Page, 30 accounts and five useful conversations. Time: 6 hours plus six weeks.
+
+### Register
+
+| Asset | Open |
+|---|---|
+| Profile | [linkedin.com](https://www.linkedin.com/) |
+| Company Page | [linkedin.com/company/setup/new](https://www.linkedin.com/company/setup/new/) |
+| Ads | [LinkedIn Campaign Manager](https://www.linkedin.com/campaignmanager/) |
+| Public ads | [LinkedIn Ad Library](https://www.linkedin.com/ad-library/) |
+
+### Profile, step by step
+
+1. Use your real name and recent photo.
+2. Headline: `I help {{role}} {{outcome}} | {{real role}}`.
+3. Banner: one problem and proof.
+4. About: who, work, evidence, limits, contact.
+5. Featured: useful checklist and one honest case study.
+6. Experience: your role, dates and what you did.
+7. Turn on two-step verification and review visibility.
+
+### Company Page, step by step
+
+1. Add the role to your real profile. You need to be an authorized representative.
+2. LinkedIn → **For Business → Create a Company Page** → Company.
+3. Enter name, public URL, website, industry, size, logo, tagline; confirm authorization.
+4. Add About, location, specialties, action button and admins.
+5. Publish three useful posts before inviting relevant connections.
+6. Add your profile as admin and one backup admin.
+
+### Find 30 accounts
+
+1. Search companies by location, size and need. Use public information.
+2. Score need, fit, trigger, accessible person and possible value 0–2.
+3. Save only business information you need: company, reason, source, role, next step.
+4. Follow ten and comment usefully on five over two weeks.
+5. Send five personal notes. Don't upload/scrape contacts or use mass automation.
+
+### A six-week routine
+
+| Day | 25–45 minutes |
+|---|---|
+| Mon | publish one work-log lesson |
+| Tue | ten thoughtful comments |
+| Wed | improve one asset for a buyer |
+| Thu | five relevant account checks, one message |
+| Fri | reply, log conversations, prepare follow-up |
+
+Use this follow-up: answer, useful resource, one question, stop.
+
+### Publish a document post
+
+1. Make a 6–10 page checklist in Canva or Slides, export PDF.
+2. Upload as document, use a clear title and add a short introduction.
+3. Check every page on mobile.
+4. Offer the editable version only to people who ask; don't make comments a fake access gate.
+
+### Small ad test
+
+1. Confirm won-customer economics first.
+2. Campaign Manager → Create → Lead generation or Website conversions.
+3. Name by `YYYY-MM_objective_audience_offer`.
+4. Location and language first; add job/industry attributes without making it tiny.
+5. Review estimated audience, expansion and network settings.
+6. Set daily/lifetime budget, loss limit and end date; confirm current minimum.
+7. Build one clear document or single-image creative.
+8. Lead form: only necessary fields, privacy notice and one qualifier.
+9. Connect and test CRM export, then launch.
+10. Judge qualified conversations and won value, not form fills.
+
+### If it goes wrong
+
+| Problem | Fix |
+|---|---|
+| No replies | better company fit and more useful opening |
+| Page can't be created | profile age/completeness, role and duplicate name |
+| Lead is student/vendor | better targeting/qualifier; suppress later |
+| Connection warning | stop activity; avoid automation and irrelevant requests |
+
+### Proof to save
+
+- [ ] Profile/Page before-after
+- [ ] 30 scored accounts, private data protected
+- [ ] 20 useful comments, five messages
+- [ ] Conversation and pipeline outcomes, even if zero
+
 ## 🏋️ Exercises
 
 ### Exercise 15.1: Rewrite

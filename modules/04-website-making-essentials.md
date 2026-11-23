@@ -256,6 +256,85 @@ Use semantic elements so browsers, search engines and screen readers understand 
 
 > 💡 Put the domain's renewal date in two people's calendars, even if auto-renew is on. Cards expire.
 
+## 🛠️ Practical Lab: Register a Domain and Launch a Website
+
+**You will finish with:** a live, secure site that records enquiries. Time: one weekend.
+
+### Choose a route
+
+| Route | Best for | Start |
+|---|---|---|
+| A. WordPress | content and service sites | [wordpress.org](https://wordpress.org/) with a host, or a hosted WordPress plan |
+| B. Shopify | online stores | [shopify.com/in](https://www.shopify.com/in) |
+| C. GitHub Pages | portfolio or practice | [pages.github.com](https://pages.github.com/) |
+| D. Builder | simple service site | Wix, Squarespace or similar |
+
+### Register the domain
+
+1. Search three names at an accredited registrar, such as [Cloudflare Registrar](https://www.cloudflare.com/products/registrar/), GoDaddy or Namecheap. Compare the **renewal** price, not only year one.
+2. Check trademark and social-name conflicts.
+3. Register with the business's email and name. Turn on auto-renew, two-step login and privacy protection if available.
+4. Save renewal date and nameservers in the Accounts tab.
+
+### Route A: WordPress, step by step
+
+1. Choose hosting with backups, staging, HTTPS and support. Install WordPress from the host's panel.
+2. Log in at `yourdomain/wp-admin`. Create a personal administrator with a strong password; delete unused default users.
+3. **Settings → General:** title, language and time zone. **Settings → Permalinks:** Post name.
+4. **Appearance → Themes:** install one light, maintained theme. Delete the extras.
+5. **Pages → Add New:** Home, Service/Product, About, Contact, Privacy, Terms.
+6. **Settings → Reading:** choose the static home page. Keep "Discourage search engines" on only while building.
+7. Add a form plugin. Send three tests: correct, missing email, and spam-like.
+8. Add a backup plugin or host backup; restore it to staging once.
+9. Add image compression/caching only if the host doesn't already do it.
+10. Turn **off** "Discourage search engines" at launch.
+
+### Route B: Shopify, step by step
+
+1. Create the store, then **Settings → Store details**, currency, time zone and tax with an accountant.
+2. **Products → Add product:** title, real description, photos, price, stock, weight and variants.
+3. **Settings → Shipping and delivery:** zones, rates and promised times.
+4. **Settings → Payments:** connect an available provider. For India, compare options such as [Razorpay](https://razorpay.com/) and check fees and verification.
+5. **Settings → Policies:** write policies that match what you actually do.
+6. **Settings → Domains:** connect the domain.
+7. Place a test order, then a small real order and refund.
+8. Remove the password page when ready.
+
+### Route C: GitHub Pages, step by step
+
+1. Create a repository and upload `index.html`.
+2. **Settings → Pages → Deploy from a branch → main / root**.
+3. Open the published URL. For a custom domain, add it there and create the DNS records shown.
+4. Tick **Enforce HTTPS** after DNS is ready.
+
+### Connect the basics
+
+| Task | Tool |
+|---|---|
+| Speed | [PageSpeed Insights](https://pagespeed.web.dev/) |
+| Accessibility | [WAVE](https://wave.webaim.org/) plus keyboard test |
+| Email on your domain | Google Workspace, Microsoft 365 or Zoho Mail |
+| DNS check | host's DNS checker or `nslookup` |
+| Search | Search Console (Module 08) |
+
+### If it goes wrong
+
+| Symptom | First check |
+|---|---|
+| "Not secure" | certificate covers both www and non-www |
+| Form works, no email | spam, sender domain, plugin log, SMTP |
+| Changes don't appear | browser, plugin, host and CDN cache |
+| Site can't be found | domain expiry, nameservers, A/CNAME records |
+| Payment pending | gateway dashboard before telling customer to pay again |
+
+### Proof to save
+
+- [ ] Domain ownership screen, private data hidden
+- [ ] Live HTTPS address
+- [ ] Three form tests and one order/refund test if selling
+- [ ] Backup **restore** screenshot
+- [ ] PageSpeed, WAVE and phone checks with one fix made
+
 ## 🏋️ Exercises
 
 ### Exercise 4.1: Choose a platform

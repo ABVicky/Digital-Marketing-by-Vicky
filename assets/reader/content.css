@@ -964,3 +964,8 @@
 }
 /* No external-link arrow after linked images */
 .md a.ext:has(img)::after { content: none; }
+
+/* Practical labs */
+.md .sec-card.lab { border-top: 4px solid #F3B552; }
+.md .sec-card.lab h3 { margin-top: 1.6em; }
+.md .sec-card.lab .sec-ico { color: #B7791F; }

@@ -332,6 +332,86 @@ event = {
 
 Hashing isn't anonymity or permission. Send personal data only when lawful, consented where required and necessary; follow the platform's exact current specification.
 
+## 🛠️ Practical Lab: Build a Safe Meta Ads Test
+
+**You will finish with:** business-owned assets, tested events and a paused creative test. Time: 6 hours. **You can stop before payment.**
+
+### Tools and registration
+
+| Job | Tool | Open |
+|---|---|---|
+| Business assets | Meta Business Suite/portfolio | [business.facebook.com](https://business.facebook.com/) |
+| Ads | Ads Manager | [adsmanager.facebook.com](https://adsmanager.facebook.com/) |
+| Events | Events Manager | [business.facebook.com/events_manager](https://business.facebook.com/events_manager/) |
+| Public competitor ads | Meta Ad Library | [facebook.com/ads/library](https://www.facebook.com/ads/library/) |
+| Training | Meta Blueprint | [facebook.com/business/learn](https://www.facebook.com/business/learn) |
+
+### Secure business setup
+
+1. Use a real personal login with two-factor and a business email. Don't create a fake profile.
+2. Business Suite → Settings → create/confirm a business portfolio owned by the client.
+3. Add/verify Page and Instagram; don't accidentally claim assets owned by someone else.
+4. Accounts → Ad accounts → Add/Create. Choose currency/time zone carefully.
+5. Add people with minimum roles; keep two business administrators.
+6. Data Sources → Datasets → create/connect one dataset/pixel. Connect it to the correct ad account.
+7. Brand Safety/Domains or current equivalent → add website domain and follow available verification.
+8. Payment method and spending control belong to authorized business owner.
+
+### Install and test events
+
+1. Make an event sheet: page view, view content, add to cart, lead or purchase. Don't send names/email as event parameters.
+2. Use supported integration or GTM; don't install a second pixel if one already exists.
+3. In Events Manager → Test events, open site with consent state you expect.
+4. Make one product/lead test. Confirm event name, value/currency and URL.
+5. If using Conversions API, use the same Pixel/Dataset, matching `event_name` and shared `event_id` for deduplication.
+6. Test consent rejection, failed payment, refresh and repeat click.
+7. Compare shop/CRM with event total before choosing a conversion goal.
+
+### Make the campaign but leave it paused
+
+1. Ads Manager → Create → choose Sales, Leads or matching objective.
+2. Name campaign `MITTI_2026-12_gifts_sales`.
+3. Define conversion location and one real event. Check attribution setting.
+4. Location, serviceable age restrictions and other required controls. Review Advantage+ suggestions versus hard controls.
+5. Budget plan from contribution, not a "minimum you can afford".
+6. Choose placements based on creative; preview each.
+7. Make three different ads: packing proof, size decision, real gift situation. Use original files, rights and valid UTMs.
+8. Preview Facebook and Instagram. Check text crop, destination, comments, disclosure and page load.
+9. Save as draft or keep every campaign/ad set/ad **off**.
+10. Document exactly what would change and stop before payment if learning.
+
+### Creative worksheet
+
+| Ad | Customer barrier | First frame | Proof | Landing page | Learning question |
+|---|---|---|---|---|---|
+| A | might break | falling box | 10-drop result | gift page | does proof move doubt? |
+| B | size unsure | mug in hand | measured guide | size guide | does decision help? |
+| C | gift date | parcel + date | PIN/date display | gift page | does date clarity help? |
+
+Three filename copies of the same video aren't three concepts.
+
+### After an authorized small test
+
+Wait for delivery/conversion delay. Compare spend, qualified actions, contribution and comments by concept. Pause for misleading creative, safety, broken tracking or exceeded cap. Don't decide from one click, and don't scale before a marginal-CPA check.
+
+### If it goes wrong
+
+| Problem | Do |
+|---|---|
+| Asset already claimed | identify owner, request access/correction |
+| Pixel missing | check Page URL, integration, consent, ad blocker |
+| Event twice | shared event ID and one browser install |
+| Ad rejected/restricted | fix policy/identity, request review; don't create evasion accounts |
+| Wrong audience | hard controls versus Advantage+ suggestion and location |
+
+### Proof to save
+
+- [ ] Business asset/role checklist
+- [ ] Event test sheet and deduplication check
+- [ ] Three genuine creative concepts
+- [ ] Paused/draft campaign showing no active spend
+- [ ] Launch decision and loss limit
+
 ## 🏋️ Exercises
 
 ### Exercise 19.1

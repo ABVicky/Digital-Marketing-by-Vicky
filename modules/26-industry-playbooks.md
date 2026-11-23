@@ -310,6 +310,81 @@ Next check: 8 more qualified samples in the same segment.
 
 The example gives numbers so you can see how to write a decision. Use real results in your own report.
 
+## 🛠️ Practical Lab: Run a 30-Day Sprint for One Business
+
+**You will finish with:** a chosen playbook, registered channels, weekly evidence and a decision. Time: 30 days.
+
+### Pick your registration set
+
+| Business | Register first | Add later |
+|---|---|---|
+| Online store | domain, store, Search Console, GA4, Merchant Center, email tool, Instagram | Meta/Google Ads; marketplaces such as [Amazon Seller Central](https://sell.amazon.in/) or [Flipkart Seller Hub](https://seller.flipkart.com/) if margin allows |
+| Local service | Business Profile, Bing Places, Apple Business, call log, WhatsApp Business | Justdial/Sulekha test, Search ads |
+| Restaurant/cafe | Business Profile, Instagram, reservations | [Zomato](https://www.zomato.com/partner-with-us) and [Swiggy](https://partner.swiggy.com/) partner programs after commission maths |
+| Coaching | website, Business Profile if eligible, YouTube, email, CRM | Search/Meta lead test |
+| B2B supplier | website, LinkedIn Page, CRM, [IndiaMART](https://seller.indiamart.com/) if it fits | LinkedIn/Search ads, [GeM](https://gem.gov.in/) for government buyers if eligible |
+| SaaS | website, Search Console, product analytics, LinkedIn | [G2](https://www.g2.com/)/[Capterra](https://www.capterra.com/) profile, Product Hunt |
+| Creator | YouTube or Instagram, email list, media kit | sponsors, memberships |
+| Nonprofit | website, payment partner, email | [Google for Nonprofits](https://www.google.com/nonprofits/) if eligible |
+| App | store listings ([Google Play Console](https://play.google.com/console/), [App Store Connect](https://appstoreconnect.apple.com/)), analytics | install ads |
+
+Marketplaces and delivery apps charge commission or fees. Recalculate contribution first.
+
+### 30 days, day by day
+
+| Days | Do | Evidence |
+|---|---|---|
+| 1 | choose business, get written permission | permission note |
+| 2–3 | profit model and capacity | sheet |
+| 4–6 | three interviews, 30 reviews | quotes |
+| 7 | choose one customer and offer | one-page plan |
+| 8–10 | register/secure needed accounts | accounts tab |
+| 11–13 | page, form/booking, fast reply process | live URL, tests |
+| 14 | five-person test and fix | before/after |
+| 15 | analytics and UTMs | test log |
+| 16–20 | five useful assets on one channel | links |
+| 21 | ask real customers for honest reviews | requests sent |
+| 22–24 | ten partner/link contacts | tracker |
+| 25–27 | improve best asset; small authorized test if ready | result |
+| 28 | reconcile results | sheet |
+| 29 | decide stop/repeat/scale | decision |
+| 30 | present in five minutes | slides or page |
+
+### Weekly 30-minute review
+
+```text
+Goal and number:
+Customer lesson:
+What we made:
+What failed:
+Profit/capacity check:
+Next week's ONE priority:
+What we will not do:
+```
+
+### Two practice businesses (no client needed)
+
+1. **Mitti Studio workshops:** 32 seats a month, ₹650 contribution each, 10 enquiries unanswered weekly.
+2. **Neighbourhood tutor:** 40 seats, ₹30,000 budget, relies on word of mouth.
+
+Simulate customers with friends, label all results as practice, and never mix them with real claims.
+
+### If it goes wrong
+
+| Problem | Do |
+|---|---|
+| Owner won't share numbers | use ranges; don't run paid ads |
+| Too many channels | stop all but one |
+| No results by day 20 | check message and path before effort |
+| Owner wants fake reviews | decline in writing |
+
+### Proof to save
+
+- [ ] Day-30 presentation with a limit stated
+- [ ] Account and permission record
+- [ ] Weekly reviews
+- [ ] Final decision signed by the owner, or labelled as practice
+
 ## 🏋️ Exercises
 
 ### Exercise 26.1

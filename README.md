@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://abvicky.github.io/Digital-Marketing-by-Vicky/"><img src="https://img.shields.io/badge/Read_the_guide-online-3CC9A0?style=for-the-badge&logo=readthedocs&logoColor=15181E" alt="Read the guide online"></a>
   <a href="https://github.com/ABVicky/Digital-Marketing-by-Vicky/stargazers"><img src="https://img.shields.io/github/stars/ABVicky/Digital-Marketing-by-Vicky?style=for-the-badge&logo=github&label=Stars&color=2F6AA8" alt="GitHub stars"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-All_Rights_Reserved-3CC9A0?style=for-the-badge" alt="License: All Rights Reserved"></a>
   <img src="https://img.shields.io/badge/Level-Beginner_to_pro-F3B552?style=for-the-badge" alt="Level: beginner to pro">
   <a href="https://github.com/ABVicky/Digital-Marketing-by-Vicky/commits/main"><img src="https://img.shields.io/github/last-commit/ABVicky/Digital-Marketing-by-Vicky?style=for-the-badge&label=Updated&color=5B6472" alt="Last updated"></a>
 </p>
@@ -21,7 +22,7 @@
 
 Learn digital marketing by building it for one business. You interview customers, work out the profit on an order, make a page, choose channels, set up tracking and decide what to do next. No experience, code or ad budget is needed to begin.
 
-<img src="assets/readme/stats.svg" alt="28 modules, 101 exercises, 50 templates, 131 glossary terms, 50 exam questions and 6 capstones" width="100%">
+<img src="assets/readme/stats.svg" alt="28 modules, 28 practical labs, 101 exercises, 50 templates, 131 glossary terms and 6 capstones" width="100%">
 
 ## How it works
 
@@ -30,7 +31,22 @@ Learn digital marketing by building it for one business. You interview customers
 | Five real interviews, themes and positioning | Profit per order, clear promise, tested page | SEO, social, email and ads, chosen on purpose | Orders, GA4 and GTM, tests and limits |
 | [Module 02](modules/02-customer-research-and-positioning.md) | [03](modules/03-strategy-and-unit-economics.md) and [05](modules/05-landing-pages.md) | [08](modules/08-seo-keywords-and-on-page.md) to [19](modules/19-meta-ads.md) | [20](modules/20-analytics-and-tracking.md) to [22](modules/22-conversion-optimization.md) |
 
-Every module follows the same path: **short answer → lesson → before-and-after examples → exercises with solutions → common questions → quiz**.
+Every module follows the same path: **short answer → lesson → before-and-after examples → practical lab → exercises with solutions → common questions → quiz**.
+
+## Practical labs
+
+Theory is half the work. Each module's lab shows **where to register, what to click, what to build, what to do when it fails and what proof to keep**.
+
+| Lab | You do |
+|---|---|
+| [Local SEO](modules/10-local-seo-and-ai-search.md) | Register on Google, Bing, Apple and, where eligible, ChatGPT; film a verification video |
+| [Backlinks](modules/09-technical-seo-and-links.md) | Use 12 link methods, find ten prospects and send five pitches |
+| [Google Tag Manager](modules/21-google-tag-manager.md) | Track a real form and practise a rollback |
+| [Google Ads](modules/18-google-ads.md) and [Meta Ads](modules/19-meta-ads.md) | Build safe, paused campaigns without spending |
+| [CRM](modules/23-automation-and-crm.md) | Connect a form, stop duplicates and test failures |
+| [AI assistant](modules/24-ai-tools-for-marketers.md) | Build one from approved facts and score it on ten cases |
+
+All platforms: **[Tool & Platform Directory](appendix/H-tool-directory.md)**.
 
 ## Choose your route
 
@@ -163,6 +179,7 @@ Open a stage to see its modules.
 | 🏆 | **[Capstone Projects](appendix/E-capstone-projects.md)** | Six portfolio projects with success criteria. |
 | 🩺 | **[Troubleshooting](appendix/F-troubleshooting.md)** | Symptom, cause and fix for common marketing problems. |
 | 🔗 | **[Resources & 30-Day Plan](appendix/G-resources.md)** | Official documentation, tools and a practice plan. |
+| 🧭 | **[Tool & Platform Directory](appendix/H-tool-directory.md)** | Where to register, in what order, for every channel. |
 
 ## The online reader
 
@@ -204,7 +221,7 @@ No. Every paid-ads exercise can be completed on paper. Work out your profit and 
 <details>
 <summary><b>How long does it take?</b></summary>
 
-About 115 hours by our estimate, including practice: roughly 14 weeks at 8 hours a week.
+About 115 hours of study by our estimate, roughly 14 weeks at 8 hours a week. The practical labs add hands-on time, shown at the top of each one.
 
 </details>
 
@@ -269,8 +286,18 @@ Platform architecture and development: the reader, design system, track switcher
 
 ## Copyright and terms
 
-© 2026 **[Manikarnika Technologies](https://www.manikarnikatechnologies.in/)**. All rights reserved. Author: **[Vicky Prasad Mahato](https://abvicky.in)**.
+© 2026 **[Manikarnika Technologies](https://www.manikarnikatechnologies.in/)** and **[Vicky Prasad Mahato](https://abvicky.in)**. **All Rights Reserved.**
 
-This guide, including its text, diagrams, exercises, templates, code examples, and instructional designs, is provided for personal learning and educational use. Redistribution, commercial resale, republication, or training on these materials without express written authorization is prohibited. All product names, logos, and brands mentioned are property of their respective owners and are used solely for identification and educational reference.
+This repository is publicly accessible on GitHub for **viewing, reading, study, and educational inspection only**. All rights to the original source code, scripts, software architecture, curriculum design, written lessons, templates, and instructional frameworks are reserved by the copyright owners.
+
+Without prior written permission from the copyright owners, nobody is permitted to:
+- **Copy or redistribute** the source code, curriculum, or materials in whole or in part.
+- **Re-upload or republish** the code, reader platform, or content in another repository or platform.
+- **Claim the original code or content** as their own.
+- **Modify and distribute** derivative versions or adaptations of this work.
+- **Use the code or curriculum commercially** (including paid courses, bootcamps, client work, or books).
+- **Reuse substantial portions** of the code, user interface, or reader architecture in other projects.
+
+For complete license terms, restrictions, permissions, and third-party dependency notices (including Marked.js, Highlight.js, Mermaid.js, and Google Fonts), please see the full **[LICENSE](LICENSE)** file.
 
 <p align="center"><b>Useful?</b> <a href="https://github.com/ABVicky/Digital-Marketing-by-Vicky/stargazers">Star the repository</a> so you can find it again, and <a href="https://abvicky.github.io/Digital-Marketing-by-Vicky/">start reading</a>.</p>

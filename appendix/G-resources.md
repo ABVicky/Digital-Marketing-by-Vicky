@@ -26,7 +26,7 @@
 - [W3C WCAG overview](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - [India DPDP Rules 2025](https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf)
 - [ASCI](https://www.ascionline.in/)
-- [India consumer affairs](https://consumeraffairs.nic.in/)
+- [India consumer affairs](https://consumeraffairs.gov.in/)
 
 ## Sources for Time-Sensitive Notes
 

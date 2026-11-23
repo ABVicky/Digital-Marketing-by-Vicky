@@ -18,8 +18,8 @@ Author: Vicky Prasad Mahato (https://abvicky.in). Numbers for the practice clien
 - [Copywriting & Content](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/06-copywriting-and-content.html): Copywriting formulas, headlines from customer words, microcopy, storytelling, editing and a content calendar, with before/after examples.
 - [Design & Video Editing](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/07-design-and-video-editing.html): Design posts in Canva, shoot and edit vertical videos in VN, make thumbnails and check music, font and image rights.
 - [SEO: Keywords & On-Page](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/08-seo-keywords-and-on-page.html): Understand search intent, build a keyword plan, improve titles and pages, link topics and report SEO honestly.
-- [Technical SEO & Link Building](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/09-technical-seo-and-links.html): Fix crawling, noindex, canonicals, redirects, speed and structured data, plan a migration and earn links safely.
-- [Local SEO & AI Search](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/10-local-seo-and-ai-search.html): The difference between SEO, AEO and GEO, what Google says about AI search, plus Business Profile, reviews and local SEO steps.
+- [Technical SEO & Link Building](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/09-technical-seo-and-links.html): Fix crawling, canonicals, speed and schema, then earn backlinks: 12 methods, where to look, search operators, pitches and a tracker.
+- [Local SEO & AI Search](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/10-local-seo-and-ai-search.html): Register on Google Business Profile, Bing Places, Apple Business and ChatGPT, film verification, and learn SEO vs AEO vs GEO.
 
 ## Stage 3: Social, Email & Ads
 
@@ -56,3 +56,4 @@ Author: Vicky Prasad Mahato (https://abvicky.in). Numbers for the practice clien
 - [Capstone Projects](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/appendix-e-capstone-projects.html): Six digital marketing portfolio projects with deliverables, levels, success criteria and a scoring rubric.
 - [Troubleshooting](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/appendix-f-troubleshooting.html): Why traffic, ads, email, tracking or sales go wrong: 20 symptoms, likely causes and the first fix to try.
 - [Resources & 30-Day Plan](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/appendix-g-resources.html): A day-by-day digital marketing practice plan with official documentation and a learning log.
+- [Tool & Platform Directory](https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/appendix-h-tool-directory.html): A directory of 80+ marketing platforms: where to register for local listings, AI search, SEO, social, email, CRM and ads, in order.

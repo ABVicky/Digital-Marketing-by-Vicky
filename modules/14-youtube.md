@@ -199,6 +199,85 @@ Two strong videos a month is a serious programme.
 
 > 👔 **Quality bar:** would this be useful if our logo were removed?
 
+## 🛠️ Practical Lab: Publish a Searchable YouTube Video
+
+**You will finish with:** a business-owned channel and one helpful, captioned video. Time: 8 hours.
+
+### Tools and registration
+
+| Job | Tool | Open |
+|---|---|---|
+| Create/manage channel | YouTube Studio | [studio.youtube.com](https://studio.youtube.com/) |
+| Topic interest | Google Trends, YouTube autocomplete | [trends.google.com](https://trends.google.com/) |
+| Edit | VN, DaVinci Resolve | Module 07 |
+| Audio | YouTube Audio Library | YouTube Studio → Audio Library |
+| Thumbnail | Canva | [canva.com](https://www.canva.com/) |
+| Ads | Google Ads | Module 18 |
+
+### Create a business-owned channel
+
+1. Sign in with the business Google account. Open YouTube → profile → **Create a channel**.
+2. If multiple people will manage it, use a Brand Account where appropriate or Studio permissions. Don't share one password.
+3. Studio → Customization: name, handle, image, banner, description, contact and links.
+4. Studio → Settings → Permissions: add limited roles.
+5. Settings → Channel → Feature eligibility: complete only needed verification.
+6. Create four playlists: Start, Choose, Fix, Proof.
+
+### Choose and film
+
+1. List 20 real questions. Search each on YouTube and record date, promise, missing proof and comments.
+2. Choose one you can demonstrate better.
+3. Write ten titles and sketch three thumbnails before filming.
+4. Script result → three steps → common mistake → limit → next action.
+5. Film wide, medium, close. Record clear voice and one thumbnail image.
+6. Edit out greeting and repeated explanation. Correct captions.
+
+### Publish step by step
+
+1. Studio → **Create → Upload videos**.
+2. Title: plain outcome/question. Description: useful first two lines, resources, honest affiliate/sponsor disclosure.
+3. Upload thumbnail; check at small size.
+4. Choose playlist, audience setting (including made-for-kids accurately), language and licence.
+5. Add chapters starting `0:00`.
+6. Upload corrected captions.
+7. Use paid-promotion and altered/synthetic-content settings when they apply.
+8. Add end screen to one related video; add relevant card.
+9. Set Private/Unlisted, watch once, then Public or Schedule.
+10. Pin one useful resource. Embed the video on a matching page and link back with a UTM.
+
+### Week-one analysis
+
+Wait until enough people have seen it. Studio → Analytics:
+
+| Tab | Ask |
+|---|---|
+| Reach | who was shown it, from where? |
+| Engagement | where did they leave? |
+| Audience | are they relevant/returning? |
+| Comments | what is still unclear? |
+
+Change title/thumbnail **or** opening in the next video, not both, if you want to learn.
+
+### Practice task
+
+Publish *"Three checks before buying a handmade mug"*. Show size in hand, base/wobble and care label. Link to a real size guide, not a discount.
+
+### If it goes wrong
+
+| Problem | Fix |
+|---|---|
+| Custom thumbnail unavailable | check feature eligibility/verification |
+| Copyright claim | read claim, remove/replace/dispute only with rights |
+| No impressions | stronger search topic, links from site/email |
+| Clicks but exits | deliver promise earlier |
+
+### Proof to save
+
+- [ ] Channel roles and public URL
+- [ ] Title/thumbnail test
+- [ ] Published video with captions/chapters
+- [ ] One retention finding and one next-video change
+
 ## 🏋️ Exercises
 
 ### Exercise 14.1: Improve a promise

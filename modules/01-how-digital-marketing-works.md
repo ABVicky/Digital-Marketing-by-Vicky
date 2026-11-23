@@ -212,6 +212,67 @@ Learning question: does "keep what you make" beat "something different to do"?
 
 Notice that the offer line questions itself. "Two mugs each" doubles the firing cost. Good campaign documents make such problems visible before customers do.
 
+## 🛠️ Practical Lab: Build a Funnel Calculator and Journey Map
+
+**You will finish with:** a working spreadsheet and a map of one real purchase. Time: 2 hours.
+
+### Tools
+
+| Tool | Use | Open |
+|---|---|---|
+| Google Sheets | calculator | [sheets.google.com](https://sheets.google.com/) |
+| Meta Ad Library | see active ads | [facebook.com/ads/library](https://www.facebook.com/ads/library/) |
+| Google Ads Transparency Center | see verified advertisers' ads | [adstransparency.google.com](https://adstransparency.google.com/) |
+| Google Trends | compare demand over time | [trends.google.com](https://trends.google.com/) |
+| FigJam, Miro or paper | journey map | your choice |
+
+### Step by step: the calculator
+
+1. In row 1 write: `Spend, CPC, Clicks, Page rate, Conversions, Price, Variable cost, Contribution, CPA, Profit after ads`.
+2. In row 2 enter `7500, 12`, leave Clicks, then `4%`, leave Conversions, then `3000, 1800`.
+3. Use these formulas:
+
+```text
+C2  =A2/B2
+E2  =C2*D2
+H2  =F2-G2
+I2  =A2/E2
+J2  =(E2*H2)-A2
+```
+
+4. You should get 625 clicks, 25 conversions, ₹1,200 contribution, ₹300 CPA and ₹22,500 after ads.
+5. Copy the row twice. Make a low case (CPC ₹18, page rate 2%) and a high case (CPC ₹10, page rate 5%).
+6. Colour a result red when profit is below zero.
+
+### Step by step: spy without copying
+
+1. Open Meta Ad Library, choose your country and **All ads**, then search three competitors.
+2. For each, record hook, promise, proof, offer, format, landing page and start date.
+3. Open the Google Ads Transparency Center and search the same names.
+4. Open each landing page on your phone. Does it continue the ad's promise?
+5. Write one gap: a worry that nobody answers.
+
+> ⚠️ An ad running for months isn't proof of profit. Learn the structure; don't copy words, images or claims.
+
+### Practice task
+
+Ask one friend to recall a recent online purchase. Map six touches on a line, and mark each **paid, owned or earned**. Circle the touches that analytics probably missed.
+
+### If it goes wrong
+
+| Problem | Fix |
+|---|---|
+| `#DIV/0!` | a rate or spend cell is empty or zero |
+| Percent looks 100× too big | format the cell as a percentage and enter 4%, not 4 |
+| No ads found | try the Page name, domain, or another country setting |
+
+### Proof to save
+
+- [ ] Sheet with three cases
+- [ ] Table of five competitor ads
+- [ ] One journey map
+- [ ] Three-sentence decision: which number should improve first, and why
+
 ## 🏋️ Exercises
 
 ### Exercise 1.1: Do the math
