@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Analytics &amp; Tracking | Digital Marketing by Vicky (Module 20)</title>
+<meta name="description" content="GA4, UTMs, attribution, incrementality and reports. A chapter from Digital Marketing by Vicky: Zero to Pro, a free digital marketing study guide from beginner to pro.">
+<meta name="author" content="Vicky Prasad Mahato">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/20-analytics-and-tracking.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Digital Marketing by Vicky: Zero to Pro">
+<meta property="og:title" content="Analytics &amp; Tracking | Digital Marketing by Vicky (Module 20)">
+<meta property="og:description" content="GA4, UTMs, attribution, incrementality and reports. A chapter from Digital Marketing by Vicky: Zero to Pro, a free digital marketing study guide from beginner to pro.">
+<meta property="og:url" content="https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/20-analytics-and-tracking.html">
+<meta property="og:image" content="https://abvicky.github.io/Digital-Marketing-by-Vicky/assets/social-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Analytics &amp; Tracking | Digital Marketing by Vicky (Module 20)">
+<meta name="twitter:description" content="GA4, UTMs, attribution, incrementality and reports. A chapter from Digital Marketing by Vicky: Zero to Pro, a free digital marketing study guide from beginner to pro.">
+<meta name="twitter:image" content="https://abvicky.github.io/Digital-Marketing-by-Vicky/assets/social-card.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233CC9A0'/%3E%3Cpath d='M17 22h30M17 32h22M17 42h13' stroke='%2334363D' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LearningResource", "name": "Module 20: Analytics & Tracking", "description": "GA4, UTMs, attribution, incrementality and reports.", "url": "https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/20-analytics-and-tracking.html", "inLanguage": "en", "isAccessibleForFree": true, "learningResourceType": "Study guide chapter", "author": {"@type": "Person", "name": "Vicky Prasad Mahato", "url": "https://abvicky.in"}, "isPartOf": {"@type": "LearningResource", "name": "Digital Marketing by Vicky: Zero to Pro", "url": "https://abvicky.github.io/Digital-Marketing-by-Vicky/"}, "image": "https://abvicky.github.io/Digital-Marketing-by-Vicky/assets/social-card.png"}</script>
+<style>
+:root{--bg:#F5F4F9;--card:#FFFFFF;--text:#34363D;--muted:#6B6E78;--line:#E4E2EC;--primary:#3CC9A0;--link:#2F6AA8;--code:#F0EEF6}
+@media (prefers-color-scheme:dark){:root{--bg:#17191F;--card:#20232B;--text:#E8E8EC;--muted:#A3A6B0;--line:#33363F;--primary:#3CC9A0;--link:#7FB0E6;--code:#2A2D36}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.7 Inter,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--link)}img{max-width:100%;height:auto}
+.top{position:sticky;top:0;z-index:2;background:var(--card);border-bottom:1px solid var(--line)}
+.top-in{max-width:860px;margin:0 auto;padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between}
+.brand{font-weight:800;color:var(--text);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.btn{display:inline-block;background:var(--primary);color:#23252B;font-weight:700;text-decoration:none;padding:8px 14px;border-radius:10px;white-space:nowrap}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+main{max-width:860px;margin:0 auto;padding:24px 16px 48px}
+.crumbs{font-size:14px;color:var(--muted)}.crumbs a{color:var(--muted)}
+article{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px 24px 24px;margin-top:12px;overflow-wrap:break-word}
+h1{font-size:2rem;line-height:1.25}h2{margin-top:2em;line-height:1.3}h3{line-height:1.35}
+pre{background:#1E2028;color:#E8E8EC;padding:14px;border-radius:10px;overflow:auto;font-size:14px;line-height:1.55}
+code{font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;font-size:.88em}
+:not(pre)>code{background:var(--code);padding:1px 5px;border-radius:5px}
+blockquote{margin:1.2em 0;padding:4px 16px;border-left:4px solid var(--primary);background:var(--code);border-radius:0 10px 10px 0}
+.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.cta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0;padding:14px 16px;border:1px dashed var(--primary);border-radius:12px}
+.toc{font-size:15px}.toc ul{padding-left:18px;margin:6px 0}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:24px;flex-wrap:wrap}
+.diagram-note{color:var(--muted);font-size:15px}
+footer{max-width:860px;margin:0 auto;padding:0 16px 40px;color:var(--muted);font-size:14px}
+details{border:1px solid var(--line);border-radius:10px;padding:8px 12px}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in">
+  <a class="brand" href="../index.html">🎯 Digital Marketing by Vicky: Zero to Pro</a>
+  <a class="btn" href="../index.html#/modules/20-analytics-and-tracking.md">Open in reader</a>
+</div></header>
+<main>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">All chapters</a> › Module 20</nav>
+<article>
+<div class="cta"><span>📖 This is the text version. The <strong>interactive reader</strong> adds diagrams, search, progress tracking and Non-Tech / Tech tracks.</span><a class="btn" href="../index.html#/modules/20-analytics-and-tracking.md">Read interactively</a><a class="btn ghost" href="https://github.com/ABVicky/Digital-Marketing-by-Vicky">⭐ Star on GitHub</a></div>
+<details class="toc"><summary>On this page</summary><ul><li><a href="#learning-objectives">🎯 Learning Objectives</a></li><li><a href="#1-begin-with-questions">1. Begin With Questions</a></li><li><a href="#2-event-plan">2. Event Plan</a></li><li><a href="#3-analytics-stack">3. Analytics Stack</a></li><li><a href="#4-utms">4. UTMs</a></li><li><a href="#5-attribution">5. Attribution</a></li><li><a href="#6-incrementality">6. Incrementality</a></li><li><a href="#7-reconcile-reports">7. Reconcile Reports</a></li><li><a href="#8-a-decision-dashboard">8. A Decision Dashboard</a></li><li><a href="#9-data-quality-audit">9. Data Quality Audit</a></li><li><a href="#10-cohorts-and-retention">10. Cohorts and Retention</a></li><li><a href="#11-make-reports-people-use">11. Make Reports People Use</a></li><li><a href="#12-privacy-in-measurement">12. Privacy in Measurement</a></li><li><a href="#13-a-week-of-analytics">13. A Week of Analytics</a></li><li><a href="#exercises">🏋️ Exercises</a></li><li><a href="#quick-quiz">✅ Quick Quiz</a></li></ul></details>
+<h1>📊 Module 20: Analytics &amp; Tracking</h1>
+<blockquote><p>🟣 Stage 4 · Measure &amp; Scale · ⏱️ ~6 hours</p></blockquote>
+<p>Google Ads claims 80 orders. Meta claims 70. Email claims 40. The shop has 144. Nobody necessarily lied: each tool counted journeys using its own rules. Analytics is the skill of asking what a number can and cannot prove.</p>
+<hr>
+<h2 id="learning-objectives">🎯 Learning Objectives</h2>
+<ul><li>Write a measurement plan.</li><li>Set up events and UTMs.</li><li>Understand attribution and incrementality.</li><li>Build a report that leads to decisions.</li></ul>
+<hr>
+<h2 id="1-begin-with-questions">1. Begin With Questions</h2>
+<p><img src="../assets/measurement-loop.svg" alt="Measurement loop" loading="lazy"></p>
+<div class="table-wrap"><table><thead><tr><th>Business question</th><th>Event/data</th><th>Decision</th></tr></thead><tbody><tr><td>Which pages lead to booking?</td><td>booking, landing page</td><td>improve or promote</td></tr><tr><td>Where does checkout fail?</td><td>cart, checkout, purchase</td><td>fix step</td></tr><tr><td>Are leads useful?</td><td>CRM stage/value</td><td>budget</td></tr><tr><td>Do buyers return?</td><td>orders by customer</td><td>retention</td></tr></tbody></table></div>
+<p>Don't track everything "just in case". It adds cost, privacy risk and confusion.</p>
+<h3 id="write-a-measurement-plan">Write a measurement plan</h3>
+<div class="table-wrap"><table><thead><tr><th>Level</th><th>Mitti example</th><th>Source of truth</th><th>Decision</th></tr></thead><tbody><tr><td>Business</td><td>contribution after ads</td><td>accounts + ads</td><td>budget</td></tr><tr><td>Result</td><td>paid orders, attended seats</td><td>shop/booking</td><td>capacity</td></tr><tr><td>Behaviour</td><td>product view, cart, enquiry</td><td>analytics</td><td>page fix</td></tr><tr><td>Diagnostic</td><td>speed, error, video hold</td><td>tool</td><td>technical/creative fix</td></tr><tr><td>Quality</td><td>refund, damage, show-up</td><td>operations</td><td>promise/process</td></tr></tbody></table></div>
+<p>Define each metric in a small dictionary:</p>
+<pre><code>Metric: new customer CPA
+Numerator: ad spend, all channels, tax excluded
+Denominator: customers with first paid order in period
+Window: calendar month, Asia/Kolkata
+Excludes: test and refunded-before-dispatch orders
+Owner: Meera   Source: ads + shop   Last checked:</code></pre>
+<p>Without a definition, two honest people can argue for an hour about the same word.</p>
+<h2 id="2-event-plan">2. Event Plan</h2>
+<pre><code>Event: workshop_booked
+When: server confirms payment
+Parameters: workshop_type, value, currency, transaction_id
+Do not collect: name, email, phone
+Owner: web team
+Test: one paid, one failed, one refunded booking</code></pre>
+<p>Use consistent lowercase names. Check whether the analytics product has a recommended event before inventing one. In GA4, important business actions are marked as <strong>key events</strong>; advertising products may call an action a conversion.</p>
+<h2 id="3-analytics-stack">3. Analytics Stack</h2>
+<p class="diagram-note">📊 This section has a diagram. <a href="../index.html#/modules/20-analytics-and-tracking.md">View it in the interactive reader</a>.</p>
+<p>Small businesses may not need a warehouse. Shop records + analytics + a spreadsheet can be enough.</p>
+<h3 id="data-layer">💻 Data Layer</h3>
+<pre><code>window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: &quot;purchase&quot;,
+  ecommerce: {
+    transaction_id: &quot;MITTI-1042&quot;,
+    value: 1800,
+    currency: &quot;INR&quot;,
+    items: [{ item_id: &quot;MUG-BLUE&quot;, item_name: &quot;Blue mug&quot;, price: 900, quantity: 2 }]
+  }
+});</code></pre>
+<p>Push only after confirmed payment. Prevent reloads from sending it again. Test GTM Preview and GA4 DebugView, then compare with actual orders.</p>
+<h3 id="ga4-in-plain-language">GA4 in plain language</h3>
+<p>GA4 records <strong>events</strong> and their <strong>parameters</strong>. A page view is an event; a purchase is an event. You choose a few as <strong>key events</strong> because they matter to the business.</p>
+<div class="table-wrap"><table><thead><tr><th>Area</th><th>Use</th></tr></thead><tbody><tr><td>Acquisition</td><td>where visits came from</td></tr><tr><td>Engagement</td><td>pages and events</td></tr><tr><td>Monetization</td><td>commerce data if correctly sent</td></tr><tr><td>Explorations</td><td>custom path and funnel questions</td></tr><tr><td>Advertising</td><td>attribution views</td></tr><tr><td>Admin</td><td>streams, retention, filters, links</td></tr></tbody></table></div>
+<h3 id="first-setup">First setup</h3>
+<ul><li>[ ] Business owns the property</li><li>[ ] Correct time zone and currency</li><li>[ ] Web stream and one tag</li><li>[ ] Data-retention setting reviewed</li><li>[ ] Internal/developer traffic handled and tested</li><li>[ ] Search Console and Ads linked if appropriate</li><li>[ ] Key events limited</li><li>[ ] Consent checked</li><li>[ ] Raw export considered if needed</li></ul>
+<p>Reports may apply thresholds, modelling or sampling. Record settings and don't expect every screen to match exactly.</p>
+<h3 id="a-useful-exploration">A useful exploration</h3>
+<p>Question: where do mobile gift buyers stop?</p>
+<pre><code>Segment: mobile, landing page contains /gifts
+Steps: product view -&gt; add_to_cart -&gt; begin_checkout -&gt; purchase
+Breakdown: new/returning
+Period: 28 complete days
+Check: event tests and shop orders</code></pre>
+<h2 id="4-utms">4. UTMs</h2>
+<pre><code>https://example.com/gifts?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=diwali_2026&amp;utm_content=proof</code></pre>
+<div class="table-wrap"><table><thead><tr><th>Parameter</th><th>Answers</th></tr></thead><tbody><tr><td>source</td><td>who sent?</td></tr><tr><td>medium</td><td>what channel type?</td></tr><tr><td>campaign</td><td>which effort?</td></tr><tr><td>content</td><td>which creative/link?</td></tr><tr><td>term</td><td>useful keyword label</td></tr></tbody></table></div>
+<p>Keep an approved list. Don't tag internal links, because they can overwrite the visit's source. Don't put personal data in URLs.</p>
+<h3 id="utm-governance">UTM governance</h3>
+<div class="table-wrap"><table><thead><tr><th>Channel</th><th>source</th><th>medium</th></tr></thead><tbody><tr><td>Newsletter</td><td>newsletter</td><td>email</td></tr><tr><td>WhatsApp</td><td>whatsapp</td><td>messaging</td></tr><tr><td>Meta ad</td><td>meta</td><td>paid_social</td></tr><tr><td>Instagram bio</td><td>instagram</td><td>social</td></tr><tr><td>Creator</td><td>creator_slug</td><td>influencer</td></tr><tr><td>QR on cafe card</td><td>cafe_slug</td><td>qr</td></tr></tbody></table></div>
+<p>❌ <strong>Weak</strong></p>
+<pre><code>Facebook / FB / facebook_ads / Facebook Ad / cpc</code></pre>
+<p>✅ <strong>Strong</strong></p>
+<pre><code>source=meta  medium=paid_social  campaign=2026-12_gifting  content=drop-test</code></pre>
+<p>Case and spelling can split one channel into five. Generate links from a sheet with approved dropdowns, then test redirects and page parameters.</p>
+<h2 id="5-attribution">5. Attribution</h2>
+<p>Attribution assigns credit; it doesn't automatically prove cause.</p>
+<p>GA4 currently documents data-driven and last-click options. Settings change, so check <a href="https://support.google.com/analytics/answer/10596865">Google's attribution help</a>. Compare settings and lookback periods before comparing reports.</p>
+<div class="table-wrap"><table><thead><tr><th>Method</th><th>Good for</th><th>Blind spot</th></tr></thead><tbody><tr><td>Last click</td><td>simple consistency</td><td>earlier influence</td></tr><tr><td>Data-driven</td><td>path patterns</td><td>opaque, observed data only</td></tr><tr><td>Platform</td><td>in-platform optimization</td><td>overlaps with others</td></tr><tr><td>Survey</td><td>human recall</td><td>memory and selection</td></tr><tr><td>Incrementality test</td><td>cause</td><td>cost, sample and design</td></tr></tbody></table></div>
+<h3 id="compare-two-attribution-stories">Compare two attribution stories</h3>
+<p>Riya saw a creator on day 1, clicked Meta on day 4, searched Google on day 8 and bought from email on day 9.</p>
+<div class="table-wrap"><table><thead><tr><th>View</th><th>Credit story</th></tr></thead><tbody><tr><td>Last click</td><td>email</td></tr><tr><td>Meta report</td><td>may claim within its window</td></tr><tr><td>Google report</td><td>may claim search</td></tr><tr><td>Survey</td><td>creator first made her consider it</td></tr><tr><td>Shop</td><td>one order</td></tr></tbody></table></div>
+<p>The shop is right about <em>one order</em>. The other reports are different explanations of influence. Use them to make hypotheses, and tests to judge cause.</p>
+<h2 id="6-incrementality">6. Incrementality</h2>
+<p>If conversion is 3% in an exposed randomized group and 2% in holdout:</p>
+<pre><code>Incremental rate = 3% - 2% = 1 percentage point
+Relative lift = (3% - 2%) / 2% = 50%</code></pre>
+<p>For 10,000 exposed people, that's about 100 added conversions, subject to uncertainty. A non-random comparison between retargeted cart users and everyone else is unfair: cart users were already more likely to buy.</p>
+<h3 id="practical-incrementality-tests">Practical incrementality tests</h3>
+<div class="table-wrap"><table><thead><tr><th>Test</th><th>How</th><th>Best use</th></tr></thead><tbody><tr><td>Random user holdout</td><td>some eligible people see no campaign</td><td>email, owned audience</td></tr><tr><td>Geo test</td><td>comparable areas on/off</td><td>larger paid activity</td></tr><tr><td>Conversion lift</td><td>platform's randomized test</td><td>paid ads, when available</td></tr><tr><td>Time on/off</td><td>compare periods</td><td>weak evidence, only with caveats</td></tr></tbody></table></div>
+<h4 id="geo-example">Geo example</h4>
+<p>Two similar regions each average 100 orders. Region A receives ₹40,000 ads and has 125; B has 105 without. A naive before/after says 25. Compared with B, A added about 20. At ₹810 contribution, 20 × 810 = ₹16,200, which doesn't cover ₹40,000. Check whether regions were truly comparable and whether later purchases are missing.</p>
+<p>Don't run a test just to prove a channel you already decided to keep. Write the decision for each possible outcome first.</p>
+<h2 id="7-reconcile-reports">7. Reconcile Reports</h2>
+<ol><li>Same date range and time zone?</li><li>Same order status, tax and refunds?</li><li>Same deduplication?</li><li>Consent or blocked tracking?</li><li>Click date versus order date?</li><li>Different attribution windows?</li></ol>
+<p>Choose one source of truth for each question: the shop/accounting record for revenue, ad account for spend, CRM for qualified leads.</p>
+<h2 id="8-a-decision-dashboard">8. A Decision Dashboard</h2>
+<div class="table-wrap"><table><thead><tr><th>Layer</th><th>Mitti metric</th></tr></thead><tbody><tr><td>Result</td><td>contribution after ads</td></tr><tr><td>Drivers</td><td>orders, conversion rate, AOV</td></tr><tr><td>Channel</td><td>qualified visits, new customers, spend</td></tr><tr><td>Guardrail</td><td>refunds, damage, spam rate</td></tr><tr><td>Learning</td><td>test and next decision</td></tr></tbody></table></div>
+<h3 id="sql-new-customer-orders">💻 SQL: New-Customer Orders</h3>
+<pre><code>WITH ranked AS (
+  SELECT order_id, customer_id, ordered_at, net_value,
+         ROW_NUMBER() OVER (
+           PARTITION BY customer_id ORDER BY ordered_at, order_id
+         ) AS order_number
+  FROM orders
+  WHERE status = &#x27;paid&#x27;
+)
+SELECT date_trunc(&#x27;month&#x27;, ordered_at) AS month,
+       COUNT(*) AS new_customers,
+       SUM(net_value) AS first_order_revenue
+FROM ranked
+WHERE order_number = 1
+GROUP BY 1
+ORDER BY 1;</code></pre>
+<p>This PostgreSQL example needs complete order history and a stable customer ID. Decide separately how to treat later refunds.</p>
+<blockquote><p>👔 <strong>Weekly report:</strong> what changed, why we think so, confidence, what we will do and what we need.</p></blockquote>
+<h2 id="9-data-quality-audit">9. Data Quality Audit</h2>
+<p>Pick 30 real orders and trace them.</p>
+<div class="table-wrap"><table><thead><tr><th>Order</th><th>Shop</th><th>GA4</th><th>Ads import</th><th>CRM</th><th>Value match</th><th>Issue</th></tr></thead><tbody><tr><td>1042</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>yes</td><td>–</td></tr><tr><td>1043</td><td>yes</td><td>no</td><td>no</td><td>yes</td><td>–</td><td>consent/blocking</td></tr><tr><td>1044</td><td>yes</td><td>twice</td><td>once</td><td>yes</td><td>no</td><td>refresh duplicate</td></tr></tbody></table></div>
+<p>Some loss can be expected when consent is declined or tags are blocked. Duplicates and wrong values usually need technical work.</p>
+<h3 id="alarm-rules">Alarm rules</h3>
+<ul><li>Zero purchase events during normal trading.</li><li>Events exceed shop purchases materially.</li><li>Spend rises sharply beyond plan.</li><li>Refund or cancellation rate changes.</li><li>Lead form submissions with no CRM records.</li></ul>
+<p>Alert a person, include a link and say what to check. Fifty noisy alerts teach everyone to ignore them.</p>
+<h2 id="10-cohorts-and-retention">10. Cohorts and Retention</h2>
+<p>A cohort is people who started in the same period.</p>
+<div class="table-wrap"><table><thead><tr><th>First order</th><th>Customers</th><th>Repeat by 30d</th><th>by 60d</th><th>by 90d</th></tr></thead><tbody><tr><td>Jul</td><td>100</td><td>8%</td><td>14%</td><td>19%</td></tr><tr><td>Aug</td><td>110</td><td>7%</td><td>13%</td><td>18%</td></tr><tr><td>Sep</td><td>150</td><td>4%</td><td>8%</td><td>11%</td></tr></tbody></table></div>
+<p>September brought more customers who repeated less. Was acquisition quality lower, the offer different, the season unusual or product experience worse? Don't celebrate 150 until you know.</p>
+<h3 id="margin-by-channel">Margin by channel</h3>
+<pre><code>Channel contribution = attributed or incremental order contribution - media - creative - tool - labour where relevant</code></pre>
+<p>Be explicit about the attribution method. A precise sum based on uncertain credit is still uncertain.</p>
+<h2 id="11-make-reports-people-use">11. Make Reports People Use</h2>
+<p>❌ <strong>Weak report</strong></p>
+<pre><code>GA4 users up 18%, sessions up 12%, bounce down 5%, 42 charts attached.</code></pre>
+<p>✅ <strong>Strong report</strong></p>
+<pre><code>Gift orders rose 144 to 166. Visits rose 2%; mobile checkout completion
+rose after dispatch date became visible. Season also changed, so the
+page may not explain all 22. Next: usability test and an experiment
+with the date shown in two ways. Owner: Asha, 4 Dec.</code></pre>
+<p>Use one chart per question, start axes sensibly, label the source and period, and show uncertainty when decisions are close.</p>
+<h3 id="dashboard-layout">Dashboard layout</h3>
+<div class="table-wrap"><table><thead><tr><th>Row</th><th>Contents</th></tr></thead><tbody><tr><td>1</td><td>business result and target</td></tr><tr><td>2</td><td>drivers and guardrails</td></tr><tr><td>3</td><td>channel contribution and new customers</td></tr><tr><td>4</td><td>funnel and data-quality alarms</td></tr><tr><td>5</td><td>tests, decisions, owners</td></tr></tbody></table></div>
+<h2 id="12-privacy-in-measurement">12. Privacy in Measurement</h2>
+<p>Collect the minimum, configure retention, avoid personal data in events and URLs, honour consent, limit access, and document vendors. Seek legal and technical review for identity matching and server-side data sharing. Analytics is useful; knowing everything about everyone is not the goal.</p>
+<h2 id="13-a-week-of-analytics">13. A Week of Analytics</h2>
+<div class="table-wrap"><table><thead><tr><th>Day</th><th>Work</th></tr></thead><tbody><tr><td>Monday</td><td>spend, orders, alarms</td></tr><tr><td>Tuesday</td><td>lead and refund quality</td></tr><tr><td>Wednesday</td><td>one customer journey, start to finish</td></tr><tr><td>Thursday</td><td>test review</td></tr><tr><td>Friday</td><td>decision report and definition corrections</td></tr></tbody></table></div>
+<blockquote><p>💡 Spend an hour with customer calls for every four hours in dashboards. Numbers show patterns; people explain them.</p></blockquote>
+<h3 id="reconciliation-in-sql">💻 Reconciliation in SQL</h3>
+<pre><code>WITH platform_orders AS (
+  SELECT transaction_id, COUNT(*) AS event_count, MAX(value) AS event_value
+  FROM analytics_purchase_events
+  WHERE event_date &gt;= DATE &#x27;2026-11-01&#x27;
+    AND event_date &lt; DATE &#x27;2026-12-01&#x27;
+  GROUP BY transaction_id
+)
+SELECT o.order_id, o.net_value, p.event_count, p.event_value
+FROM orders o
+LEFT JOIN platform_orders p ON p.transaction_id = o.order_id
+WHERE o.status = &#x27;paid&#x27;
+  AND o.ordered_at &gt;= TIMESTAMP &#x27;2026-11-01 00:00:00&#x27;
+  AND o.ordered_at &lt; TIMESTAMP &#x27;2026-12-01 00:00:00&#x27;
+  AND (p.transaction_id IS NULL OR p.event_count &gt; 1 OR o.net_value &lt;&gt; p.event_value);</code></pre>
+<p>Adjust time zone and valid statuses to your data. Equality checks for decimal values may need rounding or integer paise.</p>
+<h2 id="exercises">🏋️ Exercises</h2>
+<h3 id="exercise-201">Exercise 20.1</h3>
+<p>Make four UTMs for one launch across email, WhatsApp, Meta and a creator.</p>
+<details>
+<summary>View Pattern</summary>
+<p>Keep campaign identical. Change source/medium consistently: newsletter/email, crm/whatsapp, meta/paid_social, creator_name/influencer.</p>
+</details>
+<h3 id="exercise-202">Exercise 20.2</h3>
+<p>Platforms claim 190 orders; shop has 144. What can you say?</p>
+<details>
+<summary>View Solution</summary>
+<p>Claims overlap or use different rules. Don't add them. Use 144 for actual orders, compare definitions, and test incrementality.</p>
+</details>
+<h3 id="exercise-203-geo-test">Exercise 20.3: Geo test</h3>
+<p>Region with ads: orders 80 → 110. Matched region without: 80 → 92. Spend ₹14,000, contribution ₹700. Estimate and decide.</p>
+<details>
+<summary>View Solution</summary>
+<p>Added orders are about (110 − 80) − (92 − 80) = 18. Contribution is ₹12,600, less ₹14,000 spend = −₹1,400 before other costs. Consider uncertainty, delayed purchases and whether a smaller spend may work; don't scale based on 30.</p>
+</details>
+<h3 id="exercise-204-metric-dictionary">Exercise 20.4: Metric dictionary</h3>
+<p>Write definitions for lead, qualified lead, booking, attendance and repeat customer.</p>
+<details>
+<summary>View Success Check</summary>
+<p>Every definition has an event, time window, owner, inclusion/exclusion and source. "Interested" is defined or not used.</p>
+</details>
+<h2 id="quick-quiz">✅ Quick Quiz</h2>
+<ol><li>Does attribution prove cause?<br>• A) Yes<br>• B) No</li><li>When should a purchase event fire?<br>• A) Button click<br>• B) Confirmed purchase</li><li>Shop has one order; three platforms claim it. How many orders?<br>• A) Three<br>• B) One, with different credit claims<br>• C) Zero</li><li>In the geo example, 25 vs 5 growth suggests extra orders of about:<br>• A) 20<br>• B) 25<br>• C) 30</li></ol>
+<details>
+<summary>View Answers</summary>
+<ol><li><strong>B.</strong></li><li><strong>B.</strong></li><li><strong>B.</strong> Don't add overlapping claims.</li><li><strong>A.</strong> Subtract comparison-region growth.</li></ol>
+</details>
+<hr>
+<blockquote><p>Author: <strong>Vicky</strong> (<a href="https://abvicky.in">abvicky.in</a>) · Platform built by <a href="https://www.manikarnikatechnologies.in/">Manikarnika Technologies</a> · © 2026 All rights reserved. ⬅️ <a href="19-meta-ads.html">Meta Ads (Facebook &amp; Instagram)</a> · ➡️ <a href="21-google-tag-manager.html">Google Tag Manager</a></p></blockquote>
+</article>
+<nav class="pager" aria-label="Lesson navigation"><a class="btn ghost" href="19-meta-ads.html">← Meta Ads (Facebook &amp; Instagram)</a><a class="btn ghost" href="21-google-tag-manager.html">Google Tag Manager →</a></nav>
+</main>
+<footer>
+<p>Digital Marketing by Vicky: Zero to Pro · Author: <a href="https://abvicky.in"><strong>Vicky</strong></a> · Platform built by <a href="https://www.manikarnikatechnologies.in/"><strong>Manikarnika Technologies</strong></a> · © 2026 All rights reserved.</p>
+</footer>
+</body>
+</html>

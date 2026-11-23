@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Google Tag Manager | Digital Marketing by Vicky (Module 21)</title>
+<meta name="description" content="Data layer, tags, triggers, testing and consent. A chapter from Digital Marketing by Vicky: Zero to Pro, a free digital marketing study guide from beginner to pro.">
+<meta name="author" content="Vicky Prasad Mahato">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/21-google-tag-manager.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Digital Marketing by Vicky: Zero to Pro">
+<meta property="og:title" content="Google Tag Manager | Digital Marketing by Vicky (Module 21)">
+<meta property="og:description" content="Data layer, tags, triggers, testing and consent. A chapter from Digital Marketing by Vicky: Zero to Pro, a free digital marketing study guide from beginner to pro.">
+<meta property="og:url" content="https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/21-google-tag-manager.html">
+<meta property="og:image" content="https://abvicky.github.io/Digital-Marketing-by-Vicky/assets/social-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Google Tag Manager | Digital Marketing by Vicky (Module 21)">
+<meta name="twitter:description" content="Data layer, tags, triggers, testing and consent. A chapter from Digital Marketing by Vicky: Zero to Pro, a free digital marketing study guide from beginner to pro.">
+<meta name="twitter:image" content="https://abvicky.github.io/Digital-Marketing-by-Vicky/assets/social-card.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233CC9A0'/%3E%3Cpath d='M17 22h30M17 32h22M17 42h13' stroke='%2334363D' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LearningResource", "name": "Module 21: Google Tag Manager", "description": "Data layer, tags, triggers, testing and consent.", "url": "https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/21-google-tag-manager.html", "inLanguage": "en", "isAccessibleForFree": true, "learningResourceType": "Study guide chapter", "author": {"@type": "Person", "name": "Vicky Prasad Mahato", "url": "https://abvicky.in"}, "isPartOf": {"@type": "LearningResource", "name": "Digital Marketing by Vicky: Zero to Pro", "url": "https://abvicky.github.io/Digital-Marketing-by-Vicky/"}, "image": "https://abvicky.github.io/Digital-Marketing-by-Vicky/assets/social-card.png"}</script>
+<style>
+:root{--bg:#F5F4F9;--card:#FFFFFF;--text:#34363D;--muted:#6B6E78;--line:#E4E2EC;--primary:#3CC9A0;--link:#2F6AA8;--code:#F0EEF6}
+@media (prefers-color-scheme:dark){:root{--bg:#17191F;--card:#20232B;--text:#E8E8EC;--muted:#A3A6B0;--line:#33363F;--primary:#3CC9A0;--link:#7FB0E6;--code:#2A2D36}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.7 Inter,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--link)}img{max-width:100%;height:auto}
+.top{position:sticky;top:0;z-index:2;background:var(--card);border-bottom:1px solid var(--line)}
+.top-in{max-width:860px;margin:0 auto;padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between}
+.brand{font-weight:800;color:var(--text);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.btn{display:inline-block;background:var(--primary);color:#23252B;font-weight:700;text-decoration:none;padding:8px 14px;border-radius:10px;white-space:nowrap}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+main{max-width:860px;margin:0 auto;padding:24px 16px 48px}
+.crumbs{font-size:14px;color:var(--muted)}.crumbs a{color:var(--muted)}
+article{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px 24px 24px;margin-top:12px;overflow-wrap:break-word}
+h1{font-size:2rem;line-height:1.25}h2{margin-top:2em;line-height:1.3}h3{line-height:1.35}
+pre{background:#1E2028;color:#E8E8EC;padding:14px;border-radius:10px;overflow:auto;font-size:14px;line-height:1.55}
+code{font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;font-size:.88em}
+:not(pre)>code{background:var(--code);padding:1px 5px;border-radius:5px}
+blockquote{margin:1.2em 0;padding:4px 16px;border-left:4px solid var(--primary);background:var(--code);border-radius:0 10px 10px 0}
+.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.cta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0;padding:14px 16px;border:1px dashed var(--primary);border-radius:12px}
+.toc{font-size:15px}.toc ul{padding-left:18px;margin:6px 0}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:24px;flex-wrap:wrap}
+.diagram-note{color:var(--muted);font-size:15px}
+footer{max-width:860px;margin:0 auto;padding:0 16px 40px;color:var(--muted);font-size:14px}
+details{border:1px solid var(--line);border-radius:10px;padding:8px 12px}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in">
+  <a class="brand" href="../index.html">🎯 Digital Marketing by Vicky: Zero to Pro</a>
+  <a class="btn" href="../index.html#/modules/21-google-tag-manager.md">Open in reader</a>
+</div></header>
+<main>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">All chapters</a> › Module 21</nav>
+<article>
+<div class="cta"><span>📖 This is the text version. The <strong>interactive reader</strong> adds diagrams, search, progress tracking and Non-Tech / Tech tracks.</span><a class="btn" href="../index.html#/modules/21-google-tag-manager.md">Read interactively</a><a class="btn ghost" href="https://github.com/ABVicky/Digital-Marketing-by-Vicky">⭐ Star on GitHub</a></div>
+<details class="toc"><summary>On this page</summary><ul><li><a href="#learning-objectives">🎯 Learning Objectives</a></li><li><a href="#1-what-it-is">1. What It Is</a></li><li><a href="#2-before-you-install">2. Before You Install</a></li><li><a href="#3-install">3. Install</a></li><li><a href="#4-first-tag-ga4">4. First Tag: GA4</a></li><li><a href="#5-second-tag-a-click">5. Second Tag: A Click</a></li><li><a href="#6-third-tag-a-form">6. Third Tag: A Form</a></li><li><a href="#7-fourth-tag-a-purchase">7. Fourth Tag: A Purchase</a></li><li><a href="#8-variables-you-will-use">8. Variables You Will Use</a></li><li><a href="#9-test-like-you-mean-it">9. Test Like You Mean It</a></li><li><a href="#10-publish-with-versions">10. Publish With Versions</a></li><li><a href="#11-naming-and-governance">11. Naming and Governance</a></li><li><a href="#12-consent-mode-briefly">12. Consent Mode, Briefly</a></li><li><a href="#13-server-side-tagging">13. Server-Side Tagging</a></li><li><a href="#14-monthly-audit">14. Monthly Audit</a></li><li><a href="#exercises">🏋️ Exercises</a></li><li><a href="#key-takeaways">🔑 Key Takeaways</a></li><li><a href="#quick-quiz">✅ Quick Quiz</a></li></ul></details>
+<h1>🏷️ Module 21: Google Tag Manager</h1>
+<blockquote><p>🟣 Stage 4 · Measure &amp; Scale · ⏱️ ~5 hours</p></blockquote>
+<p>Every time Mitti wanted to measure a button, Meera messaged the developer and waited a week. Then they installed Tag Manager, and now four people can add tags. Six months later there are 31 tags, nobody knows what half of them do, and purchases are counted twice.</p>
+<p>Tag Manager removes a bottleneck. It also removes a guard. This module teaches both the speed and the discipline.</p>
+<hr>
+<h2 id="learning-objectives">🎯 Learning Objectives</h2>
+<p>By the end of this module, you will be able to:</p>
+<ul><li>Explain containers, tags, triggers, variables and the data layer.</li><li>Set up GA4, a click event, a form event and a purchase.</li><li>Test in Preview, publish with versions and roll back.</li><li>Handle consent, naming and governance.</li></ul>
+<hr>
+<h2 id="1-what-it-is">1. What It Is</h2>
+<p><strong>Google Tag Manager (GTM)</strong> is a switchboard. Your site tells it <em>something happened</em>; it decides <em>which tools to inform</em>.</p>
+<div class="table-wrap"><table><thead><tr><th>Word</th><th>Plain meaning</th><th>Example</th></tr></thead><tbody><tr><td>Container</td><td>the switchboard for one site</td><td>Mitti web</td></tr><tr><td>Tag</td><td>message to a tool</td><td>GA4 event</td></tr><tr><td>Trigger</td><td>when to send</td><td>booking confirmed</td></tr><tr><td>Variable</td><td>information to include</td><td>value, currency</td></tr><tr><td>Data layer</td><td>clean message board on the page</td><td><code>workshop_booked</code></td></tr><tr><td>Version</td><td>saved published state</td><td>v14</td></tr><tr><td>Workspace</td><td>draft area</td><td>"booking event"</td></tr></tbody></table></div>
+<p class="diagram-note">📊 This section has a diagram. <a href="../index.html#/modules/21-google-tag-manager.md">View it in the interactive reader</a>.</p>
+<p>GTM isn't analytics: it doesn't store reports. GA4 does that.</p>
+<h2 id="2-before-you-install">2. Before You Install</h2>
+<ol><li>Measurement plan (Module 20).</li><li>Consent design (Module 25).</li><li>Business-owned account, with two administrators.</li><li>A test page or staging site.</li><li>A list of existing hard-coded tags. If GA4 is already in the theme, adding it again in GTM will double-count.</li></ol>
+<h2 id="3-install">3. Install</h2>
+<ol><li>Create an account and web container.</li><li>Place the provided code as instructed, usually through one trusted integration.</li><li>Don't also install the same container with a plugin.</li><li>Open Preview and confirm the container loads once.</li></ol>
+<blockquote><p>⚠️ Anyone with publish access can run code on your site. Treat GTM permissions like website administrator permissions.</p></blockquote>
+<h2 id="4-first-tag-ga4">4. First Tag: GA4</h2>
+<div class="table-wrap"><table><thead><tr><th>Field</th><th>Value</th></tr></thead><tbody><tr><td>Tag type</td><td>Google tag</td></tr><tr><td>Tag ID</td><td>your GA4 measurement ID (variable)</td></tr><tr><td>Trigger</td><td>Initialization - All Pages</td></tr><tr><td>Name</td><td><code>GA4 - Google tag - All pages</code></td></tr></tbody></table></div>
+<p>Set consent defaults <strong>before</strong> tags that depend on them. Google's consent initialization trigger exists for this. Check Preview for the order.</p>
+<p>GA4's enhanced measurement may already record page views, scrolls, outbound clicks and some form interactions. Look there before creating duplicates.</p>
+<h2 id="5-second-tag-a-click">5. Second Tag: A Click</h2>
+<p>Goal: measure people who tap the WhatsApp help button.</p>
+<ol><li>Enable the built-in Click variables.</li><li>Trigger: <em>Click - Just Links</em>, some clicks.</li><li>Condition: Click URL starts with <code>https://wa.me/</code>.</li><li>GA4 Event tag:</li></ol>
+<div class="table-wrap"><table><thead><tr><th>Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Event name</td><td><code>whatsapp_click</code></td></tr><tr><td><code>link_location</code></td><td>page section variable</td></tr><tr><td>Not included</td><td>phone number, message text</td></tr></tbody></table></div>
+<p>A click isn't an enquiry. Name it honestly.</p>
+<p>❌ <strong>Weak</strong></p>
+<pre><code>Event: lead   Trigger: any click on the page</code></pre>
+<p>✅ <strong>Strong</strong></p>
+<pre><code>Event: whatsapp_click   Trigger: click URL starts with https://wa.me/
+Later, the CRM records: qualified_enquiry</code></pre>
+<h2 id="6-third-tag-a-form">6. Third Tag: A Form</h2>
+<p>Ways, from strongest to weakest:</p>
+<div class="table-wrap"><table><thead><tr><th>Method</th><th>Why</th></tr></thead><tbody><tr><td>Data layer event from the confirmed server response</td><td>means the form really succeeded</td></tr><tr><td>Thank-you page view</td><td>simple, if the page can't be reached otherwise</td></tr><tr><td>Element visibility of success message</td><td>fragile but workable</td></tr><tr><td>Submit-button click</td><td>counts failures as successes</td></tr></tbody></table></div>
+<pre><code>window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: &quot;corporate_enquiry_submitted&quot;,
+  form_id: &quot;gifting_main&quot;,
+  quantity_band: &quot;100-249&quot;,
+  enquiry_id: &quot;enq_2041&quot;
+});</code></pre>
+<p>Send a band, not a name, email or phone.</p>
+<h2 id="7-fourth-tag-a-purchase">7. Fourth Tag: A Purchase</h2>
+<pre><code>window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({ ecommerce: null });
+window.dataLayer.push({
+  event: &quot;purchase&quot;,
+  ecommerce: {
+    transaction_id: &quot;MITTI-1042&quot;,
+    value: 1800,
+    currency: &quot;INR&quot;,
+    items: [
+      { item_id: &quot;MUG-BLUE&quot;, item_name: &quot;Blue mug&quot;, price: 900, quantity: 2 }
+    ]
+  }
+});</code></pre>
+<p>Clearing <code>ecommerce</code> first avoids mixing details from an earlier event. Fire after confirmed payment, use a unique transaction ID, and prevent a refresh from pushing the event again.</p>
+<h3 id="set-up-in-gtm">Set up in GTM</h3>
+<ol><li>Trigger: Custom Event, name <code>purchase</code>.</li><li>Tag: GA4 Event, name <code>purchase</code>, ecommerce from data layer.</li><li>Ads conversion tag only if needed, with the same transaction ID.</li><li>Consent settings on each tag.</li></ol>
+<h2 id="8-variables-you-will-use">8. Variables You Will Use</h2>
+<div class="table-wrap"><table><thead><tr><th>Variable</th><th>Use</th></tr></thead><tbody><tr><td>Constant</td><td>measurement IDs</td></tr><tr><td>Data Layer Variable</td><td>values such as <code>quantity_band</code></td></tr><tr><td>Lookup Table</td><td>staging vs live ID by hostname</td></tr><tr><td>Page Path</td><td>targeting a trigger</td></tr><tr><td>Click URL/Text</td><td>click rules</td></tr><tr><td>First-party cookie</td><td>careful, purposeful use</td></tr></tbody></table></div>
+<p>A lookup table by hostname prevents test traffic entering the live property.</p>
+<h2 id="9-test-like-you-mean-it">9. Test Like You Mean It</h2>
+<div class="table-wrap"><table><thead><tr><th>Test</th><th>Expected</th></tr></thead><tbody><tr><td>Load page</td><td>one Google tag</td></tr><tr><td>Reject optional consent</td><td>optional tags don't fire as configured</td></tr><tr><td>Accept</td><td>tags update, once</td></tr><tr><td>Click WhatsApp</td><td>one event, correct parameters</td></tr><tr><td>Submit invalid form</td><td>no success event</td></tr><tr><td>Submit valid form</td><td>one success event</td></tr><tr><td>Pay</td><td>one purchase, correct value</td></tr><tr><td>Refresh thank-you page</td><td>no second purchase</td></tr><tr><td>Back button</td><td>no repeated event</td></tr><tr><td>Mobile browser</td><td>same results</td></tr></tbody></table></div>
+<p>Use GTM <strong>Preview</strong>, GA4 <strong>DebugView</strong>, the browser's network tab and your real orders. "The tag fired" isn't the same as "the data is right".</p>
+<blockquote><p>🔑 Keep a test-evidence sheet: date, tester, case, expected, actual, screenshot.</p></blockquote>
+<h2 id="10-publish-with-versions">10. Publish With Versions</h2>
+<ol><li>Name the workspace for one purpose.</li><li>Review changed tags, triggers and variables.</li><li>Get a second pair of eyes for purchase or consent changes.</li><li>Publish with a useful name and description.</li><li>Check live data after publishing.</li><li>Roll back to the earlier version if something breaks.</li></ol>
+<pre><code>Version: 2026-12-05 | Corporate enquiry event
+Why: replace button-click counting
+Changed: 1 tag, 1 trigger, 3 variables
+Tested by: MR  Evidence: sheet row 41-46
+Risk: form theme update may remove push</code></pre>
+<h2 id="11-naming-and-governance">11. Naming and Governance</h2>
+<pre><code>Tag:      GA4 - Event - corporate_enquiry_submitted
+Trigger:  CE - corporate_enquiry_submitted
+Variable: DLV - quantity_band</code></pre>
+<div class="table-wrap"><table><thead><tr><th>Control</th><th>Rule</th></tr></thead><tbody><tr><td>Access</td><td>named users, least privilege, quarterly review</td></tr><tr><td>Custom HTML</td><td>needs review; prefer official templates</td></tr><tr><td>Templates</td><td>check publisher and permissions</td></tr><tr><td>Agencies</td><td>edit in workspace, client publishes or approves</td></tr><tr><td>Cleanup</td><td>pause, observe, then delete</td></tr><tr><td>Documentation</td><td>every tag has purpose, owner, expiry</td></tr></tbody></table></div>
+<p>Custom HTML from a blog can slow the site, leak data or break checkout. If you can't explain it, don't publish it.</p>
+<h2 id="12-consent-mode-briefly">12. Consent Mode, Briefly</h2>
+<p>Consent Mode passes the visitor's choice to Google tags. It doesn't collect consent, and it isn't a banner. You need a lawful, clear interface and correct defaults and updates.</p>
+<ol><li>Set default states.</li><li>Show a choice.</li><li>Update states when the visitor chooses.</li><li>Confirm tags respect them.</li><li>Let people change their mind.</li></ol>
+<p>Basic and advanced implementations behave differently before choice. Decide with legal and technical advice; see <a href="https://support.google.com/tagmanager/answer/10718549">Google's consent settings help</a>. Delivery options such as CDN-injected tag gateways can change load order, so retest consent after such changes.</p>
+<h3 id="consent-default-illustration">💻 Consent Default (Illustration)</h3>
+<pre><code>window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
+gtag(&quot;consent&quot;, &quot;default&quot;, {
+  ad_storage: &quot;denied&quot;,
+  ad_user_data: &quot;denied&quot;,
+  ad_personalization: &quot;denied&quot;,
+  analytics_storage: &quot;denied&quot;
+});</code></pre>
+<p>This must run before the container. Your consent tool should send the matching <code>update</code>. It's an example, not a compliance solution.</p>
+<h2 id="13-server-side-tagging">13. Server-Side Tagging</h2>
+<p>A server container receives events first, then forwards them. It can give you control over what each vendor receives and reduce browser work. It also adds cost, maintenance, security duties and no exemption from consent.</p>
+<div class="table-wrap"><table><thead><tr><th>Consider</th><th>Skip for now</th></tr></thead><tbody><tr><td>high volume, technical owner, clear need</td><td>few orders, no maintainer</td></tr></tbody></table></div>
+<h2 id="14-monthly-audit">14. Monthly Audit</h2>
+<ul><li>[ ] Remove tags for ended campaigns</li><li>[ ] Check duplicates and firing counts</li><li>[ ] Compare purchases with shop orders</li><li>[ ] Review users and permissions</li><li>[ ] Test consent states</li><li>[ ] Check page speed effect</li><li>[ ] Export a container backup</li></ul>
+<blockquote><p>👔 <strong>Owner's three questions:</strong> Who can publish? What does each tag cost us in speed and privacy? When did someone last compare GA4 purchases with real orders?</p></blockquote>
+<h2 id="exercises">🏋️ Exercises</h2>
+<h3 id="exercise-211-find-the-bug">Exercise 21.1: Find the bug</h3>
+<p>GA4 shows 288 purchases; the shop has 144. List likely causes in the order you would check.</p>
+<details>
+<summary>View Solution</summary>
+<p>Exactly double suggests duplication: (1) GA4 in theme <strong>and</strong> GTM; (2) event from both browser code and a plugin; (3) two tags or triggers; (4) thank-you refresh, though that rarely gives exactly double. Compare transaction IDs in Preview and network requests.</p>
+</details>
+<h3 id="exercise-212-event-design">Exercise 21.2: Event design</h3>
+<p>Design an event for "download size guide" with trigger, parameters and tests.</p>
+<details>
+<summary>View Sample</summary>
+<p>Check whether enhanced measurement already records file downloads. If a separate event is needed: <code>size_guide_download</code>, trigger on that exact link, parameters <code>page_type</code> and <code>product_category</code>. Tests: click once, middle-click, mobile, consent rejected, broken file.</p>
+</details>
+<h3 id="exercise-213-build">Exercise 21.3: Build</h3>
+<p>Install GTM on your practice site, create one data-layer event, record ten test cases, publish, then roll back once for practice.</p>
+<h2 id="key-takeaways">🔑 Key Takeaways</h2>
+<ul><li>The data layer is the contract.</li><li>Confirmed outcomes beat button clicks.</li><li>Test rejection and failure, not only success.</li><li>Publishing rights are site-admin rights.</li></ul>
+<h2 id="quick-quiz">✅ Quick Quiz</h2>
+<ol><li>Where are reports stored?<br>• A) GTM<br>• B) GA4 or another analytics tool<br>• C) The data layer</li><li>Best form-success trigger?<br>• A) Submit button click<br>• B) Confirmed server success in the data layer<br>• C) Page load</li><li>Consent Mode by itself:<br>• A) Collects consent<br>• B) Passes choices to tags<br>• C) Replaces privacy law</li></ol>
+<details>
+<summary>View Answers</summary>
+<ol><li><strong>B.</strong></li><li><strong>B.</strong></li><li><strong>B.</strong> You still need a proper choice interface.</li></ol>
+</details>
+<hr>
+<blockquote><p>Author: <strong>Vicky</strong> (<a href="https://abvicky.in">abvicky.in</a>) · Platform built by <a href="https://www.manikarnikatechnologies.in/">Manikarnika Technologies</a> · © 2026 All rights reserved. ⬅️ <a href="20-analytics-and-tracking.html">Analytics &amp; Tracking</a> · ➡️ <a href="22-conversion-optimization.html">Conversion Optimization</a></p></blockquote>
+</article>
+<nav class="pager" aria-label="Lesson navigation"><a class="btn ghost" href="20-analytics-and-tracking.html">← Analytics &amp; Tracking</a><a class="btn ghost" href="22-conversion-optimization.html">Conversion Optimization →</a></nav>
+</main>
+<footer>
+<p>Digital Marketing by Vicky: Zero to Pro · Author: <a href="https://abvicky.in"><strong>Vicky</strong></a> · Platform built by <a href="https://www.manikarnikatechnologies.in/"><strong>Manikarnika Technologies</strong></a> · © 2026 All rights reserved.</p>
+</footer>
+</body>
+</html>

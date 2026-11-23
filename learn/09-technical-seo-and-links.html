@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technical SEO &amp; Link Building | Digital Marketing by Vicky (Module 09)</title>
+<meta name="description" content="Crawling, indexing, speed, structured data and links. A chapter from Digital Marketing by Vicky: Zero to Pro, a free digital marketing study guide from beginner to pro.">
+<meta name="author" content="Vicky Prasad Mahato">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/09-technical-seo-and-links.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Digital Marketing by Vicky: Zero to Pro">
+<meta property="og:title" content="Technical SEO &amp; Link Building | Digital Marketing by Vicky (Module 09)">
+<meta property="og:description" content="Crawling, indexing, speed, structured data and links. A chapter from Digital Marketing by Vicky: Zero to Pro, a free digital marketing study guide from beginner to pro.">
+<meta property="og:url" content="https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/09-technical-seo-and-links.html">
+<meta property="og:image" content="https://abvicky.github.io/Digital-Marketing-by-Vicky/assets/social-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Technical SEO &amp; Link Building | Digital Marketing by Vicky (Module 09)">
+<meta name="twitter:description" content="Crawling, indexing, speed, structured data and links. A chapter from Digital Marketing by Vicky: Zero to Pro, a free digital marketing study guide from beginner to pro.">
+<meta name="twitter:image" content="https://abvicky.github.io/Digital-Marketing-by-Vicky/assets/social-card.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233CC9A0'/%3E%3Cpath d='M17 22h30M17 32h22M17 42h13' stroke='%2334363D' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LearningResource", "name": "Module 09: Technical SEO & Link Building", "description": "Crawling, indexing, speed, structured data and links.", "url": "https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/09-technical-seo-and-links.html", "inLanguage": "en", "isAccessibleForFree": true, "learningResourceType": "Study guide chapter", "author": {"@type": "Person", "name": "Vicky Prasad Mahato", "url": "https://abvicky.in"}, "isPartOf": {"@type": "LearningResource", "name": "Digital Marketing by Vicky: Zero to Pro", "url": "https://abvicky.github.io/Digital-Marketing-by-Vicky/"}, "image": "https://abvicky.github.io/Digital-Marketing-by-Vicky/assets/social-card.png"}</script>
+<style>
+:root{--bg:#F5F4F9;--card:#FFFFFF;--text:#34363D;--muted:#6B6E78;--line:#E4E2EC;--primary:#3CC9A0;--link:#2F6AA8;--code:#F0EEF6}
+@media (prefers-color-scheme:dark){:root{--bg:#17191F;--card:#20232B;--text:#E8E8EC;--muted:#A3A6B0;--line:#33363F;--primary:#3CC9A0;--link:#7FB0E6;--code:#2A2D36}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.7 Inter,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--link)}img{max-width:100%;height:auto}
+.top{position:sticky;top:0;z-index:2;background:var(--card);border-bottom:1px solid var(--line)}
+.top-in{max-width:860px;margin:0 auto;padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between}
+.brand{font-weight:800;color:var(--text);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.btn{display:inline-block;background:var(--primary);color:#23252B;font-weight:700;text-decoration:none;padding:8px 14px;border-radius:10px;white-space:nowrap}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+main{max-width:860px;margin:0 auto;padding:24px 16px 48px}
+.crumbs{font-size:14px;color:var(--muted)}.crumbs a{color:var(--muted)}
+article{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px 24px 24px;margin-top:12px;overflow-wrap:break-word}
+h1{font-size:2rem;line-height:1.25}h2{margin-top:2em;line-height:1.3}h3{line-height:1.35}
+pre{background:#1E2028;color:#E8E8EC;padding:14px;border-radius:10px;overflow:auto;font-size:14px;line-height:1.55}
+code{font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;font-size:.88em}
+:not(pre)>code{background:var(--code);padding:1px 5px;border-radius:5px}
+blockquote{margin:1.2em 0;padding:4px 16px;border-left:4px solid var(--primary);background:var(--code);border-radius:0 10px 10px 0}
+.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.cta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0;padding:14px 16px;border:1px dashed var(--primary);border-radius:12px}
+.toc{font-size:15px}.toc ul{padding-left:18px;margin:6px 0}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:24px;flex-wrap:wrap}
+.diagram-note{color:var(--muted);font-size:15px}
+footer{max-width:860px;margin:0 auto;padding:0 16px 40px;color:var(--muted);font-size:14px}
+details{border:1px solid var(--line);border-radius:10px;padding:8px 12px}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in">
+  <a class="brand" href="../index.html">🎯 Digital Marketing by Vicky: Zero to Pro</a>
+  <a class="btn" href="../index.html#/modules/09-technical-seo-and-links.md">Open in reader</a>
+</div></header>
+<main>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">All chapters</a> › Module 09</nav>
+<article>
+<div class="cta"><span>📖 This is the text version. The <strong>interactive reader</strong> adds diagrams, search, progress tracking and Non-Tech / Tech tracks.</span><a class="btn" href="../index.html#/modules/09-technical-seo-and-links.md">Read interactively</a><a class="btn ghost" href="https://github.com/ABVicky/Digital-Marketing-by-Vicky">⭐ Star on GitHub</a></div>
+<details class="toc"><summary>On this page</summary><ul><li><a href="#learning-objectives">🎯 Learning Objectives</a></li><li><a href="#1-the-four-gates">1. The Four Gates</a></li><li><a href="#2-status-codes">2. Status Codes</a></li><li><a href="#3-robots-noindex-and-canonical">3. Robots, Noindex and Canonical</a></li><li><a href="#4-duplicate-and-parameter-urls">4. Duplicate and Parameter URLs</a></li><li><a href="#5-sitemaps-and-internal-discovery">5. Sitemaps and Internal Discovery</a></li><li><a href="#6-javascript-and-rendering">6. JavaScript and Rendering</a></li><li><a href="#7-speed-found-in-the-field">7. Speed, Found in the Field</a></li><li><a href="#8-structured-data">8. Structured Data</a></li><li><a href="#9-international-and-multilingual-pages">9. International and Multilingual Pages</a></li><li><a href="#10-site-migration-without-tears">10. Site Migration Without Tears</a></li><li><a href="#11-links-and-authority">11. Links and Authority</a></li><li><a href="#12-a-one-day-technical-audit">12. A One-Day Technical Audit</a></li><li><a href="#exercises">🏋️ Exercises</a></li><li><a href="#key-takeaways">🔑 Key Takeaways</a></li><li><a href="#quick-quiz">✅ Quick Quiz</a></li></ul></details>
+<h1>🛠️ Module 09: Technical SEO &amp; Link Building</h1>
+<blockquote><p>🔵 Stage 2 · Content &amp; Search · ⏱️ ~5 hours</p></blockquote>
+<p>A new website launches. It's beautiful, fast and completely invisible in search. Three weeks later someone finds one ticked box: <em>"Discourage search engines from indexing this site."</em> The best article in the world cannot rank from behind a locked door.</p>
+<p>Module 08 covered <em>what</em> to publish. This one makes sure it can be found, understood and trusted.</p>
+<hr>
+<h2 id="learning-objectives">🎯 Learning Objectives</h2>
+<p>By the end of this module, you will be able to:</p>
+<ul><li>Diagnose crawling, rendering and indexing problems.</li><li>Use robots rules, canonicals, redirects and sitemaps correctly.</li><li>Add and validate structured data.</li><li>Plan a safe site migration.</li><li>Earn links without buying trouble.</li></ul>
+<hr>
+<h2 id="1-the-four-gates">1. The Four Gates</h2>
+<p class="diagram-note">📊 This section has a diagram. <a href="../index.html#/modules/09-technical-seo-and-links.md">View it in the interactive reader</a>.</p>
+<p>Check them in this order. Don't rewrite content when a page fails at gate two.</p>
+<div class="table-wrap"><table><thead><tr><th>Gate</th><th>Typical failure</th><th>Evidence</th></tr></thead><tbody><tr><td>Found</td><td>no internal link, missing sitemap</td><td>crawl of your own site</td></tr><tr><td>Crawled</td><td>robots block, login, server error</td><td>URL inspection, logs</td></tr><tr><td>Rendered</td><td>content needs a script that fails</td><td>rendered HTML</td></tr><tr><td>Indexed</td><td><code>noindex</code>, duplicate, weak page</td><td>page indexing report</td></tr></tbody></table></div>
+<h2 id="2-status-codes">2. Status Codes</h2>
+<div class="table-wrap"><table><thead><tr><th>Code</th><th>Meaning</th><th>Action</th></tr></thead><tbody><tr><td>200</td><td>page works</td><td>normal</td></tr><tr><td>301 / 308</td><td>moved permanently</td><td>redirect old to closest new page</td></tr><tr><td>302 / 307</td><td>moved temporarily</td><td>use when it really is temporary</td></tr><tr><td>404</td><td>not found</td><td>fine for pages that never had a replacement</td></tr><tr><td>410</td><td>gone</td><td>deliberate removal</td></tr><tr><td>429 / 503</td><td>too many requests / unavailable</td><td>temporary; fix if repeated</td></tr><tr><td>500</td><td>server error</td><td>investigate quickly</td></tr></tbody></table></div>
+<p>A page that says "Not found" but returns 200 is a <strong>soft 404</strong>. Search engines may waste effort on it.</p>
+<p>Avoid redirect chains such as A → B → C. Point A directly to C.</p>
+<h2 id="3-robots-noindex-and-canonical">3. Robots, Noindex and Canonical</h2>
+<p>These three are often confused.</p>
+<div class="table-wrap"><table><thead><tr><th>Tool</th><th>Says</th><th>Doesn't do</th></tr></thead><tbody><tr><td><code>robots.txt</code></td><td>"please don't crawl this path"</td><td>hide or secure it</td></tr><tr><td><code>noindex</code></td><td>"don't show this page in results"</td><td>work if the crawler can't see it</td></tr><tr><td>canonical</td><td>"this is the preferred version"</td><td>force the choice</td></tr></tbody></table></div>
+<pre><code>User-agent: *
+Disallow: /cart
+Disallow: /search
+Sitemap: https://example.com/sitemap.xml</code></pre>
+<p>❌ <strong>Broken combination</strong></p>
+<pre><code>robots.txt blocks /old-sale
+the page also has noindex
+(The crawler may never see the noindex.)</code></pre>
+<p>✅ <strong>Working removal</strong></p>
+<pre><code>Allow crawling of /old-sale, serve noindex, wait until it drops out.
+Or delete it and return 404/410. Or redirect to a true replacement.</code></pre>
+<p>Private information needs a login. None of these tools are security.</p>
+<h2 id="4-duplicate-and-parameter-urls">4. Duplicate and Parameter URLs</h2>
+<p>The same mug may appear at:</p>
+<pre><code>/mugs/blue
+/mugs/blue?colour=blue
+/mugs/blue?utm_source=newsletter
+/collections/gifts/mugs/blue</code></pre>
+<p>Link internally to one clean version, use a consistent canonical, and avoid creating endless filter combinations. Decide which filtered pages deserve to rank ("blue mugs" might) and which don't ("blue mugs under ₹812 sorted by newest").</p>
+<h2 id="5-sitemaps-and-internal-discovery">5. Sitemaps and Internal Discovery</h2>
+<p>A sitemap should list canonical, indexable, working URLs. It isn't a place for redirects, blocked pages or drafts. It helps discovery, but internal links show importance.</p>
+<p><strong>Orphan check:</strong> export sitemap URLs and crawled URLs. Any page in the sitemap that the crawler couldn't reach by links is an orphan. Link it from a relevant page or ask why it exists.</p>
+<h2 id="6-javascript-and-rendering">6. JavaScript and Rendering</h2>
+<p>If main content appears only after scripts run, rendering can be delayed or fail. Check the <strong>rendered HTML</strong> in URL inspection.</p>
+<ul><li>Use real links with <code>href</code>, not only click handlers.</li><li>Render important text and metadata on the server where practical.</li><li>Don't hide main content behind an action that a crawler won't perform.</li><li>Return correct status codes from app routes.</li></ul>
+<h2 id="7-speed-found-in-the-field">7. Speed, Found in the Field</h2>
+<p>Module 05 introduced LCP, INP and CLS. Work through them by cause.</p>
+<div class="table-wrap"><table><thead><tr><th>Symptom</th><th>Frequent causes</th><th>First fixes</th></tr></thead><tbody><tr><td>Slow LCP</td><td>heavy hero image, slow server, late CSS</td><td>compress and prioritize image, cache, reduce blocking files</td></tr><tr><td>Poor INP</td><td>heavy scripts, tag overload</td><td>remove scripts, split long tasks</td></tr><tr><td>Bad CLS</td><td>images without sizes, late banners</td><td>set dimensions, reserve space</td></tr></tbody></table></div>
+<p>Compare <strong>field</strong> data (real visits) and <strong>lab</strong> data (a test). Fix a template, not one URL: one product-page improvement may help 60 products.</p>
+<blockquote><p>👔 <strong>Priority rule:</strong> speed work earns its place when it helps important pages that people actually use. Chasing the last points on a test score rarely does.</p></blockquote>
+<h2 id="8-structured-data">8. Structured Data</h2>
+<p>Structured data describes facts already visible on the page. Useful types include Organization, LocalBusiness, Product, Article, BreadcrumbList and Event. Which search features are supported changes, so check Google's <a href="https://developers.google.com/search/docs/appearance/structured-data/search-gallery">current gallery</a>.</p>
+<h3 id="event-markup-for-a-workshop">💻 Event Markup for a Workshop</h3>
+<pre><code>{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;Event&quot;,
+  &quot;name&quot;: &quot;Beginner Pottery Class&quot;,
+  &quot;startDate&quot;: &quot;2026-12-12T11:00:00+05:30&quot;,
+  &quot;endDate&quot;: &quot;2026-12-12T13:00:00+05:30&quot;,
+  &quot;location&quot;: {
+    &quot;@type&quot;: &quot;Place&quot;,
+    &quot;name&quot;: &quot;Mitti Studio&quot;,
+    &quot;address&quot;: {
+      &quot;@type&quot;: &quot;PostalAddress&quot;,
+      &quot;addressLocality&quot;: &quot;Kolkata&quot;,
+      &quot;addressCountry&quot;: &quot;IN&quot;
+    }
+  },
+  &quot;offers&quot;: {
+    &quot;@type&quot;: &quot;Offer&quot;,
+    &quot;price&quot;: &quot;1500&quot;,
+    &quot;priceCurrency&quot;: &quot;INR&quot;,
+    &quot;availability&quot;: &quot;https://schema.org/InStock&quot;,
+    &quot;url&quot;: &quot;https://example.com/workshops/beginner&quot;
+  }
+}</code></pre>
+<blockquote><p>⚠️ Never mark up reviews you don't show, prices that differ, or events that don't exist. Markup makes a page <em>eligible</em>; it doesn't guarantee a rich result.</p></blockquote>
+<h2 id="9-international-and-multilingual-pages">9. International and Multilingual Pages</h2>
+<p>If you publish separate English, Hindi and Bengali versions, give each a URL, translate the whole page, link between languages and use <code>hreflang</code> correctly.</p>
+<pre><code>&lt;link rel=&quot;alternate&quot; hreflang=&quot;en-IN&quot; href=&quot;https://example.com/en/care&quot;&gt;
+&lt;link rel=&quot;alternate&quot; hreflang=&quot;bn-IN&quot; href=&quot;https://example.com/bn/care&quot;&gt;
+&lt;link rel=&quot;alternate&quot; hreflang=&quot;x-default&quot; href=&quot;https://example.com/en/care&quot;&gt;</code></pre>
+<p>Every version should reference itself and the others. Don't redirect people automatically by location without a way to choose.</p>
+<h2 id="10-site-migration-without-tears">10. Site Migration Without Tears</h2>
+<ol><li>Crawl the old site and save the list.</li><li>Export top pages by clicks, links and revenue.</li><li>Map every important old URL to the closest new URL.</li><li>Keep titles, content and internal links unless there's a reason to change.</li><li>Test on a blocked staging site; confirm the block won't go live.</li><li>Launch at a quiet time, with a rollback plan.</li><li>Check redirects, canonicals, robots, sitemap and analytics.</li><li>Watch errors, indexing and revenue daily at first.</li></ol>
+<p>❌ <strong>Weak redirect plan</strong></p>
+<pre><code>Redirect all old pages to the home page.</code></pre>
+<p>✅ <strong>Strong redirect plan</strong></p>
+<pre><code>/blue-mug.html      -&gt; /mugs/blue
+/class.php?id=2     -&gt; /workshops/beginner
+/diwali-2022        -&gt; 410 (no useful replacement)</code></pre>
+<h2 id="11-links-and-authority">11. Links and Authority</h2>
+<p>A link is a small public recommendation. A relevant recommendation from a trusted source says more than a hundred from random directories.</p>
+<h3 id="ways-to-earn-links">Ways to earn links</h3>
+<div class="table-wrap"><table><thead><tr><th>Method</th><th>Mitti idea</th></tr></thead><tbody><tr><td>Original evidence</td><td>test 12 mugs through 100 dishwasher cycles and publish the method</td></tr><tr><td>Useful tool</td><td>glaze-colour visualizer or gift-set planner</td></tr><tr><td>Local news</td><td>free class for a neighbourhood school</td></tr><tr><td>Partner pages</td><td>cafes using Mitti cups</td></tr><tr><td>Expert comment</td><td>answer a journalist's question on craft materials</td></tr><tr><td>Link recovery</td><td>fix broken links to old pages; ask about unlinked mentions</td></tr></tbody></table></div>
+<h3 id="outreach-that-respects-people">Outreach that respects people</h3>
+<pre><code>Subject: Broken stoneware-care link on your kitchen guide
+
+Hi {{name}}, your guide to kitchen gifts links to a care page that now
+returns an error ({{url}}). We published a tested replacement with
+photos here: {{our_url}}. If it helps your readers, please feel free to
+use it. Either way, thanks for the guide.</code></pre>
+<p>One useful email and at most one polite follow-up is enough.</p>
+<h3 id="avoid">Avoid</h3>
+<ul><li>Buying links intended to pass ranking value.</li><li>Private blog networks and automated comments.</li><li>Large-scale link exchanges.</li><li>Guest posts created only for exact-match anchor text.</li></ul>
+<p>Mark paid links <code>rel=&quot;sponsored&quot;</code> and user-generated links <code>rel=&quot;ugc&quot;</code>. Most sites don't need to disavow random spam links; be cautious and follow Google's current guidance before using that tool.</p>
+<h2 id="12-a-one-day-technical-audit">12. A One-Day Technical Audit</h2>
+<div class="table-wrap"><table><thead><tr><th>Hour</th><th>Task</th><th>Output</th></tr></thead><tbody><tr><td>1</td><td>crawl 500 URLs</td><td>status, title, canonical, depth</td></tr><tr><td>2</td><td>Search Console</td><td>indexing and manual-action check</td></tr><tr><td>3</td><td>templates</td><td>speed and rendering</td></tr><tr><td>4</td><td>structured data</td><td>valid, true, visible</td></tr><tr><td>5</td><td>internal links</td><td>orphans, depth</td></tr><tr><td>6</td><td>backlinks</td><td>lost, relevant, harmful patterns</td></tr><tr><td>7–8</td><td>write up</td><td>ranked fixes</td></tr></tbody></table></div>
+<p>Score each fix by <strong>pages affected × business value × confidence ÷ effort</strong>. An audit of 200 equal-priority warnings is a way of not deciding.</p>
+<h3 id="a-tiny-status-checker">💻 A Tiny Status Checker</h3>
+<pre><code>import sys
+import urllib.request
+import urllib.error
+
+def check(url):
+    request = urllib.request.Request(url, headers={&quot;User-Agent&quot;: &quot;site-checker&quot;})
+    try:
+        with urllib.request.urlopen(request, timeout=15) as response:
+            return response.status, response.geturl()
+    except urllib.error.HTTPError as error:
+        return error.code, url
+    except (urllib.error.URLError, TimeoutError) as error:
+        return &quot;ERR&quot;, str(error)
+
+for line in sys.stdin:
+    url = line.strip()
+    if url:
+        status, final = check(url)
+        print(status, url, &quot;-&gt;&quot; if final != url else &quot;&quot;, final if final != url else &quot;&quot;)</code></pre>
+<p>Use it on your own site, at a gentle pace.</p>
+<h2 id="exercises">🏋️ Exercises</h2>
+<h3 id="exercise-91-which-gate">Exercise 9.1: Which gate?</h3>
+<p>A page is linked from the menu, returns 200, shows content in a browser, but inspection says "Excluded by noindex". Which gate fails, and what do you do?</p>
+<details>
+<summary>View Solution</summary>
+<p>The indexing gate. Decide whether the page should appear. If yes, find where <code>noindex</code> is set (CMS, plugin, HTTP header or template), remove it, confirm in the live test and request indexing.</p>
+</details>
+<h3 id="exercise-92-redirect-map">Exercise 9.2: Redirect map</h3>
+<p>Old site: <code>/about-us.html</code>, <code>/cheap-mugs</code>, <code>/blog/2019-office-party</code>, <code>/contact.php</code>. New site has About, Mugs and Contact. Write the map.</p>
+<details>
+<summary>View Solution</summary>
+<p><code>/about-us.html</code> → <code>/about</code>; <code>/cheap-mugs</code> → <code>/mugs</code>; <code>/contact.php</code> → <code>/contact</code>; the office-party post can return 410 if it has no useful links or visits, after checking.</p>
+</details>
+<h3 id="exercise-93-audit">Exercise 9.3: Audit</h3>
+<p>Audit one site you own or have permission to test. Produce no more than ten ranked fixes.</p>
+<h2 id="key-takeaways">🔑 Key Takeaways</h2>
+<ul><li>Solve access before content.</li><li>robots, noindex and canonical do different jobs.</li><li>Migrations succeed through mapping and checking.</li><li>Earn links with things worth referencing.</li></ul>
+<h2 id="quick-quiz">✅ Quick Quiz</h2>
+<ol><li>You want a page out of search results. Which fails?<br>• A) Blocking it in robots.txt and relying on its noindex tag<br>• B) Serving noindex on a crawlable page<br>• C) Returning 410</li><li>What does a canonical do?<br>• A) Forces indexing<br>• B) Suggests the preferred duplicate<br>• C) Adds security</li><li>Best redirect for a discontinued mug with a close replacement?<br>• A) Home page<br>• B) The close replacement<br>• C) A random category</li></ol>
+<details>
+<summary>View Answers</summary>
+<ol><li><strong>A.</strong> The crawler may never see the tag.</li><li><strong>B.</strong> Search engines may choose differently if signals conflict.</li><li><strong>B.</strong> Send people to the most similar useful page.</li></ol>
+</details>
+<hr>
+<blockquote><p>Author: <strong>Vicky</strong> (<a href="https://abvicky.in">abvicky.in</a>) · Platform built by <a href="https://www.manikarnikatechnologies.in/">Manikarnika Technologies</a> · © 2026 All rights reserved. ⬅️ <a href="08-seo-keywords-and-on-page.html">SEO: Keywords &amp; On-Page</a> · ➡️ <a href="10-local-seo-and-ai-search.html">Local SEO &amp; AI Search</a></p></blockquote>
+</article>
+<nav class="pager" aria-label="Lesson navigation"><a class="btn ghost" href="08-seo-keywords-and-on-page.html">← SEO: Keywords &amp; On-Page</a><a class="btn ghost" href="10-local-seo-and-ai-search.html">Local SEO &amp; AI Search →</a></nav>
+</main>
+<footer>
+<p>Digital Marketing by Vicky: Zero to Pro · Author: <a href="https://abvicky.in"><strong>Vicky</strong></a> · Platform built by <a href="https://www.manikarnikatechnologies.in/"><strong>Manikarnika Technologies</strong></a> · © 2026 All rights reserved.</p>
+</footer>
+</body>
+</html>

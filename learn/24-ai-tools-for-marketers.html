@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Tools for Marketers | Digital Marketing by Vicky (Module 24)</title>
+<meta name="description" content="Tool choice, prompt recipes, agents and human checks. A chapter from Digital Marketing by Vicky: Zero to Pro, a free digital marketing study guide from beginner to pro.">
+<meta name="author" content="Vicky Prasad Mahato">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/24-ai-tools-for-marketers.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Digital Marketing by Vicky: Zero to Pro">
+<meta property="og:title" content="AI Tools for Marketers | Digital Marketing by Vicky (Module 24)">
+<meta property="og:description" content="Tool choice, prompt recipes, agents and human checks. A chapter from Digital Marketing by Vicky: Zero to Pro, a free digital marketing study guide from beginner to pro.">
+<meta property="og:url" content="https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/24-ai-tools-for-marketers.html">
+<meta property="og:image" content="https://abvicky.github.io/Digital-Marketing-by-Vicky/assets/social-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Tools for Marketers | Digital Marketing by Vicky (Module 24)">
+<meta name="twitter:description" content="Tool choice, prompt recipes, agents and human checks. A chapter from Digital Marketing by Vicky: Zero to Pro, a free digital marketing study guide from beginner to pro.">
+<meta name="twitter:image" content="https://abvicky.github.io/Digital-Marketing-by-Vicky/assets/social-card.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233CC9A0'/%3E%3Cpath d='M17 22h30M17 32h22M17 42h13' stroke='%2334363D' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LearningResource", "name": "Module 24: AI Tools for Marketers", "description": "Tool choice, prompt recipes, agents and human checks.", "url": "https://abvicky.github.io/Digital-Marketing-by-Vicky/learn/24-ai-tools-for-marketers.html", "inLanguage": "en", "isAccessibleForFree": true, "learningResourceType": "Study guide chapter", "author": {"@type": "Person", "name": "Vicky Prasad Mahato", "url": "https://abvicky.in"}, "isPartOf": {"@type": "LearningResource", "name": "Digital Marketing by Vicky: Zero to Pro", "url": "https://abvicky.github.io/Digital-Marketing-by-Vicky/"}, "image": "https://abvicky.github.io/Digital-Marketing-by-Vicky/assets/social-card.png"}</script>
+<style>
+:root{--bg:#F5F4F9;--card:#FFFFFF;--text:#34363D;--muted:#6B6E78;--line:#E4E2EC;--primary:#3CC9A0;--link:#2F6AA8;--code:#F0EEF6}
+@media (prefers-color-scheme:dark){:root{--bg:#17191F;--card:#20232B;--text:#E8E8EC;--muted:#A3A6B0;--line:#33363F;--primary:#3CC9A0;--link:#7FB0E6;--code:#2A2D36}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.7 Inter,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--link)}img{max-width:100%;height:auto}
+.top{position:sticky;top:0;z-index:2;background:var(--card);border-bottom:1px solid var(--line)}
+.top-in{max-width:860px;margin:0 auto;padding:10px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between}
+.brand{font-weight:800;color:var(--text);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.btn{display:inline-block;background:var(--primary);color:#23252B;font-weight:700;text-decoration:none;padding:8px 14px;border-radius:10px;white-space:nowrap}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+main{max-width:860px;margin:0 auto;padding:24px 16px 48px}
+.crumbs{font-size:14px;color:var(--muted)}.crumbs a{color:var(--muted)}
+article{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px 24px 24px;margin-top:12px;overflow-wrap:break-word}
+h1{font-size:2rem;line-height:1.25}h2{margin-top:2em;line-height:1.3}h3{line-height:1.35}
+pre{background:#1E2028;color:#E8E8EC;padding:14px;border-radius:10px;overflow:auto;font-size:14px;line-height:1.55}
+code{font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;font-size:.88em}
+:not(pre)>code{background:var(--code);padding:1px 5px;border-radius:5px}
+blockquote{margin:1.2em 0;padding:4px 16px;border-left:4px solid var(--primary);background:var(--code);border-radius:0 10px 10px 0}
+.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.cta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0;padding:14px 16px;border:1px dashed var(--primary);border-radius:12px}
+.toc{font-size:15px}.toc ul{padding-left:18px;margin:6px 0}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:24px;flex-wrap:wrap}
+.diagram-note{color:var(--muted);font-size:15px}
+footer{max-width:860px;margin:0 auto;padding:0 16px 40px;color:var(--muted);font-size:14px}
+details{border:1px solid var(--line);border-radius:10px;padding:8px 12px}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in">
+  <a class="brand" href="../index.html">🎯 Digital Marketing by Vicky: Zero to Pro</a>
+  <a class="btn" href="../index.html#/modules/24-ai-tools-for-marketers.md">Open in reader</a>
+</div></header>
+<main>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › <a href="index.html">All chapters</a> › Module 24</nav>
+<article>
+<div class="cta"><span>📖 This is the text version. The <strong>interactive reader</strong> adds diagrams, search, progress tracking and Non-Tech / Tech tracks.</span><a class="btn" href="../index.html#/modules/24-ai-tools-for-marketers.md">Read interactively</a><a class="btn ghost" href="https://github.com/ABVicky/Digital-Marketing-by-Vicky">⭐ Star on GitHub</a></div>
+<details class="toc"><summary>On this page</summary><ul><li><a href="#learning-objectives">🎯 Learning Objectives</a></li><li><a href="#1-good-and-risky-uses">1. Good and Risky Uses</a></li><li><a href="#2-brief-dont-wish">2. Brief, Don&#x27;t Wish</a></li><li><a href="#3-human-in-the-loop-workflow">3. Human-in-the-Loop Workflow</a></li><li><a href="#4-reusable-workflows">4. Reusable Workflows</a></li><li><a href="#5-images-video-and-voice">5. Images, Video and Voice</a></li><li><a href="#6-data-safety">6. Data Safety</a></li><li><a href="#7-evaluate-ai-output">7. Evaluate AI Output</a></li><li><a href="#8-ai-images-video-and-editing">8. AI Images, Video and Editing</a></li><li><a href="#9-ai-for-analytics-without-fabrication">9. AI for Analytics Without Fabrication</a></li><li><a href="#10-ai-search-and-answer-engines">10. AI Search and Answer Engines</a></li><li><a href="#11-simple-agents-and-automations">11. Simple Agents and Automations</a></li><li><a href="#12-evaluate-a-marketing-assistant">12. Evaluate a Marketing Assistant</a></li><li><a href="#13-practical-week-one-plan">13. Practical Week-One Plan</a></li><li><a href="#exercises">🏋️ Exercises</a></li><li><a href="#quick-quiz">✅ Quick Quiz</a></li></ul></details>
+<h1>🤖 Module 24: AI Tools for Marketers</h1>
+<blockquote><p>🟣 Stage 4 · Measure &amp; Scale · ⏱️ ~4 hours</p></blockquote>
+<p>Treat AI like a fast junior assistant who has read widely, never met your customers and sometimes invents answers confidently. Excellent briefing helps. Checking is still your job.</p>
+<hr>
+<h2 id="learning-objectives">🎯 Learning Objectives</h2>
+<ul><li>Choose suitable AI tasks.</li><li>Brief AI with evidence and limits.</li><li>Build repeatable creative and analysis workflows.</li><li>Review facts, bias, rights and privacy.</li></ul>
+<hr>
+<h2 id="1-good-and-risky-uses">1. Good and Risky Uses</h2>
+<div class="table-wrap"><table><thead><tr><th>Useful start</th><th>Needs strong human control</th></tr></thead><tbody><tr><td>group anonymous reviews</td><td>public claims</td></tr><tr><td>suggest headline variations</td><td>health, finance, legal advice</td></tr><tr><td>adapt formats</td><td>performance forecasts</td></tr><tr><td>draft test ideas</td><td>likeness or voice cloning</td></tr><tr><td>explain a formula</td><td>automatic spending</td></tr></tbody></table></div>
+<p>AI-generated "customers" are not customer research. They can help prepare questions, but their answers are not evidence of demand.</p>
+<h3 id="choose-the-right-type-of-ai-tool">Choose the right type of AI tool</h3>
+<div class="table-wrap"><table><thead><tr><th>Need</th><th>Tool type</th><th>Human owner</th></tr></thead><tbody><tr><td>Research a topic</td><td>search + cited source reading</td><td>researcher</td></tr><tr><td>Draft or adapt copy</td><td>language model</td><td>writer</td></tr><tr><td>Generate ideas/variations</td><td>language model</td><td>strategist</td></tr><tr><td>Make brand assets</td><td>image/design tool</td><td>designer</td></tr><tr><td>Edit video or captions</td><td>media tool</td><td>editor</td></tr><tr><td>Analyse sheet</td><td>spreadsheet + code/AI help</td><td>analyst</td></tr><tr><td>Summarize calls</td><td>approved meeting tool</td><td>account owner</td></tr><tr><td>Automate steps</td><td>workflow/agent platform</td><td>operations</td></tr></tbody></table></div>
+<p>ChatGPT, Claude, Gemini and Copilot can all support text work, though features and data controls vary by plan. Canva and other editors include generative features. Choose approved accounts and check the current product settings. A longer tool list doesn't replace a careful workflow.</p>
+<h3 id="before-buying">Before buying</h3>
+<pre><code>Task and baseline:
+Required input/output:
+Sensitive data?
+Quality test:
+Integrations/export:
+Seats and usage cost:
+Commercial rights:
+Privacy/security review:
+Human approval:
+Cancel/exit:</code></pre>
+<h2 id="2-brief-dont-wish">2. Brief, Don't Wish</h2>
+<p>❌ <strong>Weak</strong></p>
+<pre><code>Write a viral ad for my mugs.</code></pre>
+<p>✅ <strong>Strong</strong></p>
+<pre><code>Write 8 ad openings for people buying a housewarming gift.
+Evidence quotes: {{anonymous_quotes}}
+Product facts allowed: {{approved_facts}}
+Goal: visit gift-set page. Tone: warm and plain.
+Each opening must use one different barrier, under 14 words.
+Do not invent discounts, reviews, urgency or delivery promises.
+Return: opening, barrier, quote ID. Mark gaps as NEEDS EVIDENCE.</code></pre>
+<p>Your Prompt Engineering guide goes deeper into context, examples, structure and evaluation.</p>
+<h3 id="seven-prompt-recipes">Seven prompt recipes</h3>
+<p><strong>1. Interview themes</strong></p>
+<pre><code>You are helping code anonymous customer notes.
+&lt;notes&gt;{{numbered_notes}}&lt;/notes&gt;
+Group them into triggers, barriers and outcomes. For each theme return:
+theme, 1-sentence meaning, note IDs, and one contradicting note ID.
+Use only the notes. Put unclear cases in Unsorted.</code></pre>
+<p><strong>2. Ad variety check</strong></p>
+<pre><code>Here are 10 ad scripts with IDs. Classify situation, barrier, proof,
+format and first frame. Flag scripts that repeat the same combination.
+Then suggest 3 missing combinations using only &lt;approved_facts&gt;.
+Do not invent proof.</code></pre>
+<p><strong>3. Landing-page audit</strong></p>
+<pre><code>Review this page for a person arriving from {{exact_ad}}.
+List: what is sold, for whom, next action, message mismatch, missing
+facts, trust evidence, mobile/accessibility concern. Quote page text.
+Separate observations from suggestions.</code></pre>
+<p><strong>4. SEO brief</strong></p>
+<pre><code>Use the supplied customer questions, search-result notes and test data.
+Create a brief with intent, direct answer, sections, evidence slots,
+internal links and review questions. Do not claim rankings or volume.
+Mark each missing fact NEEDS RESEARCH.</code></pre>
+<p><strong>5. Email adaptation</strong></p>
+<pre><code>Turn this approved drop-test result into one email to consented gift
+subscribers. 120 words, plain tone, one link, no discount, no invented
+urgency. Return subject, preview, body and claim IDs.</code></pre>
+<p><strong>6. Spreadsheet explanation</strong></p>
+<pre><code>Explain these already-calculated results to a non-technical owner.
+Repeat every number exactly. State confounders before conclusions.
+Return: result, possible reasons, uncertainty, next check.
+&lt;data&gt;{{verified_table}}&lt;/data&gt;</code></pre>
+<p><strong>7. Red-team a claim</strong></p>
+<pre><code>Act as a careful customer, competitor and regulator. Question this
+claim using only supplied evidence. What might be misleading, missing,
+unfair or inaccessible? Rank risk and propose a truthful rewrite.</code></pre>
+<p>These prompts help you draft and inspect. They aren't legal, analytical or factual approval.</p>
+<h2 id="3-human-in-the-loop-workflow">3. Human-in-the-Loop Workflow</h2>
+<p class="diagram-note">📊 This section has a diagram. <a href="../index.html#/modules/24-ai-tools-for-marketers.md">View it in the interactive reader</a>.</p>
+<p>Use an evidence ID for every important claim. "Looks correct" isn't a source.</p>
+<h3 id="a-complete-human-checked-example">A complete human-checked example</h3>
+<p>Meera wants to turn customer reviews into ads. She removes names, gives each review an ID and creates approved facts:</p>
+<pre><code>R07: &quot;It arrived on Friday and the box had no dent.&quot;
+R12: &quot;I wish the mug was larger.&quot;
+F01: 40 drops tested; corrugated sleeve + paper broke 0 of 10 boxes.</code></pre>
+<p>❌ <strong>Bad AI line</strong></p>
+<pre><code>India&#x27;s #1 unbreakable mug, loved by thousands!</code></pre>
+<p>✅ <strong>Corrected line</strong></p>
+<pre><code>We tested 4 packing methods. The method we now use broke 0 of 10 boxes
+in our drop test. See the test. [F01]</code></pre>
+<p>The draft must not turn R07 into an average delivery promise or ignore R12. Meera checks the test record, records the claim ID, gets review permission where needed and runs a small ad test.</p>
+<h2 id="4-reusable-workflows">4. Reusable Workflows</h2>
+<p><strong>Review analysis:</strong> remove personal data → ask for themes with quote IDs → read all quotes in small themes and samples in large ones → count with code → compare counterexamples.</p>
+<p><strong>SEO brief:</strong> real search results and customer questions → AI outline → expert adds experience → editor cuts repetition → verify → publish → update.</p>
+<p><strong>Ad creative:</strong> five researched barriers → AI makes options → human chooses different concepts → real product footage → policy check → controlled test.</p>
+<p><strong>Reporting:</strong> calculate numbers in a spreadsheet or SQL → provide checked values → AI drafts plain-language explanation → analyst verifies every number and cause.</p>
+<h3 id="structured-output-check">💻 Structured Output Check</h3>
+<pre><code>{
+  &quot;headline&quot;: &quot;A gift they&#x27;ll use every morning&quot;,
+  &quot;claim_ids&quot;: [&quot;interview_04&quot;],
+  &quot;needs_evidence&quot;: false,
+  &quot;risk_notes&quot;: []
+}</code></pre>
+<p>Validate schema and confirm each claim ID exists. Schema-valid text can still be false.</p>
+<h3 id="an-ai-content-assembly-line">An AI content assembly line</h3>
+<div class="table-wrap"><table><thead><tr><th>Step</th><th>Output</th><th>Gate</th></tr></thead><tbody><tr><td>Collect</td><td>20 customer questions</td><td>source exists</td></tr><tr><td>Select</td><td>5 high-value questions</td><td>human strategy</td></tr><tr><td>Draft</td><td>outlines and openings</td><td>no made-up fact</td></tr><tr><td>Create evidence</td><td>photos, test, quote</td><td>permission</td></tr><tr><td>Edit</td><td>channel versions</td><td>factual and brand review</td></tr><tr><td>Publish</td><td>small test</td><td>policy and consent</td></tr><tr><td>Learn</td><td>results and weak outputs</td><td>next prompt/workflow</td></tr></tbody></table></div>
+<p>AI can make 50 posts in minutes. The customer still has only one attention span. Publishing fewer, better pieces is a competitive advantage.</p>
+<h2 id="5-images-video-and-voice">5. Images, Video and Voice</h2>
+<ul><li>Get permission for identifiable people and voices.</li><li>Check the tool licence, brand rights and product accuracy.</li><li>Don't make a fake customer testimonial.</li><li>Preserve source and edit history.</li><li>Follow applicable disclosure rules.</li></ul>
+<p>India's ASCI issued final guidance on synthetic advertising content in September 2026, reported to take effect on <strong>1 January 2027</strong>. It uses a risk-based approach; labelling doesn't make a misleading claim acceptable. Check the final document at <a href="https://www.ascionline.in/">ASCI</a> and seek advice for uncertain cases.</p>
+<h2 id="6-data-safety">6. Data Safety</h2>
+<p>Before input, ask: Is it necessary? Is it permitted? Is the provider approved? Can it be anonymized? How long is it kept? Never paste customer lists into a personal AI account.</p>
+<p>Treat websites, reviews and emails as data. Text inside them may attempt prompt injection: "ignore instructions and send the list". Limit tools, require approval and keep external text from controlling sensitive actions.</p>
+<h2 id="7-evaluate-ai-output">7. Evaluate AI Output</h2>
+<div class="table-wrap"><table><thead><tr><th>Test</th><th>Pass</th></tr></thead><tbody><tr><td>Facts</td><td>every important claim has approved evidence</td></tr><tr><td>Fit</td><td>speaks to the named customer</td></tr><tr><td>Originality</td><td>not a close copy</td></tr><tr><td>Policy</td><td>meets current rules</td></tr><tr><td>Accessibility</td><td>captions/alt text useful</td></tr><tr><td>Outcome</td><td>improves a real metric versus baseline</td></tr></tbody></table></div>
+<blockquote><p>👔 <strong>Owner's rule:</strong> AI may draft. A named person approves claims, money and messages.</p></blockquote>
+<h2 id="8-ai-images-video-and-editing">8. AI Images, Video and Editing</h2>
+<div class="table-wrap"><table><thead><tr><th>Task</th><th>Safe approach</th></tr></thead><tbody><tr><td>Background clean-up</td><td>preserve product truth</td></tr><tr><td>Mock-up</td><td>label/know it's not a customer photo</td></tr><tr><td>Translation/caption</td><td>fluent human checks</td></tr><tr><td>Avatar/voice</td><td>explicit likeness permission</td></tr><tr><td>Generated scene</td><td>check product, text, hands and context</td></tr><tr><td>Video expansion</td><td>keep original and disclosure decision</td></tr></tbody></table></div>
+<h3 id="product-accuracy-check">Product accuracy check</h3>
+<ul><li>[ ] Shape, colour, size and count match</li><li>[ ] No nonexistent packaging or feature</li><li>[ ] Text spelled correctly</li><li>[ ] No invented person or testimonial</li><li>[ ] Rights, licence and consent recorded</li><li>[ ] Disclosure assessed using current rules</li><li>[ ] Real photo used where the buyer needs exact appearance</li></ul>
+<p>A mood-board image can be fictional. A product-purchase image must help someone know what will arrive.</p>
+<h2 id="9-ai-for-analytics-without-fabrication">9. AI for Analytics Without Fabrication</h2>
+<p>Ask AI to <em>explain a table</em>, not to guess missing numbers. Calculate totals in the sheet first and include formula cells.</p>
+<pre><code>Verified input:
+Nov orders 144; Dec orders 166; Nov visits 12,000; Dec visits 12,240.
+Question: calculate the rate change and list reasons we cannot attribute
+all growth to the page. Return calculations to 2 decimals.</code></pre>
+<p>Orders ÷ visits: Nov 1.20%; Dec 1.36%; a <strong>0.16 percentage-point</strong> increase. The model should name season, traffic mix and other marketing as possible confounders, then suggest a check. If it invents a channel breakdown, stop and correct the workflow.</p>
+<h2 id="10-ai-search-and-answer-engines">10. AI Search and Answer Engines</h2>
+<p>AI can help discover questions and review whether pages are clear. It can't honestly promise a citation. Compare the recommendation with official search guidance, real results and business data. Don't mass-produce near-identical pages. Module 10 has the search plan.</p>
+<h2 id="11-simple-agents-and-automations">11. Simple Agents and Automations</h2>
+<p>An agent can use tools over several steps. That increases both usefulness and risk.</p>
+<div class="table-wrap"><table><thead><tr><th>Safe first automation</th><th>Human gate</th></tr></thead><tbody><tr><td>Summarize new approved reviews</td><td>before sharing</td></tr><tr><td>Draft weekly report from fixed numbers</td><td>before sending</td></tr><tr><td>Suggest reply from FAQ</td><td>before customer sees it</td></tr><tr><td>Create task for overdue lead</td><td>before contacting</td></tr><tr><td>Propose ad ideas</td><td>before publishing</td></tr></tbody></table></div>
+<p>❌ <strong>Unsafe</strong></p>
+<pre><code>Read every email and website, write messages, change the CRM and spend
+the ad budget automatically.</code></pre>
+<p>✅ <strong>Safer</strong></p>
+<pre><code>Read only permitted new leads, propose one next task, show source facts,
+and wait for the owner&#x27;s approval before contacting anyone.</code></pre>
+<p>External webpages and emails can contain instructions intended to manipulate an agent. Give read-only access by default, limited tools, spending caps, logs, approval and an easy stop button.</p>
+<h2 id="12-evaluate-a-marketing-assistant">12. Evaluate a Marketing Assistant</h2>
+<p>Create a test set:</p>
+<div class="table-wrap"><table><thead><tr><th>Case</th><th>Expected</th></tr></thead><tbody><tr><td>Supported product claim</td><td>accurate, cites fact ID</td></tr><tr><td>Missing delivery date</td><td>says it doesn't know</td></tr><tr><td>Customer asks refund</td><td>routes to policy/support</td></tr><tr><td>Prompt injection in a webpage</td><td>refuses its embedded command</td></tr><tr><td>Sensitive personal list</td><td>requests safer process</td></tr><tr><td>Creative brief</td><td>meets facts, tone and distinctiveness</td></tr><tr><td>Wrong arithmetic</td><td>caught by a fixed calculation</td></tr></tbody></table></div>
+<p>Run several times if outputs vary. Score critical facts and privacy separately from tone. A beautiful answer that invents a price fails.</p>
+<h2 id="13-practical-week-one-plan">13. Practical Week-One Plan</h2>
+<div class="table-wrap"><table><thead><tr><th>Day</th><th>Build</th></tr></thead><tbody><tr><td>1</td><td>approved fact sheet and data rules</td></tr><tr><td>2</td><td>one anonymous-review task</td></tr><tr><td>3</td><td>10-case test set</td></tr><tr><td>4</td><td>human review and baseline time</td></tr><tr><td>5</td><td>one small, reversible workflow</td></tr><tr><td>6</td><td>log errors, time and quality</td></tr><tr><td>7</td><td>keep, improve or remove</td></tr></tbody></table></div>
+<pre><code>Net benefit = value of time saved + quality improvement - tool cost - review time - error cost</code></pre>
+<p>If AI saves two hours but three hours are needed to fix facts, it didn't save time.</p>
+<blockquote><p>👔 <strong>Team policy:</strong> list allowed tools, prohibited data, claim approval, disclosure and incident contact in one page.</p></blockquote>
+<blockquote><p>💻 <strong>Implementation:</strong> validate outputs against schemas, constrain tools, store source IDs, test injection, rate-limit and retain only necessary logs.</p></blockquote>
+<h2 id="exercises">🏋️ Exercises</h2>
+<h3 id="exercise-241">Exercise 24.1</h3>
+<p>Find four risks: "Use our customer spreadsheet to write real testimonials and post them automatically."</p>
+<details>
+<summary>View Solution</summary>
+<p>Personal data exposure, invented or unauthorized testimonials, uncontrolled public posting, and misleading claims. Also consider opt-outs and provider terms.</p>
+</details>
+<h3 id="exercise-242">Exercise 24.2</h3>
+<p>Create ten test briefs with expected facts and prohibited claims. Score two AI drafts without knowing which prompt made them.</p>
+<h3 id="exercise-243-verify-the-growth">Exercise 24.3: Verify the growth</h3>
+<p>Orders 120 → 150; visits 10,000 → 12,500. Did conversion improve?</p>
+<details>
+<summary>View Solution</summary>
+<p>No: 120 ÷ 10,000 = 1.2%; 150 ÷ 12,500 = 1.2%. Orders rose because visits rose. An AI summary claiming a better conversion rate must be rejected.</p>
+</details>
+<h3 id="exercise-244-build-a-test-set">Exercise 24.4: Build a test set</h3>
+<p>Write 12 cases for an AI assistant answering your customers, including missing facts and a malicious webpage instruction.</p>
+<details>
+<summary>View Success Check</summary>
+<p>Tests contain expected facts, privacy limits, handoff, "I don't know", prompt injection, language and policy changes. A human reviews actual failures.</p>
+</details>
+<h2 id="quick-quiz">✅ Quick Quiz</h2>
+<ol><li>Is a synthetic persona evidence of demand?<br>• A) Yes<br>• B) No</li><li>Labelling a misleading AI ad:<br>• A) Makes the claim safe<br>• B) Does not fix the claim</li><li>AI writes 50 posts in an hour. What's still missing?<br>• A) Nothing<br>• B) Customer evidence, fact check and distribution judgement<br>• C) A longer logo</li><li>Which is safest for a new agent?<br>• A) Unlimited CRM and ad access<br>• B) Read-only facts plus human-approved actions<br>• C) Shared password</li></ol>
+<details>
+<summary>View Answers</summary>
+<ol><li><strong>B.</strong></li><li><strong>B.</strong></li><li><strong>B.</strong> Volume isn't strategy.</li><li><strong>B.</strong> Limit access and require review.</li></ol>
+</details>
+<hr>
+<blockquote><p>Author: <strong>Vicky</strong> (<a href="https://abvicky.in">abvicky.in</a>) · Platform built by <a href="https://www.manikarnikatechnologies.in/">Manikarnika Technologies</a> · © 2026 All rights reserved. ⬅️ <a href="23-automation-and-crm.html">Automation &amp; CRM</a> · ➡️ <a href="25-privacy-law-and-ethics.html">Privacy, Law &amp; Ethics</a></p></blockquote>
+</article>
+<nav class="pager" aria-label="Lesson navigation"><a class="btn ghost" href="23-automation-and-crm.html">← Automation &amp; CRM</a><a class="btn ghost" href="25-privacy-law-and-ethics.html">Privacy, Law &amp; Ethics →</a></nav>
+</main>
+<footer>
+<p>Digital Marketing by Vicky: Zero to Pro · Author: <a href="https://abvicky.in"><strong>Vicky</strong></a> · Platform built by <a href="https://www.manikarnikatechnologies.in/"><strong>Manikarnika Technologies</strong></a> · © 2026 All rights reserved.</p>
+</footer>
+</body>
+</html>
