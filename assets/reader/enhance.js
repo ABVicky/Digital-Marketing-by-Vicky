@@ -234,7 +234,7 @@
     box.querySelectorAll("img[src]").forEach((img) => {
       const src = img.getAttribute("src");
       if (!/^(https?:|data:)/i.test(src)) img.setAttribute("src", PE.resolvePath(base, src));
-      img.loading = "lazy"; img.decoding = "async";
+      img.loading = /^https?:/i.test(src) ? "eager" : "lazy"; img.decoding = "async"; /* small remote badges and avatars load at once */
       const p = img.parentElement;
       if (p && p.tagName === "P" && p.childNodes.length === 1) {
         const fig = document.createElement("figure");

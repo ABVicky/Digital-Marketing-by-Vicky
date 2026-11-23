@@ -1,332 +1,276 @@
-<div align="center">
+<a href="https://abvicky.github.io/Digital-Marketing-by-Vicky/"><img src="assets/readme/banner.svg" alt="Digital Marketing by Vicky: Zero to Pro. A study guide from your first customer interview to measured, profitable campaigns." width="100%"></a>
 
-<img src="assets/cover.svg" alt="Digital Marketing by Vicky: Zero to Pro" width="100%" style="max-width: 820px; border-radius: 14px;">
+# Digital Marketing by Vicky: Zero to Pro
 
-# 📈 Digital Marketing by Vicky: Zero to Pro
+<p align="center">
+  <a href="https://abvicky.github.io/Digital-Marketing-by-Vicky/"><img src="https://img.shields.io/badge/Read_the_guide-online-3CC9A0?style=for-the-badge&logo=readthedocs&logoColor=15181E" alt="Read the guide online"></a>
+  <a href="https://github.com/ABVicky/Digital-Marketing-by-Vicky/stargazers"><img src="https://img.shields.io/github/stars/ABVicky/Digital-Marketing-by-Vicky?style=for-the-badge&logo=github&label=Stars&color=2F6AA8" alt="GitHub stars"></a>
+  <img src="https://img.shields.io/badge/Level-Beginner_to_pro-F3B552?style=for-the-badge" alt="Level: beginner to pro">
+  <a href="https://github.com/ABVicky/Digital-Marketing-by-Vicky/commits/main"><img src="https://img.shields.io/github/last-commit/ABVicky/Digital-Marketing-by-Vicky?style=for-the-badge&label=Updated&color=5B6472" alt="Last updated"></a>
+</p>
 
-### The Complete, Production-Grade Curriculum: From Customer Discovery to Measured, Full-Funnel Growth
+<p align="center">
+  <b><a href="modules/00-welcome.md">Start here</a></b> ·
+  <b><a href="#curriculum">Curriculum</a></b> ·
+  <b><a href="#choose-your-route">Routes</a></b> ·
+  <b><a href="appendix/B-template-library.md">Templates</a></b> ·
+  <b><a href="appendix/C-glossary.md">Glossary</a></b> ·
+  <b><a href="appendix/D-final-exam.md">Exam</a></b> ·
+  <b><a href="#questions">Questions</a></b>
+</p>
 
-[![GitHub stars](https://img.shields.io/github/stars/ABVicky/Digital-Marketing-by-Vicky?style=flat-square&color=3CC9A0)](https://github.com/ABVicky/Digital-Marketing-by-Vicky/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/ABVicky/Digital-Marketing-by-Vicky?style=flat-square&color=2F6AA8)](https://github.com/ABVicky/Digital-Marketing-by-Vicky/network/members)
-[![Curriculum](https://img.shields.io/badge/curriculum-28%20modules%20%C2%B7%205%20stages-3CC9A0?style=flat-square)](#-the-curriculum-28-modules-across-5-stages)
-[![Practice Client](https://img.shields.io/badge/case%20study-Mitti%20Studio%20(Kolkata)-F3B552?style=flat-square)](#-the-running-case-study-mitti-studio)
-[![Template Library](https://img.shields.io/badge/templates-50%20production%20templates-2F6AA8?style=flat-square)](appendix/B-template-library.md)
-[![License](https://img.shields.io/badge/license-Educational%20Use-3CC9A0?style=flat-square)](#-copyright--terms-of-use)
+Learn digital marketing by building it for one business. You interview customers, work out the profit on an order, make a page, choose channels, set up tracking and decide what to do next. No experience, code or ad budget is needed to begin.
 
-<br>
+<img src="assets/readme/stats.svg" alt="28 modules, 101 exercises, 50 templates, 131 glossary terms, 50 exam questions and 6 capstones" width="100%">
 
-**[📖 Open Interactive Web Reader](https://abvicky.github.io/Digital-Marketing-by-Vicky/)** &nbsp;•&nbsp;
-**[🚀 Start Module 00](modules/00-welcome.md)** &nbsp;•&nbsp;
-**[🗺️ Learning Roadmap](#-the-curriculum-28-modules-across-5-stages)** &nbsp;•&nbsp;
-**[🧰 50-Template Vault](appendix/B-template-library.md)** &nbsp;•&nbsp;
-**[🎓 40-Question Final Exam](appendix/D-final-exam.md)** &nbsp;•&nbsp;
-**[👤 Meet the Author](#-meet-the-author)**
+## How it works
 
-</div>
+| 1 · Understand | 2 · Offer | 3 · Reach | 4 · Measure |
+|---|---|---|---|
+| Five real interviews, themes and positioning | Profit per order, clear promise, tested page | SEO, social, email and ads, chosen on purpose | Orders, GA4 and GTM, tests and limits |
+| [Module 02](modules/02-customer-research-and-positioning.md) | [03](modules/03-strategy-and-unit-economics.md) and [05](modules/05-landing-pages.md) | [08](modules/08-seo-keywords-and-on-page.md) to [19](modules/19-meta-ads.md) | [20](modules/20-analytics-and-tracking.md) to [22](modules/22-conversion-optimization.md) |
 
-<br>
+Every module follows the same path: **short answer → lesson → before-and-after examples → exercises with solutions → common questions → quiz**.
 
-> [!TIP]
-> **Experience the Interactive Web Application:** Read this entire curriculum in our custom distraction-free web reader at **[abvicky.github.io/Digital-Marketing-by-Vicky](https://abvicky.github.io/Digital-Marketing-by-Vicky/)**.
-> - ⚡ **Instant Client-Side Search (`⌘K` / `/`)**: Search every keyword, framework, script, and template across all 28 modules without page reloads.
-> - 🎛️ **Live Audience Lens**: Toggle between **`👔 Non-Tech Track`** (business & copy) and **`💻 Tech Track`** (tracking & code) dynamically on any page.
-> - 🌗 **Cinematic Dark & Light Modes**: Designed with an accessible Mint & Slate palette tested for extended study sessions.
-> - 🔒 **100% Offline & Private**: Zero external tracking cookies; all module completion progress is saved directly in your browser's `localStorage`.
+## Choose your route
 
----
+| I want to… | Read in this order |
+|---|---|
+| Get local customers | [02](modules/02-customer-research-and-positioning.md) → [03](modules/03-strategy-and-unit-economics.md) → [05](modules/05-landing-pages.md) → [10](modules/10-local-seo-and-ai-search.md) → [13](modules/13-facebook-organic.md) → [17](modules/17-email-and-whatsapp.md) |
+| Sell products online | [02](modules/02-customer-research-and-positioning.md) → [03](modules/03-strategy-and-unit-economics.md) → [04](modules/04-website-making-essentials.md) → [05](modules/05-landing-pages.md) → [12](modules/12-instagram.md) → [19](modules/19-meta-ads.md) → [17](modules/17-email-and-whatsapp.md) |
+| Become an SEO specialist | [02](modules/02-customer-research-and-positioning.md) → [06](modules/06-copywriting-and-content.md) → [08](modules/08-seo-keywords-and-on-page.md) → [09](modules/09-technical-seo-and-links.md) → [10](modules/10-local-seo-and-ai-search.md) → [20](modules/20-analytics-and-tracking.md) |
+| Manage social media | [02](modules/02-customer-research-and-positioning.md) → [06](modules/06-copywriting-and-content.md) → [07](modules/07-design-and-video-editing.md) → [11](modules/11-social-media-strategy.md) → [12](modules/12-instagram.md) to [16](modules/16-x-and-threads.md) |
+| Run paid ads | [03](modules/03-strategy-and-unit-economics.md) → [05](modules/05-landing-pages.md) → [18](modules/18-google-ads.md) → [19](modules/19-meta-ads.md) → [20](modules/20-analytics-and-tracking.md) → [21](modules/21-google-tag-manager.md) → [22](modules/22-conversion-optimization.md) |
+| Work in analytics | [03](modules/03-strategy-and-unit-economics.md) → [20](modules/20-analytics-and-tracking.md) → [21](modules/21-google-tag-manager.md) → [22](modules/22-conversion-optimization.md) → [25](modules/25-privacy-law-and-ethics.md) |
 
-## 🎯 Executive Summary & Core Philosophy
+### Two tracks, one guide
 
-Most digital marketing advice swings between two extremes:
-1. **Superficial "Growth Hacks" & Trendy Tricks** that look exciting on social media but collapse the moment an ad algorithm changes or customer acquisition costs rise.
-2. **Abstract Textbook Theories** filled with buzzwords that never show how to write an ad that sells, fix a leaking landing page, or configure server-side conversion tracking.
+| | 👔 Non-Tech | 💻 Tech |
+|---|---|---|
+| **For** | owners, creators, writers, marketers | developers, analysts, marketing operations |
+| **Focus** | customers, copy, budgets, reports | technical SEO, events, SQL, automation |
+| **Start with** | basic English and curiosity | basic HTML or data skills |
+| **You leave with** | a plan, campaigns and an honest case study | a measurement plan, tested events and a reliable workflow |
 
-This curriculum is built on a different premise: **Marketing is a disciplined, measurable engineering system.**
+Switch tracks at the top of the online reader. Shared lessons always stay visible.
 
-```mermaid
-flowchart LR
-    A["1. Understand<br/>(5 Customer Interviews & JTBD)"] --> B["2. Make an Offer<br/>(Positioning + Proof + Landing Page)"]
-    B --> C["3. Reach<br/>(SEO, Social, Email, Meta & Google Ads)"]
-    C --> D["4. Measure & Scale<br/>(Unit Economics, GA4, GTM & True Profit)"]
-```
+## Curriculum
 
-Instead of guessing, you build a sustainable machine in four clear steps:
-- **Understand:** Find the exact anxiety, trigger, and desired outcome using the 5-interview Jobs-to-be-Done (JTBD) protocol.
-- **Offer:** Formulate a swap-tested positioning statement with undeniable proof, credible guarantees, and a high-converting web landing page.
-- **Reach:** Choose channel distribution deliberately—mastering technical SEO, organic content engines, and precision-targeted Google & Meta Ads.
-- **Measure:** Reconcile ad spend against gross margin, track real events in GA4 and Google Tag Manager, and scale profit rather than vanity applause.
+<img src="assets/roadmap.svg" alt="Five-stage roadmap: foundations, content and search, social email and ads, measure and scale, pro" width="100%">
 
----
+Open a stage to see its modules.
 
-## 🧭 The Customer Journey & Feedback Loop
+<details open>
+<summary><b>🟢 Stage 1: Foundations</b> · 6 modules</summary>
 
-A healthy business does not treat customer acquisition as a one-time transaction. The customer journey is an engine where every delighted buyer feeds the top of the funnel through reviews, UGC, and word-of-mouth:
+*Customers, numbers and a website that works.*
 
-<div align="center">
-  <img src="assets/customer-journey.svg" alt="The Customer Journey: From Unaware to Loyal with a Referral Loop" width="100%" style="max-width: 860px; margin: 12px 0;">
-</div>
+| # | Module | You learn | You make | Time |
+|:---:|---|---|---|---:|
+| 00 | **[Welcome & How to Use This Guide](modules/00-welcome.md)** | Roadmap, practice client, practice lab and learning routes. | A practice lab and study route | 45 min |
+| 01 | **[How Digital Marketing Works](modules/01-how-digital-marketing-works.md)** | Overview: channels, journey, roles, metrics and funnel maths. | A funnel forecast with low, base and high cases | 2.5 h |
+| 02 | **[Customer Research & Positioning](modules/02-customer-research-and-positioning.md)** | Interviews, themes, segments, jobs and positioning. | Interview themes and a positioning statement | 3 h |
+| 03 | **[Strategy & Unit Economics](modules/03-strategy-and-unit-economics.md)** | Goals, offers, break-even CPA, scenarios and budgets. | A profit model, loss limit and one-page strategy | 3 h |
+| 04 | **[Website Making Essentials](modules/04-website-making-essentials.md)** | Domain, hosting, platforms, build, security and launch. | A three-page website and launch checklist | 5 h |
+| 05 | **[Landing Pages That Convert](modules/05-landing-pages.md)** | Message match, proof, forms, checkout and user tests. | A landing page tested with five people | 3 h |
 
----
+</details>
 
-## ⚖️ Two Tailored Tracks: Non-Tech vs. Tech
+<details>
+<summary><b>🔵 Stage 2: Content &amp; Search</b> · 5 modules</summary>
 
-Every module is dual-authored to serve both strategic decision-makers and technical practitioners. You can read both tracks together or filter content in real time with the **Audience Switcher** on the top navigation bar:
+*Words, design, video, SEO and AI search.*
 
-<div align="center">
+| # | Module | You learn | You make | Time |
+|:---:|---|---|---|---:|
+| 06 | **[Copywriting & Content](modules/06-copywriting-and-content.md)** | Frameworks, headlines, storytelling, editing and calendars. | A content calendar and rewritten copy | 4 h |
+| 07 | **[Design & Video Editing](modules/07-design-and-video-editing.md)** | Canva, VN, shooting, editing, thumbnails and rights. | A short video, carousel and thumbnail | 5 h |
+| 08 | **[SEO: Keywords & On-Page](modules/08-seo-keywords-and-on-page.md)** | Intent, keyword plans, pages, clusters and reporting. | A keyword plan and improved pages | 5 h |
+| 09 | **[Technical SEO & Link Building](modules/09-technical-seo-and-links.md)** | Crawling, indexing, speed, structured data and links. | A ranked technical audit and redirect map | 5 h |
+| 10 | **[Local SEO & AI Search](modules/10-local-seo-and-ai-search.md)** | Business Profile, reviews, AI answers and measurement. | A local fact audit and AI-search sample | 3 h |
 
-| Dimension | 👔 Non-Tech Track (Business & Strategy) | 💻 Tech Track (Engineering & Data) |
-| :--- | :--- | :--- |
-| **Primary Audience** | Founders, business owners, copywriters, creative strategists, marketing managers | Technical marketers, developers, data analysts, marketing-ops specialists |
-| **Prerequisites** | None. Curiosity, clear logic, and honest thinking | Basic HTML/JavaScript, SQL familiarity, or web architecture basics |
-| **Core Responsibilities** | Customer interviews, positioning, messaging, ad briefs, unit economics, budgets | GTM data layers, GA4 custom parameters, technical SEO schemas, API webhooks |
-| **Primary Tooling** | Canva, VN, Meta Ads Manager, Google Ads UI, MailerLite, Notion, Spreadsheets | Google Tag Manager, Google Search Console, Schema JSON-LD, GA4 BigQuery, Make/Zapier |
-| **Focus Question** | *"What promise makes the customer choose us, and what is our target CPA?"* | *"How do we verify data integrity, eliminate signal loss, and automate delivery?"* |
-| **Final Deliverable** | A validated go-to-market plan, launch calendar, and profitable ad campaigns | An end-to-end event measurement pipeline, server-side data layer, and automated attribution stack |
+</details>
 
-</div>
+<details>
+<summary><b>🟠 Stage 3: Social, Email &amp; Ads</b> · 9 modules</summary>
 
----
+*Every major platform, messaging and paid ads.*
 
-## 🏺 The Running Case Study: Mitti Studio
+| # | Module | You learn | You make | Time |
+|:---:|---|---|---|---:|
+| 11 | **[Social Media Strategy & Influencers](modules/11-social-media-strategy.md)** | Platform choice, community, creators and reporting. | A one-page social strategy and creator brief | 4 h |
+| 12 | **[Instagram Marketing](modules/12-instagram.md)** | Profile, Reels, carousels, Stories, DMs and tests. | A four-week Instagram test | 4 h |
+| 13 | **[Facebook (Organic)](modules/13-facebook-organic.md)** | Pages, groups, events, Messenger and original content. | A group answer and event plan | 3 h |
+| 14 | **[YouTube Marketing](modules/14-youtube.md)** | Topics, titles, scripts, Shorts, analytics and leads. | A demonstration video with chapters | 4 h |
+| 15 | **[LinkedIn Marketing](modules/15-linkedin.md)** | Profiles, posts, outreach, B2B and LinkedIn Ads. | A work log, outreach list and ad maths | 4 h |
+| 16 | **[X (Twitter) & Threads](modules/16-x-and-threads.md)** | Short posts, listening, service and crisis response. | A listening routine and crisis update | 2.5 h |
+| 17 | **[Email & WhatsApp Marketing](modules/17-email-and-whatsapp.md)** | Lists, flows, deliverability, consent and repeat sales. | A welcome flow with exit rules | 5 h |
+| 18 | **[Google Ads](modules/18-google-ads.md)** | Keywords, ads, bidding, Shopping, PMax and scaling. | A first search campaign on paper | 6 h |
+| 19 | **[Meta Ads (Facebook & Instagram)](modules/19-meta-ads.md)** | Campaigns, creative tests, leads, retargeting, scaling. | Fifteen ad concepts and a test plan | 6 h |
 
-Theory without practice is quickly forgotten. Every lesson, exercise, and template in this curriculum is anchored in a real running scenario: **Mitti Studio**, a handcrafted ceramics and lifestyle brand founded in Kolkata, India.
+</details>
 
-<div align="center">
-  <img src="assets/unit-economics.svg" alt="Unit economics of a Mitti Studio order: where one ₹1,800 order goes" width="100%" style="max-width: 860px; margin: 12px 0;">
-</div>
+<details>
+<summary><b>🟣 Stage 4: Measure &amp; Scale</b> · 6 modules</summary>
 
-### Mitti Studio Client Snapshot
-- **Core Offering:** Hand-thrown ceramic tableware, artisan mugs, and terracotta planters.
-- **Average Order Value (AOV):** ₹1,800
-- **Gross Margin:** 55% (Making: ₹810 · Delivery & Packaging: ₹180 · Contribution: ₹810)
-- **Break-Even CPA:** ₹810
-- **Target CPA (Target Profit Margin):** $\le$ ₹560 (preserving ₹250 contribution per new order)
-- **Primary Customer Segments:**
-  1. *Thoughtful Gifters* (searching for unique housewarming gifts on short notice).
-  2. *Home Aesthetic Decorators* (seeking cohesive, non-factory dinner sets).
-  3. *Corporate HR Managers* (procuring branded festival gift hampers).
-
-Across 28 modules, you build Mitti Studio's entire marketing engine from zero to full profitability.
-
----
-
-## 🗺️ The Curriculum: 28 Modules Across 5 Stages
-
-<div align="center">
-  <img src="assets/roadmap.svg" alt="Curriculum Roadmap: 5 Stages from Foundations to Pro Practice" width="100%" style="max-width: 860px; margin: 12px 0;">
-</div>
-
-### 🟢 Stage 1: Foundations (The Business, The Customer & The Offer)
-*Master the mechanics of why people buy, how unit economics work, and how to build a high-converting website.*
-
-| Mod | Title & Direct Link | Core Competency & Method | Mitti Studio Practical Deliverable |
-| :---: | :--- | :--- | :--- |
-| **00** | **[Welcome & Study Guide Setup](modules/00-welcome.md)** | Free practice lab setup, learning tracks, privacy guidelines | Baseline audit & 30-day study roadmap |
-| **01** | **[How Digital Marketing Works](modules/01-how-digital-marketing-works.md)** | Paid vs. owned vs. earned media, funnel math, journey stages | Full-funnel customer flow diagram & metrics scorecard |
-| **02** | **[Customer Research & Positioning](modules/02-customer-research-and-positioning.md)** | 5-interview JTBD protocol, review mining, swap test | 3 customer persona profiles & swap-tested positioning statement |
-| **03** | **[Strategy & Unit Economics](modules/03-strategy-and-unit-economics.md)** | AOV, contribution margin, break-even CPA, LTV forecasting | 1-page business economics model & acquisition budget |
-| **04** | **[Website Making Essentials](modules/04-website-making-essentials.md)** | Domains, DNS, SSL/TLS, hosting architecture, CMS selection | Complete multi-page sitemap & launch checklist |
-| **05** | **[Landing Pages That Convert](modules/05-landing-pages.md)** | Message match, headline formulas, proof architecture, form UX | "Housewarming Ceramic Gift Set" dedicated landing page |
-
----
-
-### 🔵 Stage 2: Content, Search & Organic Engines
-*Craft persuasive copy, produce studio-grade creative assets, and build compound SEO distribution.*
-
-| Mod | Title & Direct Link | Core Competency & Method | Mitti Studio Practical Deliverable |
-| :---: | :--- | :--- | :--- |
-| **06** | **[Copywriting & Content Strategy](modules/06-copywriting-and-content.md)** | AIDA, PAS, features-to-benefits translation, content pillars | 30-day multi-channel editorial content matrix |
-| **07** | **[Design & Mobile Video Editing](modules/07-design-and-video-editing.md)** | Visual hierarchy, brand kits, smartphone shooting, VN editing | 3 high-retention video Reels & thumbnail assets |
-| **08** | **[SEO: Keywords & On-Page Content](modules/08-seo-keywords-and-on-page.md)** | Search intent mapping, zero-cost keyword discovery, topic clusters | "Ceramic Tableware Guide" cluster & on-page checklist |
-| **09** | **[Technical SEO & Link Building](modules/09-technical-seo-and-links.md)** | Core Web Vitals, Schema.org JSON-LD markup, digital PR | Structured Product/Review schema & PR outreach pitch |
-| **10** | **[Local SEO & AI Search Engines](modules/10-local-seo-and-ai-search.md)** | Google Business Profile, local review velocity, Perplexity/ChatGPT GEO | Verified Google Business Profile & AI engine citation plan |
+*Analytics, Tag Manager, testing, automation and AI.*
 
----
+| # | Module | You learn | You make | Time |
+|:---:|---|---|---|---:|
+| 20 | **[Analytics & Tracking](modules/20-analytics-and-tracking.md)** | GA4, UTMs, attribution, incrementality and reports. | A metric dictionary and UTM rules | 6 h |
+| 21 | **[Google Tag Manager](modules/21-google-tag-manager.md)** | Data layer, tags, triggers, testing and consent. | A tested GTM event with rollback | 5 h |
+| 22 | **[Conversion Optimization](modules/22-conversion-optimization.md)** | Evidence, hypotheses, A/B tests and low-traffic methods. | A test brief and an honest reading of results | 4 h |
+| 23 | **[Automation & CRM](modules/23-automation-and-crm.md)** | Pipelines, scoring, follow-up and reliable workflows. | A lead pipeline and automation runbook | 4 h |
+| 24 | **[AI Tools for Marketers](modules/24-ai-tools-for-marketers.md)** | Tool choice, prompt recipes, agents and human checks. | An AI workflow with a test set | 4 h |
+| 25 | **[Privacy, Law & Ethics](modules/25-privacy-law-and-ethics.md)** | Consent, claims, dark patterns and incident practice. | A data map and incident plan | 4 h |
 
-### 🟠 Stage 3: Social Media, Messaging & Paid Acquisition
-*Build engaged communities across platforms, launch high-ROI ads, and build retention messaging.*
+</details>
 
-| Mod | Title & Direct Link | Core Competency & Method | Mitti Studio Practical Deliverable |
-| :---: | :--- | :--- | :--- |
-| **11** | **[Social Media Strategy & Creators](modules/11-social-media-strategy.md)** | Platform selection matrix, micro-creator partnerships, disclosures | Creator collaboration brief & engagement KPI dashboard |
-| **12** | **[Instagram Marketing Masterclass](modules/12-instagram.md)** | Hook design, 3-second retention, carousels, DM automation | 5-part Instagram Reels sequence & automated DM flow |
-| **13** | **[Facebook Organic & Communities](modules/13-facebook-organic.md)** | Group community moderation, local pottery workshops, Page trust | Kolkata Decor Enthusiasts community engagement playbook |
-| **14** | **[YouTube Content & Shorts](modules/14-youtube.md)** | Search-based video topics, scripting for watch time, Shorts | 1 long-form studio tour script & 3 Shorts storyboards |
-| **15** | **[LinkedIn for B2B & Personal Brand](modules/15-linkedin.md)** | Executive presence, founder storytelling, B2B corporate gifting | 4 founder-led posts & corporate HR gift outreach sequence |
-| **16** | **[X (Twitter) & Threads](modules/16-x-and-threads.md)** | Fast feedback loops, listening queries, crisis mitigation | Real-time social listening matrix & customer support playbook |
-| **17** | **[Email & WhatsApp Marketing](modules/17-email-and-whatsapp.md)** | Lead magnets, deliverability, welcome & abandoned cart flows | 4-part automated email welcome sequence + WhatsApp reminders |
-| **18** | **[Google Ads: Search, Shopping & PMax](modules/18-google-ads.md)** | High-intent keywords, match types, smart bidding, negative lists | High-intent Search campaign & Merchant Center shopping setup |
-| **19** | **[Meta Ads: Facebook & Instagram](modules/19-meta-ads.md)** | Campaign hierarchy, Advantage+ shopping, creative testing matrix | 3-tier creative testing campaign with dynamic ad sets |
+<details>
+<summary><b>🌟 Stage 5: Pro</b> · 2 modules</summary>
 
----
+*Industry playbooks and your career.*
 
-### 🟣 Stage 4: Measurement, Optimization, CRM & Privacy
-*Establish bulletproof data integrity, automate customer lifecycle journeys, and operate ethically.*
+| # | Module | You learn | You make | Time |
+|:---:|---|---|---|---:|
+| 26 | **[Industry Playbooks](modules/26-industry-playbooks.md)** | 11 playbooks, 4 worked cases and a 90-day plan. | A 90-day plan for one business | 5 h |
+| 27 | **[Becoming a Pro](modules/27-becoming-a-pro.md)** | Portfolio, proposals, reports, interviews and career. | A case study and portfolio | 4 h |
 
-| Mod | Title & Direct Link | Core Competency & Method | Mitti Studio Practical Deliverable |
-| :---: | :--- | :--- | :--- |
-| **20** | **[Analytics & Tracking Governance](modules/20-analytics-and-tracking.md)** | GA4 setup, UTM taxonomy, multi-touch attribution modeling | Executive marketing performance dashboard & UTM sheet |
-| **21** | **[Google Tag Manager & Data Layers](modules/21-google-tag-manager.md)** | E-commerce data layers, trigger groups, Consent Mode v2 | Verified GTM container with purchase & add-to-cart tags |
-| **22** | **[Conversion Rate Optimization (CRO)](modules/22-conversion-optimization.md)** | Quantitative & qualitative funnel audits, test sample sizing | CRO audit matrix & 2 high-conviction A/B test briefs |
-| **23** | **[Marketing Automation & CRM](modules/23-automation-and-crm.md)** | Lead scoring, pipeline stages, webhook bridges (Make/Zapier) | Automated CRM lead scoring & follow-up routing workflow |
-| **24** | **[AI Tools & Workflows for Marketers](modules/24-ai-tools-for-marketers.md)** | Prompt recipes for copy/research, AI agent loops, human review | Custom AI marketing assistant prompts & verification rubric |
-| **25** | **[Privacy, Advertising Law & Ethics](modules/25-privacy-law-and-ethics.md)** | India DPDP Act, GDPR fundamentals, dark patterns, ASCI rules | Customer privacy policy, consent banner, & incident drill |
+</details>
 
----
+## Meet your practice client
 
-### 🌟 Stage 5: Professional Practice & Career Strategy
-*Package your skills into client-ready deliverables, structure high-value retainers, and land career roles.*
+**Mitti Studio** is a fictional ceramics business in Kolkata. Its owner posts constantly, but sales don't move. You work out why. All its numbers are invented for practice and aren't benchmarks.
 
-| Mod | Title & Direct Link | Core Competency & Method | Professional Deliverable |
-| :---: | :--- | :--- | :--- |
-| **26** | **[11 Industry Playbooks](modules/26-industry-playbooks.md)** | Tailored GTM playbooks for D2C, SaaS, B2B, Local, Healthcare, etc. | 90-day multi-channel go-to-market rollout plan |
-| **27** | **[Becoming a Pro: Portfolio & Proposals](modules/27-becoming-a-pro.md)** | Retainer pricing, client pitch decks, case study portfolios | Signed proposal template, pricing calculator & portfolio site |
+<img src="assets/unit-economics.svg" alt="One ₹1,800 order: ₹810 making, ₹180 delivery and fees, ₹810 contribution. Break-even CPA ₹810, target CPA ₹560." width="100%">
 
----
+| Question you'll be able to answer | Where |
+|---|---|
+| What's the most we can pay for an order? | [Module 03](modules/03-strategy-and-unit-economics.md) |
+| Why does a 20% discount need 80% more orders? | [Module 03](modules/03-strategy-and-unit-economics.md) |
+| Why is GA4 counting every purchase twice? | [Module 21](modules/21-google-tag-manager.md) |
+| Which is better: cheap leads or costly ones? | [Modules 18](modules/18-google-ads.md) and [19](modules/19-meta-ads.md) |
+| What's the difference between SEO, AEO and GEO? | [Module 10](modules/10-local-seo-and-ai-search.md) |
 
-## 🧰 The 50-Template Production Library
+## Reference shelf
 
-All 50 templates in **[Appendix B](appendix/B-template-library.md)** are ready-to-copy Markdown documents, briefs, spreadsheets, and schemas:
+| | Resource | Use it for |
+|:---:|---|---|
+| 📋 | **[Cheat Sheet](appendix/A-cheat-sheet.md)** | Formulas, checklists and a channel picker. |
+| 🧰 | **[Template Library](appendix/B-template-library.md)** | 50 copy-ready templates across 10 categories. |
+| 📖 | **[Glossary](appendix/C-glossary.md)** | Digital marketing terms in plain English. |
+| 🎓 | **[Final Exam](appendix/D-final-exam.md)** | 50 questions and 5 practical tasks with answers. |
+| 🏆 | **[Capstone Projects](appendix/E-capstone-projects.md)** | Six portfolio projects with success criteria. |
+| 🩺 | **[Troubleshooting](appendix/F-troubleshooting.md)** | Symptom, cause and fix for common marketing problems. |
+| 🔗 | **[Resources & 30-Day Plan](appendix/G-resources.md)** | Official documentation, tools and a practice plan. |
 
-<div align="center">
+## The online reader
 
-| Category | Templates Included | Best Used For |
-| :--- | :--- | :--- |
-| **📋 Research & Strategy** | T01–T06 | Customer interview questionnaires, JTBD coding sheets, unit economics models, 1-page plans |
-| **✍️ Copy & Landing Pages** | T07–T12 | Headline generation matrices, product page copy templates, 5-second test scorecards |
-| **🔍 Search Engine Optimization** | T13–T18 | Keyword research trackers, on-page SEO checklists, JSON-LD Schema templates, PR pitches |
-| **📱 Social Media & Content** | T19–T25 | Multi-platform editorial calendars, Reel scripting templates, creator outreach agreements |
-| **💌 Messaging & Retention** | T26–T31 | Welcome email sequences, abandoned checkout flows, WhatsApp Business notification scripts |
-| **🎯 Paid Ads (Meta & Google)** | T32–T37 | Creative testing matrices, Google Search keyword groupings, Meta ad copy decks, negative lists |
-| **📊 Analytics & Tagging** | T38–T43 | UTM governance spreadsheets, GTM e-commerce data layer specifications, weekly client reports |
-| **💼 Client Services & Audits** | T44–T50 | Full marketing audit rubrics, freelance proposal contracts, monthly executive slide decks |
+<a href="https://abvicky.github.io/Digital-Marketing-by-Vicky/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/home-dark.jpg">
+  <img src="assets/readme/home-light.jpg" alt="Home page of the online reader with progress, stages and search" width="100%">
+</picture></a>
 
-</div>
+| Search | Progress | Reading | Tracks |
+|---|---|---|---|
+| Press **⌘K** or **/** to search every chapter | Saved in your browser, with no account | Light and dark themes, text size and focus mode | Show all, Non-Tech or Tech notes |
 
----
+<details>
+<summary><b>See inside a lesson</b></summary>
 
-## 🎓 The Reference Vault (Appendices A–G)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/lesson-dark.jpg">
+  <img src="assets/readme/lesson-light.jpg" alt="A lesson page with a short answer, learning objectives and page contents" width="100%">
+</picture>
 
-- 📋 **[Appendix A: Daily Cheat Sheet](appendix/A-cheat-sheet.md)** — High-frequency formulas (ROAS, MER, CAC, LTV), copy checklists, and quick channel-selection diagnostics.
-- 🧰 **[Appendix B: 50-Template Library](appendix/B-template-library.md)** — Complete production-ready collection of briefs, templates, and spreadsheets.
-- 📖 **[Appendix C: Comprehensive Glossary](appendix/C-glossary.md)** — 100+ digital marketing terms defined in unambiguous plain language.
-- 🎓 **[Appendix D: Final Certification Exam](appendix/D-final-exam.md)** — 40 rigorous multiple-choice questions and 5 realistic scenario problems with worked solutions.
-- 🏆 **[Appendix E: Six Portfolio Capstone Projects](appendix/E-capstone-projects.md)** — Multi-week portfolio projects with tiered success rubrics across both tracks.
-- 🩺 **[Appendix F: Troubleshooting Guide](appendix/F-troubleshooting.md)** — Systematic diagnosis matrix: Symptom $\rightarrow$ Probable Root Cause $\rightarrow$ Concrete Fix.
-- 🔗 **[Appendix G: Curated Resources & 30-Day Plan](appendix/G-resources.md)** — Free software stack, recommended books, official platform documentation, and study plans.
+</details>
 
----
+## Questions
 
-## 🔁 The Closed-Loop Measurement Framework
+<details>
+<summary><b>Is this suitable for a complete beginner?</b></summary>
 
-Marketing without measurement is blind spending. Every tactic in this curriculum ties directly into the **Measurement & Decision Loop**:
+Yes. Start with Module 00 and follow the stages. Some Tech notes assume basic HTML, SQL or Python, and you can hide them.
 
-<div align="center">
-  <img src="assets/measurement-loop.svg" alt="From Customer Action to a Better Decision: The Closed-Loop Measurement Framework" width="100%" style="max-width: 860px; margin: 12px 0;">
-</div>
+</details>
 
-1. **Customer Action:** The user performs a consented event (page visit, lead form submission, checkout).
-2. **Event Capture:** Standardized event payloads are fired into clean data layers without signal loss.
-3. **Reconcile:** Digital analytics data is verified against actual bank statements, ERP records, and payment gateway logs.
-4. **Report:** Marketing reports highlight actual cause, incrementality, and limits—not vanity metrics.
-5. **Decide:** Actionable decisions to double down, iterate creative, reallocate budget, or pause underperforming channels.
+<details>
+<summary><b>Do I need to spend money on ads?</b></summary>
 
----
+No. Every paid-ads exercise can be completed on paper. Work out your profit and loss limit before running a real campaign.
 
-## ⚡ What Makes This Reader Special
+</details>
 
-The companion web application at **[abvicky.github.io/Digital-Marketing-by-Vicky](https://abvicky.github.io/Digital-Marketing-by-Vicky/)** was engineered from scratch without bloated third-party frameworks:
+<details>
+<summary><b>How long does it take?</b></summary>
 
-- 🏎️ **Instant Client-Side Navigation:** Built with vanilla JavaScript, modern CSS variables, and HTML5. Zero lag, zero hydration delays.
-- 🎯 **Interactive Track Lens Switcher:** Toggle `🌟 All`, `👔 Non-Tech`, or `💻 Tech` anytime. Non-relevant sections fade away seamlessly.
-- 🔎 **Instant Client-Side Search (`⌘K` / `/`):** Lightning-fast fuzzy index across all modules and templates.
-- 🌗 **High-Legibility Color Palette:** Thoughtfully paired with high-contrast Emerald (`#3CC9A0`), Sapphire (`#2F6AA8`), and Charcoal (`#17191F`).
-- 📱 **Mobile & Keyboard Ergonomics:** Dedicated swipe ergonomics on mobile; `←` and `→` keys step smoothly between consecutive chapters on desktop.
-- 🔒 **Local Storage Persistence:** No accounts, no passwords, no email gates. Your progress percentage is stored purely in your own browser.
+About 115 hours by our estimate, including practice: roughly 14 weeks at 8 hours a week.
 
----
+</details>
 
-## 💻 Local Development & Quick Start
+<details>
+<summary><b>Will it get me a job or a certificate?</b></summary>
 
-The entire guide is self-contained and operates directly from your local filesystem without requiring Node.js, npm, or Docker:
+It doesn't promise either. It helps you build work you can show: a tested page, a measurement plan and honest case studies.
+
+</details>
+
+<details>
+<summary><b>How current is it?</b></summary>
+
+Time-sensitive notes were reviewed in November 2026. Platforms and laws change, so check the linked official pages before spending money or making legal decisions.
+
+</details>
+
+## Run it on your computer
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/ABVicky/Digital-Marketing-by-Vicky.git
 cd Digital-Marketing-by-Vicky
-
-# 2. Run a lightweight local HTTP server
 python3 -m http.server 8000
-
-# 3. Open in your browser
-open http://localhost:8000
 ```
 
-### Rebuilding Course Bundles & Static SEO Pages
-If you edit or add any `.md` module files, simply run the build script:
+Then open `http://localhost:8000`. You can also double-click `index.html`. Fonts, diagrams and text rendering load from the internet.
+
+<details>
+<summary><b>Editing the guide</b></summary>
+
+Edit the Markdown in `modules/` or `appendix/`, then rebuild the reader, chapter pages and sitemap:
+
 ```bash
 python3 build.py
 ```
-This automatically updates `course-data.js`, regenerates crawlable static pages in `learn/`, and updates `sitemap.xml`.
 
----
+Found a mistake? [Open an issue](https://github.com/ABVicky/Digital-Marketing-by-Vicky/issues) with the module number and a source.
 
-## 👤 Meet the Author
+</details>
 
-<div class="profile-card">
-  <div class="profile-avatar">
-    <img src="https://avatars.githubusercontent.com/u/103195071?v=4" alt="Vicky Prasad Mahato" width="104" height="104" style="border-radius: 50%;">
-  </div>
-  <div class="profile-body">
-    <h3>Vicky Prasad Mahato</h3>
-    <span class="profile-role">Author · System Architect</span>
-    <p>
-      Vicky Prasad Mahato (online as <strong>abvicky</strong>) is a system architect, software engineer, and digital product builder based in Kolkata, India. He builds resilient digital systems and software tools, with a strong focus on offline-first architectures, personal data sovereignty, and practical artificial intelligence.
-    </p>
-    <p>
-      As the founder of the <strong>Coders' Club at BBIT Kolkata</strong> and former student coordinator at the Innovation and Incubation Center (IIC) and Entrepreneurship Development Cell (EDC), Vicky has mentored hundreds of student developers in software design, problem solving, and modern development practices. He is also the creator of open-source projects including <em>Mera Paisaa</em>, an offline-first personal expense and financial tracking system.
-    </p>
-    <p>
-      <strong>Author's Teaching Philosophy:</strong> <em>“Marketing is not about tricking people into buying things they do not need. It is about understanding who has a problem you can genuinely solve, explaining your promise with honesty and proof, and building a sustainable system that earns profit through trust.”</em>
-    </p>
-    <div class="profile-pills">
-      <a class="pill-btn primary" href="https://abvicky.in" target="_blank" rel="noopener">🌐 abvicky.in</a>
-      <a class="pill-btn" href="https://www.linkedin.com/in/abvicky/" target="_blank" rel="noopener">💼 LinkedIn Profile</a>
-      <a class="pill-btn" href="https://github.com/ABVicky" target="_blank" rel="noopener">💻 GitHub (@ABVicky)</a>
-    </div>
-  </div>
-</div>
+## Author and platform
 
----
+<table>
+<tr>
+<td width="120" align="center" valign="top"><img src="https://avatars.githubusercontent.com/u/103195071?v=4" alt="Vicky Prasad Mahato" width="96" height="96"></td>
+<td valign="top">
+<b>Vicky Prasad Mahato</b><br>
+Author · System architect, software engineer and digital product builder in Kolkata, India. Founder of the Coders' Club at BBIT Kolkata and creator of <em>Mera Paisaa</em>.<br><br>
+<em>“Marketing is not about tricking people into buying things they do not need. It is about understanding who has a problem you can genuinely solve, explaining your promise with honesty and proof, and building a sustainable system that earns profit through trust.”</em><br><br>
+<a href="https://abvicky.in">abvicky.in</a> · <a href="https://www.linkedin.com/in/abvicky/">LinkedIn</a> · <a href="https://github.com/ABVicky">GitHub</a>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top"><img src="https://www.manikarnikatechnologies.in/_next/image?url=%2Ficon_logo.png&amp;w=96&amp;q=75" alt="Manikarnika Technologies" width="72" height="72"></td>
+<td valign="top">
+<b>Manikarnika Technologies</b><br>
+Platform architecture and development: the reader, design system, track switcher and search.<br><br>
+<a href="https://www.manikarnikatechnologies.in/">manikarnikatechnologies.in</a>
+</td>
+</tr>
+</table>
 
-## 🏢 Platform & Technical Infrastructure
+## Copyright and terms
 
-<div class="profile-card">
-  <div class="profile-avatar">
-    <img class="platform-logo" src="https://www.manikarnikatechnologies.in/_next/image?url=%2Ficon_logo.png&w=96&q=75" alt="Manikarnika Technologies Logo" width="96" height="96">
-  </div>
-  <div class="profile-body">
-    <h3>Manikarnika Technologies</h3>
-    <span class="profile-role platform">Platform Architecture & Engineering</span>
-    <p>
-      The custom reading experience, interactive design system, live audience lens engine, client-side search infrastructure, and responsive web components were designed and engineered by <strong>Manikarnika Technologies</strong>.
-    </p>
-    <p>
-      Manikarnika Technologies builds high-performance, distraction-free educational platforms, developer tooling, and modern digital infrastructure. The platform was created from the ground up without heavy external frameworks, providing instantaneous page loads, zero runtime bloat, and full privacy for learners worldwide.
-    </p>
-    <div class="profile-pills">
-      <a class="pill-btn primary" href="https://www.manikarnikatechnologies.in/" target="_blank" rel="noopener">🌐 manikarnikatechnologies.in</a>
-    </div>
-  </div>
-</div>
-
----
-
-## 📜 Copyright & Terms of Use
-
-© 2026 **[Manikarnika Technologies](https://www.manikarnikatechnologies.in/)**. All rights reserved.
-
-- **Author:** **[Vicky Prasad Mahato](https://abvicky.in)** ([LinkedIn](https://www.linkedin.com/in/abvicky/) · [GitHub](https://github.com/ABVicky))
-- **Platform Architecture & Development:** **[Manikarnika Technologies](https://www.manikarnikatechnologies.in/)**
+© 2026 **[Manikarnika Technologies](https://www.manikarnikatechnologies.in/)**. All rights reserved. Author: **[Vicky Prasad Mahato](https://abvicky.in)**.
 
 This guide, including its text, diagrams, exercises, templates, code examples, and instructional designs, is provided for personal learning and educational use. Redistribution, commercial resale, republication, or training on these materials without express written authorization is prohibited. All product names, logos, and brands mentioned are property of their respective owners and are used solely for identification and educational reference.
+
+<p align="center"><b>Useful?</b> <a href="https://github.com/ABVicky/Digital-Marketing-by-Vicky/stargazers">Star the repository</a> so you can find it again, and <a href="https://abvicky.github.io/Digital-Marketing-by-Vicky/">start reading</a>.</p>

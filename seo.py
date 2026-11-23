@@ -215,8 +215,11 @@ def md_to_html(md: str, links: dict):
             while i + 1 < len(lines) and lines[i + 1].strip():
                 i += 1
                 buf.append(lines[i])
-            out.append(re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)",
-                              lambda m: f'<a href="{fix_url(m.group(2), links)}">{m.group(1)}</a>', "\n".join(buf)))
+            block = re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)",
+                           lambda m: f'<a href="{fix_url(m.group(2), links)}">{m.group(1)}</a>', "\n".join(buf))
+            out.append(re.sub(r'\b(href|src|srcset)="([^"]+)"',
+                              lambda m: m.group(0) if m.group(2).endswith(".html") or ".html#" in m.group(2)
+                              else f'{m.group(1)}="{fix_url(m.group(2), links)}"', block))
         elif s.startswith(">"):
             flush()
             buf = []

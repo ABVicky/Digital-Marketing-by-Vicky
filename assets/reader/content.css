@@ -962,3 +962,5 @@
     justify-content: center;
   }
 }
+/* No external-link arrow after linked images */
+.md a.ext:has(img)::after { content: none; }
