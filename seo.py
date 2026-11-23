@@ -322,7 +322,7 @@ PAGE = """<!doctype html>
 <meta name="twitter:title" content="{title}">
 <meta name="twitter:description" content="{desc}">
 <meta name="twitter:image" content="{site}assets/social-card.png">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233CC9A0'/%3E%3Cpath d='M17 22h30M17 32h22M17 42h13' stroke='%2334363D' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233CC9A0'/%3E%3Cpath d='M15 45L27 31L37 37L49 18' fill='none' stroke='%2317191F' stroke-width='5.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M37 18H49V30' fill='none' stroke='%2317191F' stroke-width='5.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='15' cy='45' r='3.5' fill='%2317191F'/%3E%3Ccircle cx='27' cy='31' r='3.5' fill='%2317191F'/%3E%3Ccircle cx='37' cy='37' r='3.5' fill='%2317191F'/%3E%3C/svg%3E">
 <script type="application/ld+json">{jsonld}</script>
 <style>{css}</style>
 </head>
