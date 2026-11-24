@@ -182,8 +182,7 @@
   }
 
   /* ---------- Shared fragments ---------- */
-  const pageUrl = (p) => "learn/" + (p === "README.md" ? "about" : p.replace(/^modules\//, "").replace(/^appendix\/(.*)$/, (m, x) => "appendix-" + x.toLowerCase()).replace(/\.md$/, "")) + ".html";
-  const footerHTML = () => `<footer class="site-footer"><span><a href="learn/">All chapters</a> · <a href="learn/appendix-c-glossary.html">Glossary</a></span><span>Digital Marketing by Vicky: Zero to Pro · Author: <a href="${MAP.authorSite || 'https://abvicky.in'}" target="_blank" rel="noopener"><strong>${esc(MAP.author)}</strong></a></span><span>Platform built by <a href="${MAP.platformSite || 'https://www.manikarnikatechnologies.in/'}" target="_blank" rel="noopener"><strong>${esc(MAP.platformBuilder || "Manikarnika Technologies")}</strong></a> · © 2026 All rights reserved.</span></footer>`;
+  const footerHTML = () => `<footer class="site-footer"><span>Digital Marketing by Vicky: Zero to Pro · Author: <a href="${MAP.authorSite || 'https://abvicky.in'}" target="_blank" rel="noopener"><strong>${esc(MAP.author)}</strong></a></span><span>Platform built by <a href="${MAP.platformSite || 'https://www.manikarnikatechnologies.in/'}" target="_blank" rel="noopener"><strong>${esc(MAP.platformBuilder || "Manikarnika Technologies")}</strong></a> · © 2026 All rights reserved.</span></footer>`;
   const card = (i) => `<a class="mod-card${done.has(i.p) ? " done" : ""}" href="#/${i.p}">` +
     `<div class="mod-top"><span class="mod-icon">${i.i}</span><span class="mod-num">${esc(i.n)}</span></div>` +
     `<h3>${esc(i.t)}</h3><p>${esc(i.d)}</p>` +
@@ -199,11 +198,9 @@
     const features = [
       ["🧠", "Concepts made simple", "Plain-language explanations with diagrams and real examples."],
       ["❌➡️✅", "Marketing makeovers", "Side-by-side weak and strong ads, emails and pages so you see what changed."],
-      ["🛠️", "28 practical labs", "Where to register, which buttons to use, what to build and what proof to keep."],
-      ["🧭", "Tool directory", "80+ platforms for listings, AI search, SEO, social, email, CRM and ads."],
       ["🏋️", "Exercises with solutions", "Practice after every module, with worked answers you can reveal."],
-      ["✅", "Quizzes and a final exam", "Check yourself after each module and finish with a 50-question exam."],
-      ["🧰", "50 templates", "Copy-ready briefs, ads, emails, calendars, reports and audits."],
+      ["✅", "Quizzes and a final exam", "Check yourself after each module and finish with a 40-question exam."],
+      ["🧰", "40 templates", "Copy-ready briefs, ads, emails, calendars, reports and audits."],
       ["🏆", "Capstone projects", "Six portfolio projects with levels and clear success criteria."]
     ];
     view.innerHTML =
@@ -216,7 +213,7 @@
       `<div class="hero-by">${avatar()}<span>Author: <a href="${MAP.authorSite || 'https://abvicky.in'}" target="_blank" rel="noopener"><strong>${esc(MAP.author)}</strong></a><br>Platform built by <a href="${MAP.platformSite || 'https://www.manikarnikatechnologies.in/'}" target="_blank" rel="noopener"><strong>${esc(MAP.platformBuilder || "Manikarnika Technologies")}</strong></a></span></div>` +
       `</div><div class="hero-art"><img src="assets/cover.svg" alt="" width="640" height="520"></div></section>` +
       `<section class="stats-row">` +
-      [["📚", "28", "modules in 5 stages"], ["🛠️", "28", "practical labs"], ["🎓", "50", "exam questions + 5 tasks"], ["⏱️", "~115 h", "of study, plus labs"]]
+      [["📚", "19", "modules in 4 stages"], ["🧰", "40", "templates"], ["🎓", "40", "exam questions + 5 tasks"], ["⏱️", "~60 h", "of guided learning"]]
         .map(([ico, b, s]) => `<div class="stat-card"><span class="ico">${ico}</span><b>${b}</b><span>${s}</span></div>`).join("") +
       `</section>` +
       `<section class="continue-card"><span class="cc-icon">${cont.i}</span><div class="cc-body">` +
@@ -241,7 +238,7 @@
       `<button type="button" class="btn ${curAudience() === "tech" ? "primary" : "ghost"} aud-choice-btn" data-aud="tech">Set Tech Track</button>` +
       `</div>` +
       `</div></section>` +
-      `<section class="home-section"><h2 class="sec-title">Your learning path</h2><p class="sec-sub">Five stages from fundamentals to professional practice, plus a reference library you'll keep coming back to.</p>` +
+      `<section class="home-section"><h2 class="sec-title">Your learning path</h2><p class="sec-sub">Four stages from fundamentals to professional practice, plus a reference library you'll keep coming back to.</p>` +
       `<div class="path">${STAGES.map((s, k) => `<a class="path-step" href="#/" data-scroll="stage-${s.id}"><span class="ps-dot">${s.id === "ref" ? "★" : k + 1}</span>` +
         `<b>${esc(s.name)}</b><small>${esc(s.d)}</small><div class="pbar"><span style="width:${Math.round((100 * doneCount(s.items)) / s.items.length)}%"></span></div></a>`).join("")}</div></section>` +
       STAGES.map((s) => `<section class="stage-block" id="stage-${s.id}"><div class="stage-head"><div class="sh-text">` +
@@ -250,16 +247,15 @@
         `<div class="card-grid">${s.items.map((i) => card(Object.assign({ stage: s }, i))).join("")}</div></section>`).join("") +
       `<section class="home-section"><h2 class="sec-title">What's inside every module</h2><p class="sec-sub">Everything you need in one place, so you never have to look elsewhere.</p>` +
       `<div class="feature-grid">${features.map(([i, b, s]) => `<div class="feature"><span class="f-ico">${i}</span><b>${b}</b><span>${s}</span></div>`).join("")}</div></section>` +
-      `<section class="home-section"><h2 class="sec-title">Every chapter as a page</h2><p class="sec-sub">Direct links you can bookmark, share or read without the app.</p><ul class="page-links">${ORDER.filter((i) => i.stage).map((i) => `<li><a href="${pageUrl(i.p)}">${esc(i.t)}</a></li>`).join("")}</ul></section>` +
       `<section class="author-card">${avatar()}<div><h3>${esc(MAP.authorFullName || MAP.author)}</h3>` +
-      `<p>Author: <strong>${esc(MAP.authorFullName || MAP.author)}</strong> · System Architect (<a href="${MAP.authorSite || 'https://abvicky.in'}" target="_blank" rel="noopener">${esc((MAP.authorSite || 'https://abvicky.in').replace('https://',''))}</a> · <a href="${MAP.authorLinkedIn || 'https://www.linkedin.com/in/abvicky/'}" target="_blank" rel="noopener">LinkedIn</a> · <a href="${MAP.authorGitHub || 'https://github.com/ABVicky'}" target="_blank" rel="noopener">GitHub</a>)</p>` +
+      `<p>Author: <strong>${esc(MAP.authorFullName || MAP.author)}</strong> · System Architect (<a href="${MAP.authorSite || 'https://abvicky.in'}" target="_blank" rel="noopener">${esc((MAP.authorSite || 'https://abvicky.in').replace('https://', ''))}</a> · <a href="${MAP.authorLinkedIn || 'https://www.linkedin.com/in/abvicky/'}" target="_blank" rel="noopener">LinkedIn</a> · <a href="${MAP.authorGitHub || 'https://github.com/ABVicky'}" target="_blank" rel="noopener">GitHub</a>)</p>` +
       `<p>Platform built by <a href="${MAP.platformSite || 'https://www.manikarnikatechnologies.in/'}" target="_blank" rel="noopener"><strong>${esc(MAP.platformBuilder || "Manikarnika Technologies")}</strong></a> (<a href="${MAP.platformSite || 'https://www.manikarnikatechnologies.in/'}" target="_blank" rel="noopener">${esc(MAP.platformSiteLabel || 'manikarnikatechnologies.in')}</a>)</p>` +
       `<p>© 2026 <a href="${MAP.platformSite || 'https://www.manikarnikatechnologies.in/'}" target="_blank" rel="noopener">${esc(MAP.platformBuilder || "Manikarnika Technologies")}</a> · All rights reserved. <a href="#/${ABOUT.p}">About this guide →</a></p></div></section>` +
       footerHTML();
     view.querySelectorAll(".aud-choice-btn").forEach((btn) => {
       btn.addEventListener("click", () => setAudience(btn.dataset.aud));
     });
-    document.title = "Digital Marketing by Vicky: Zero to Pro · Built by Manikarnika Technologies";
+    document.title = "Digital Marketing by Vicky: Zero to Pro · by Vicky · Built by Manikarnika Technologies";
     $("#toc").innerHTML = "";
     if (pendingScroll) { const el = document.getElementById(pendingScroll); pendingScroll = null; if (el) { el.scrollIntoView(); return; } }
     window.scrollTo(0, 0);
@@ -300,7 +296,6 @@
       `<header class="doc-hero"><div class="doc-hero-top"><a class="stage-pill" href="#/" ${s ? `data-scroll-home="stage-${s.id}"` : ""}>${s ? `${esc(s.label)} · ${esc(s.name)}` : "Overview"}</a><span class="pos">${pos}</span></div>` +
       `<div class="doc-hero-main"><div class="doc-icon">${item.i}${item.n !== "i" ? `<span>${esc(item.n)}</span>` : ""}</div><div><h1>${esc(item.t)}</h1><p>${esc(item.d)}</p></div></div>` +
       `<div class="doc-hero-chips"><span class="chip">${PE.icon("clock")}${esc(study)}</span><span class="chip">${PE.icon("book")}${mins} min read</span>` +
-      `<a class="chip" href="${pageUrl(item.p)}">🔗 Shareable page</a>` +
       `<span class="chip ok" id="done-chip"${isDone ? "" : " hidden"}>${PE.icon("check")}Completed</span></div></header>` +
       `<div class="md" id="md">${body}</div>` +
       (s ? `<section class="complete-card${isDone ? " done" : ""}" id="complete-card"><span class="cc-emoji">${isDone ? "🎉" : "🏁"}</span>` +
